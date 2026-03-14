@@ -1,0 +1,640 @@
+/* ─────────────────────────────────────────────
+   WhyChooseUs.module.css
+   Palette:
+     --navy:   #0f1a2e  (deep dark blue)
+     --navy2:  #162035  (card bg)
+     --orange: #e8622a  (existing site accent)
+     --cream:  #f5f0e8  (warm white / headings)
+     --muted:  #8a95a8  (body text on dark)
+   ───────────────────────────────────────────── */
+
+/* ── Section shell ── */
+.section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #0f1a2e;
+  transition: background-color 0.6s ease;
+}
+
+/* Grain texture overlay for depth */
+.grain {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}
+
+/* ── Entry (collapsed) state ── */
+.entry {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 6rem 5vw;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.entryVisible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.entryHidden {
+  opacity: 0;
+  transform: translateY(-24px);
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+
+.entryInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+
+/* ── Circle image ── */
+.circleWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Decorative outer ring */
+.circleRing {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  border: 1px solid rgba(232, 98, 42, 0.25);
+  animation: rotateRing 20s linear infinite;
+}
+
+.circleRing::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #e8622a;
+}
+
+@keyframes rotateRing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.circleImg {
+  position: relative;
+  width: 460px;
+  height: 460px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow:
+    0 40px 80px rgba(0, 0, 0, 0.5),
+    0 0 0 6px rgba(232, 98, 42, 0.15),
+    inset 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.circlePhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.circleImg:hover .circlePhoto {
+  transform: scale(1.06);
+}
+
+/* Floating stat badge on circle */
+.floatStat {
+  position: absolute;
+  bottom: 60px;
+  right: -10px;
+  background: #e8622a;
+  border-radius: 12px;
+  padding: 14px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 16px 40px rgba(232, 98, 42, 0.4);
+  animation: floatBob 4s ease-in-out infinite;
+}
+
+@keyframes floatBob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.floatStatNum {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1;
+}
+
+.floatStatLabel {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 3px;
+}
+
+/* ── Entry copy ── */
+.entryCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #e8622a;
+  margin: 0;
+}
+
+.heading {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: clamp(2.4rem, 4vw, 3.6rem);
+  font-weight: 400;
+  color: #f5f0e8;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.headingAccent {
+  font-style: italic;
+  color: #e8622a;
+}
+
+.entryBody {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #8a95a8;
+  max-width: 460px;
+  margin: 0;
+}
+
+/* Pill tags */
+.pillRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pill {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #8a95a8;
+  border: 1px solid rgba(138, 149, 168, 0.25);
+  border-radius: 100px;
+  padding: 5px 14px;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.pill:hover {
+  border-color: #e8622a;
+  color: #e8622a;
+}
+
+/* See more button */
+.seeMoreBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  background: transparent;
+  border: 1.5px solid #e8622a;
+  border-radius: 100px;
+  padding: 14px 28px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #e8622a;
+  cursor: pointer;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.2s ease,
+    box-shadow 0.25s ease;
+  margin-top: 0.5rem;
+}
+
+.seeMoreBtn:hover {
+  background: #e8622a;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(232, 98, 42, 0.35);
+}
+
+.seeMoreIcon {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.25s ease;
+}
+
+.seeMoreBtn:hover .seeMoreIcon {
+  transform: translateX(4px);
+}
+
+/* ═══════════════════════════════════════════
+   EXPANDED / CAROUSEL STATE
+   ═══════════════════════════════════════════ */
+
+.carousel {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  min-height: 100vh;
+  transition: opacity 0.6s ease;
+}
+
+.carouselVisible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.carouselHidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Full-bleed background image stack */
+.carouselBg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+/*
+  All images are pre-rendered and stacked at z-index 0.
+  The active image fades in on top via opacity + a slow Ken Burns zoom.
+  No remounting = no flash, no reload.
+*/
+.carouselImgWrap {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: opacity;
+}
+
+.carouselImgWrap > img,
+.carouselImgWrap span > img {
+  transform: scale(1);
+  transition: transform 8s ease-out;
+}
+
+.carouselImgActive {
+  opacity: 1;
+}
+
+.carouselImgActive > img,
+.carouselImgActive span > img {
+  transform: scale(1.05);
+}
+
+/* Dark gradient overlay — heavier on left for text legibility */
+.carouselOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(10, 14, 26, 0.92) 0%,
+    rgba(10, 14, 26, 0.7) 45%,
+    rgba(10, 14, 26, 0.2) 100%
+  );
+}
+
+/* Text content panel */
+.carouselContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 560px;
+  padding: 6rem 5vw 6rem 8vw;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+.contentVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contentFade {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.carouselEyebrow {
+  font-family: "DM Mono", "Courier New", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: #e8622a;
+  margin: 0 0 1.5rem;
+}
+
+.carouselTitle {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-weight: 400;
+  color: #f5f0e8;
+  line-height: 1.1;
+  margin: 0 0 2rem;
+}
+
+.carouselStatRow {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 1.75rem;
+}
+
+.carouselStat {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #e8622a;
+  line-height: 1;
+}
+
+.carouselStatLabel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(245, 240, 232, 0.6);
+}
+
+.carouselBody {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(245, 240, 232, 0.75);
+  max-width: 420px;
+  margin: 0;
+}
+
+/* ── Dot navigation ── */
+.dotNav {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    width 0.3s ease;
+  padding: 0;
+}
+
+.dotActive {
+  background: #e8622a;
+  width: 48px;
+}
+
+/* ── Progress bar ── */
+.progressBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 4;
+}
+
+.progressFill {
+  height: 100%;
+  background: #e8622a;
+  transform-origin: left;
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ── Arrow buttons ── */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: rgba(15, 26, 46, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.75);
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.arrow svg {
+  width: 20px;
+  height: 20px;
+}
+
+.arrow:hover {
+  background: #e8622a;
+  border-color: #e8622a;
+  color: #fff;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.arrowPrev {
+  left: 3vw;
+}
+.arrowNext {
+  right: 3vw;
+}
+
+/* ── Close button ── */
+.closeBtn {
+  position: absolute;
+  top: 2rem;
+  right: 3vw;
+  z-index: 4;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: rgba(15, 26, 46, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.75);
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.closeBtn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.closeBtn:hover {
+  background: rgba(232, 98, 42, 0.8);
+  border-color: #e8622a;
+  color: #fff;
+}
+
+/* ═══════════════════════════════════════════
+   EXPANDED SECTION HEIGHT
+   ═══════════════════════════════════════════ */
+
+.sectionExpanded {
+  min-height: 100vh;
+}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════ */
+
+@media (max-width: 900px) {
+  .entryInner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .circleWrap {
+    justify-content: center;
+  }
+
+  .circleImg {
+    width: 320px;
+    height: 320px;
+  }
+
+  .circleRing {
+    width: 370px;
+    height: 370px;
+  }
+
+  .floatStat {
+    right: 10px;
+    bottom: 30px;
+  }
+
+  .entryBody {
+    max-width: 100%;
+  }
+
+  .pillRow {
+    justify-content: center;
+  }
+
+  .seeMoreBtn {
+    align-self: center;
+  }
+
+  .carouselContent {
+    padding: 5rem 6vw 8rem;
+    max-width: 100%;
+  }
+
+  .carouselTitle {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .arrowPrev {
+    left: 1.5vw;
+  }
+  .arrowNext {
+    right: 1.5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .entry {
+    padding: 4rem 5vw;
+  }
+
+  .circleImg {
+    width: 260px;
+    height: 260px;
+  }
+
+  .circleRing {
+    width: 300px;
+    height: 300px;
+  }
+
+  .arrow {
+    width: 42px;
+    height: 42px;
+  }
+}
