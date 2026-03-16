@@ -63,6 +63,12 @@
   gap: 20px;
 }
 
+/* 4th panel (CP) spans full width */
+.panel:last-child {
+  grid-column: 1 / -1;
+  min-height: 420px;
+}
+
 /* Individual panel */
 .panel {
   position: relative;

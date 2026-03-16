@@ -9,7 +9,7 @@ export default function Introduction() {
           <div className="intro__image-wrapper">
             <Image
               src="/hero3.png"
-              alt="Students engaged in collaborative learning at Virtus International School"
+              alt="Students engaged in collaborative learning at Milestone International School"
               fill
               sizes="(max-width: 768px) 100vw, 55vw"
               style={{ objectFit: "cover" }}
@@ -31,16 +31,17 @@ export default function Introduction() {
 
         {/* Right — Text content */}
         <div className="intro__content">
-          <span className="intro__label">Who We Are</span>
+          <span className="intro__label">Our Story</span>
           <h2 className="intro__title">
-            An International Education,{" "}
-            <span className="intro__title-accent">Rooted in Tashkent.</span>
+            Built to Fill a Gap,{" "}
+            <span className="intro__title-accent">Designed to Lead.</span>
           </h2>
           <p className="intro__text">
-            Virtus International School delivers a globally recognized
-            curriculum designed to develop critical thinking, creativity, and
-            leadership in every student — preparing them for admission to the
-            world&apos;s top universities.
+            Milestone International School was founded by education leaders who
+            spent years analysing the gaps in Uzbekistan&apos;s education
+            system. Our goal: to raise students who are not only knowledgeable,
+            but independent and creative thinkers — globally competitive
+            specialists ready to succeed anywhere in the world.
           </p>
           <div className="intro__highlights">
             <div className="intro__highlight">
@@ -52,18 +53,31 @@ export default function Introduction() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path
-                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
                     stroke="currentColor"
                     strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                  />
+                  <line
+                    x1="2"
+                    y1="12"
+                    x2="22"
+                    y2="12"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                    stroke="currentColor"
+                    strokeWidth="2"
                   />
                 </svg>
               </div>
               <div>
-                <strong>Internationally Accredited</strong>
-                <span>Globally recognized programmes</span>
+                <strong>IB Certified Programme</strong>
+                <span>International Baccalaureate system</span>
               </div>
             </div>
             <div className="intro__highlight">
@@ -76,28 +90,28 @@ export default function Introduction() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21"
+                    d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <circle
+                    cx="9"
+                    cy="7"
+                    r="4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M23 21v-2a4 4 0 0 0-3-3.87"
                     stroke="currentColor"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
-                    d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88"
+                    d="M16 3.13a4 4 0 0 1 0 7.75"
                     stroke="currentColor"
                     strokeWidth="2"
                     strokeLinecap="round"
@@ -106,13 +120,13 @@ export default function Introduction() {
                 </svg>
               </div>
               <div>
-                <strong>Multicultural Environment</strong>
-                <span>15+ nationalities on campus</span>
+                <strong>Individual Approach</strong>
+                <span>Max 20–22 students per class</span>
               </div>
             </div>
           </div>
           <a href="#programmes" className="intro__cta">
-            Explore Our Programmes
+            Explore the IB Curriculum
             <svg
               width="16"
               height="16"
@@ -129,6 +143,20 @@ export default function Introduction() {
               />
             </svg>
           </a>
+
+          {/* Director quote */}
+          <blockquote className="intro__quote">
+            <p className="intro__quote-text">
+              &ldquo;Our goal is to prevent students from falling prey to wrong
+              methodologies at the most important stage of their lives. We aim
+              to train potential leaders who can raise the honor of our nation
+              worldwide.&rdquo;
+            </p>
+            <cite className="intro__quote-author">
+              <strong>Niyozov Shahboz Shahobiddinovich</strong>
+              <span>Director, Milestone International School</span>
+            </cite>
+          </blockquote>
         </div>
       </div>
     </section>

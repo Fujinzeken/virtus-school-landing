@@ -22,9 +22,32 @@ export default function CtaBanner() {
               Give Your Child the Future They Deserve
             </h2>
             <p className={styles.subtitle}>
-              Join the Virtus International family. Limited seats are available
-              for the upcoming academic year — take the first step today.
+              Join the Milestone International family. High-performing students
+              earn quarterly grants — take the first step today.
             </p>
+
+            {/* Grant tier breakdown */}
+            <div className={styles.grantRow}>
+              <span className={styles.grantLabel}>Quarterly Grants</span>
+              <div className={styles.grantTiers}>
+                <div className={styles.grantTier}>
+                  <span className={styles.grantPercent}>100%</span>
+                  <span className={styles.grantPlace}>1st Place</span>
+                </div>
+                <div className={styles.grantTier}>
+                  <span className={styles.grantPercent}>80%</span>
+                  <span className={styles.grantPlace}>2nd Place</span>
+                </div>
+                <div className={styles.grantTier}>
+                  <span className={styles.grantPercent}>50%</span>
+                  <span className={styles.grantPlace}>3rd Place</span>
+                </div>
+                <div className={styles.grantTier}>
+                  <span className={styles.grantPercent}>30%</span>
+                  <span className={styles.grantPlace}>4th–5th Spot</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Right: action buttons */}

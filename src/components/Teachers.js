@@ -48,8 +48,9 @@ export default function Teachers() {
             Meet the <span className={styles.titleAccent}>Educators</span>
           </h2>
           <p className={styles.subtitle}>
-            World-class teachers from over 12 countries, handpicked for their
-            expertise, passion, and commitment to student success.
+            Highly qualified educators using modern methods, each chosen for
+            their expertise, passion, and commitment to every student&apos;s
+            success.
           </p>
         </div>
 
@@ -96,6 +97,109 @@ export default function Teachers() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* The Milestone Support Ecosystem */}
+        <div className={styles.ecosystem}>
+          <div className={styles.ecosystemHeader}>
+            <span className={styles.ecosystemLabel}>Student Wellbeing</span>
+            <h3 className={styles.ecosystemTitle}>
+              An Integrated Support Ecosystem
+            </h3>
+            <p className={styles.ecosystemSubtitle}>
+              At Milestone, we believe academic success is only possible when a
+              child feels seen, supported, and connected. Our system ensures no
+              student is ever just a number.
+            </p>
+          </div>
+
+          <div className={styles.ecosystemGrid}>
+            {/* Mentorship */}
+            <div className={styles.ecosystemCard}>
+              <div className={styles.ecosystemIcon}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M9 21v-2a4 4 0 0 1 4-4" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h4 className={styles.pillarTitle}>Personalised Mentorship</h4>
+              <p className={styles.pillarText}>
+                Dedicated mentors guide groups of 40–50 students, knowing each
+                child&apos;s strengths and acting as a vital bridge between
+                school and home life.
+              </p>
+              <ul className={styles.pillarList}>
+                <li>Daily academic & disciplinary updates</li>
+                <li>Individual progress tracking</li>
+                <li>Quarterly parent strategy sessions</li>
+              </ul>
+            </div>
+
+            {/* Psychological Support */}
+            <div className={styles.ecosystemCard}>
+              <div className={styles.ecosystemIcon}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                </svg>
+              </div>
+              <h4 className={styles.pillarTitle}>Wellbeing & Adaptation</h4>
+              <p className={styles.pillarText}>
+                Professional psychologists oversee student wellbeing, managing
+                transition programs and providing a safe, supportive space for
+                emotional growth.
+              </p>
+              <ul className={styles.pillarList}>
+                <li>Specialized adaptation for new students</li>
+                <li>Weekly &quot;School of Mothers&quot; sessions</li>
+                <li>Private individual & group counseling</li>
+              </ul>
+            </div>
+
+            {/* Telegram Bot */}
+            <div className={styles.ecosystemCard}>
+              <div className={styles.ecosystemIcon}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M22 2L11 13" />
+                  <path d="M22 2L15 22L11 13L2 9L22 2Z" />
+                </svg>
+              </div>
+              <h4 className={styles.pillarTitle}>Digital Transparency</h4>
+              <p className={styles.pillarText}>
+                Our custom Telegram bot ensures real-time transparency,
+                providing parents with instant access to academic achievements
+                and disciplinary logs.
+              </p>
+              <ul className={styles.pillarList}>
+                <li>Instant attendance & conduct alerts</li>
+                <li>Real-time academic achievement logs</li>
+                <li>Direct one-tap mentor communication</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         {/* View all CTA */}

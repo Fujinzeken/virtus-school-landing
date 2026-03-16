@@ -7,9 +7,9 @@ const articles = [
     category: "News",
     date: "March 10, 2026",
     title:
-      "Virtus Students Win Regional Science Olympiad for Third Consecutive Year",
+      "Milestone Students Win Regional Science Olympiad for Third Consecutive Year",
     excerpt:
-      "Our Year 11 team swept three gold medals and the overall championship at the Central Asia Science Olympiad, cementing Virtus's position as the region's top-performing STEM school.",
+      "Our Year 11 team swept three gold medals and the overall championship at the Central Asia Science Olympiad, cementing Milestone's position as the region's top-performing STEM school.",
     image: "/award.png",
     slug: "/news/science-olympiad-2026",
   },
@@ -17,7 +17,7 @@ const articles = [
     id: 2,
     category: "Event",
     date: "April 5, 2026",
-    title: "Open Day — Experience Virtus First-Hand",
+    title: "Open Day — Experience Milestone First-Hand",
     excerpt:
       "Join us for a guided campus tour, meet our faculty, and discover the programmes shaping tomorrow's leaders.",
     image: "/campus.png",
@@ -29,7 +29,7 @@ const articles = [
     date: "February 22, 2026",
     title: "New State-of-the-Art STEM Lab Opens This Semester",
     excerpt:
-      "A 200m² facility with robotics workstations, 3D printers, and dedicated research spaces.",
+      "A dedicated facility with robotics workstations, 3D printers, and hands-on research spaces across our chemistry, biology, physics and robotics labs.",
     image: "/lib.png",
     slug: "/news/new-stem-lab",
   },

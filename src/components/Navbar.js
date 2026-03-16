@@ -24,8 +24,8 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? " scrolled" : ""}`}>
       <div className="container">
         <a href="/" className="navbar__logo">
-          <div className="navbar__logo-icon">VIS</div>
-          <span>Virtus International</span>
+          <div className="navbar__logo-icon">MIS</div>
+          <span>Milestone International</span>
         </a>
 
         <div className={`navbar__links${mobileOpen ? " open" : ""}`}>

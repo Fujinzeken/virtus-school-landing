@@ -36,7 +36,7 @@ export default function CampusGallery() {
       <div className="campus__featured">
         <Image
           src="/campus.png"
-          alt="Panoramic view of Virtus International School campus"
+          alt="Panoramic view of Milestone International School campus"
           fill
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center 40%" }}
@@ -46,18 +46,18 @@ export default function CampusGallery() {
         <div className="campus__featured-content">
           <div className="campus__featured-stats">
             <div className="campus__stat">
-              <span className="campus__stat-number">5,000m²</span>
-              <span className="campus__stat-label">Campus Area</span>
+              <span className="campus__stat-number">600</span>
+              <span className="campus__stat-label">Seat Dining Hall</span>
             </div>
             <div className="campus__stat-divider" />
             <div className="campus__stat">
-              <span className="campus__stat-number">30+</span>
-              <span className="campus__stat-label">Facilities</span>
+              <span className="campus__stat-number">4</span>
+              <span className="campus__stat-label">Specialist Labs</span>
             </div>
             <div className="campus__stat-divider" />
             <div className="campus__stat">
-              <span className="campus__stat-number">3</span>
-              <span className="campus__stat-label">Sports Fields</span>
+              <span className="campus__stat-number">Oxford</span>
+              <span className="campus__stat-label">E-Book Library</span>
             </div>
           </div>
         </div>

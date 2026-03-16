@@ -8,17 +8,17 @@ import ApplyModal from "./ApplyModal";
 const slides = [
   {
     image: "/hero.jpg",
-    badge: "International Education Since 2025",
+    badge: "International Baccalaureate School",
     titleTop: "Shaping",
     titleBottom: "Tomorrow's",
     titleAccent: "Global Leaders.",
     subtitle:
-      "A world-class international education in the heart of Tashkent. Preparing students for top universities worldwide,",
+      "A world-class IB education in the heart of Tashkent. Preparing students for top universities worldwide,",
     subtitleBold: "one student at a time.",
   },
   {
     image: "/hero2.png",
-    badge: "Nurturing Potential Every Day",
+    badge: "We Are Together at an Important Stage",
     titleTop: "Where Every",
     titleBottom: "Student",
     titleAccent: "Thrives.",
@@ -33,8 +33,8 @@ const slides = [
     titleBottom: "World-Class",
     titleAccent: "Universities.",
     subtitle:
-      "Our internationally recognized programmes open doors to the world's leading universities.",
-    subtitleBold: "98% placement rate.",
+      "Our IB Diploma opens doors to the world\u2019s top 50 universities.",
+    subtitleBold: "Grants up to 100%.",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function Hero() {
         >
           <Image
             src={s.image}
-            alt="Virtus International School campus"
+            alt="Milestone International School campus"
             fill
             sizes="100vw"
             style={{ objectFit: "cover", objectPosition: "center 30%" }}

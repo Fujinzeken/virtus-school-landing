@@ -153,6 +153,58 @@
   flex-shrink: 0;
 }
 
+/* Grant tier breakdown */
+.grantRow {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.grantLabel {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-orange);
+  margin-bottom: 12px;
+}
+
+.grantTiers {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.grantTier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: rgba(232, 118, 43, 0.06);
+  border: 1px solid rgba(232, 118, 43, 0.12);
+  min-width: 72px;
+}
+
+.grantPercent {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-orange);
+  line-height: 1;
+}
+
+.grantPlace {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .section {

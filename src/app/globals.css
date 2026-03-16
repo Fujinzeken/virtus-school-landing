@@ -874,6 +874,40 @@ button {
   }
 }
 
+/* Intro — Director Quote */
+.intro__quote {
+  margin-top: 32px;
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.intro__quote-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.intro__quote-author {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-style: normal;
+}
+
+.intro__quote-author strong {
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.intro__quote-author span {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
 /* ===== ADVANTAGES SECTION ===== */
 .advantages {
   position: relative;

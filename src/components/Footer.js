@@ -9,8 +9,8 @@ export default function Footer() {
           {/* Brand */}
           <div className={styles.brand}>
             <div className={styles.logoRow}>
-              <span className={styles.logoMark}>VIS</span>
-              <span className={styles.logoText}>Virtus International</span>
+              <span className={styles.logoMark}>MIS</span>
+              <span className={styles.logoText}>Milestone International</span>
             </div>
             <p className={styles.brandDesc}>
               Shaping tomorrow&apos;s global leaders through a rigorous
@@ -173,11 +173,11 @@ export default function Footer() {
                 />
               </svg>
               <span>
-                Arnasoy ko&apos;chasi, 1-uyuy,
+                Karasaroy ko&apos;chasi, 334,
                 <br />
-                Qozirobod MFY, Chilonzor tumani,
+                Almazar tumani, Toshkent,
                 <br />
-                Toshkent, Uzbekistan
+                Uzbekistan
               </span>
             </div>
 
@@ -224,10 +224,10 @@ export default function Footer() {
                 />
               </svg>
               <a
-                href="mailto:info@virtusschool.uz"
+                href="mailto:info@milestoneschool.uz"
                 className={styles.contactLink}
               >
-                info@virtusschool.uz
+                info@milestoneschool.uz
               </a>
             </div>
 
@@ -261,8 +261,8 @@ export default function Footer() {
         {/* ── Bottom bar ── */}
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            &copy; {new Date().getFullYear()} Virtus International School. All
-            rights reserved.
+            &copy; {new Date().getFullYear()} Milestone International School.
+            All rights reserved.
           </p>
           <div className={styles.bottomLinks}>
             <a href="#" className={styles.bottomLink}>

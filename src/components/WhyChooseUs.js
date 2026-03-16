@@ -7,42 +7,42 @@ import styles from "./why.module.css";
 const WHY_ITEMS = [
   {
     id: 1,
-    stat: "150+",
-    statLabel: "Partner Universities",
-    title: "Globally Recognized Curriculum",
-    body: "Internationally accredited programmes recognized by top universities in the US, UK, Europe, and beyond — built to open every door.",
+    stat: "Top 50",
+    statLabel: "University Access",
+    title: "International Baccalaureate (IB)",
+    body: "Our IB Diploma Programme gives students direct access to the world\u2019s top universities. All subjects taught in English ensure global competitiveness from day one.",
     image: "/images/why/curriculum1.png",
   },
   {
     id: 2,
-    stat: "37+",
-    statLabel: "Nationalities on Campus",
-    title: "Expert International Faculty",
-    body: "Qualified educators from across the globe, each chosen for their classroom record and their commitment to student outcomes.",
+    stat: "Oxford",
+    statLabel: "E-Book Database",
+    title: "World-Class Library & Resources",
+    body: "Students access the University of Oxford electronic book database alongside a rich physical library and coworking area — resources most schools can only dream of.",
     image: "/images/why/faculty1.png",
   },
   {
     id: 3,
-    stat: "15:1",
-    statLabel: "Student-Teacher Ratio",
-    title: "Small Classes, Big Results",
-    body: "Personalized learning in small class environments means every student is seen, challenged, and supported at every step.",
+    stat: "20–22",
+    statLabel: "Max Per Class",
+    title: "Small Classes, Personal Attention",
+    body: "Every student gets an individual approach. Small groups let teachers identify strengths and address weaknesses, supported by a dedicated mentor for every 40–50 students.",
     image: "/hero.jpg",
   },
   {
     id: 4,
-    stat: "5,000m²",
-    statLabel: "Campus Area",
-    title: "Modern Campus & Facilities",
-    body: "Science labs, sports centres, creative studios, and spaces designed to inspire curiosity beyond the classroom.",
+    stat: "600",
+    statLabel: "Seat Dining Hall",
+    title: "State-of-the-Art Campus",
+    body: "Chemistry, biology, physics and robotics labs. Sports facilities, creative studios, and a 600-seat HACCP-certified canteen with nutritionist-supervised meals.",
     image: "/images/why/campus1.png",
   },
   {
     id: 5,
-    stat: "98%",
-    statLabel: "University Acceptance Rate",
-    title: "University Placement Record",
-    body: "Our graduates gain admission to the world's best institutions year after year — a track record built on genuine preparation.",
+    stat: "100%",
+    statLabel: "Grants Available",
+    title: "Performance-Based Grants",
+    body: "Top-performing students earn quarterly grants — from 30% up to a full 100% scholarship. Your child\u2019s hard work is recognised and rewarded every step of the way.",
     image: "/images/why/placement1.png",
   },
 ];
@@ -127,7 +127,7 @@ export default function WhyChooseUs() {
             <div className={styles.circleImg}>
               <Image
                 src={WHY_ITEMS[0].image}
-                alt="Virtus students"
+                alt="Milestone students"
                 fill
                 className={styles.circlePhoto}
                 style={{ objectFit: "cover" }}
@@ -144,11 +144,11 @@ export default function WhyChooseUs() {
           <div className={styles.entryCopy}>
             <p className={styles.eyebrow}>Why Choose Us</p>
             <h2 className={styles.heading}>
-              The Virtus <em className={styles.headingAccent}>Difference</em>
+              The Milestone <em className={styles.headingAccent}>Difference</em>
             </h2>
             <p className={styles.entryBody}>
               Every choice a family makes about education shapes a lifetime. At
-              Virtus International, we build the foundation that top
+              Milestone International, we build the foundation that top
               universities — and the world — actually reward.
             </p>
 

@@ -23,9 +23,9 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  title: "Virtus International School | World-Class Education in Tashkent",
+  title: "Milestone International School | World-Class Education in Tashkent",
   description:
-    "Virtus International School offers a world-class international education programme in Tashkent, preparing students for top universities worldwide.",
+    "Milestone International School offers a world-class international education programme in Tashkent, preparing students for top universities worldwide.",
 };
 
 export default function RootLayout({ children }) {

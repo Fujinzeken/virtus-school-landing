@@ -51,7 +51,7 @@ export default function ApplyModal({ isOpen, onClose }) {
           <span className={styles.label}>Enrolment</span>
           <h2 className={styles.title}>Apply Now</h2>
           <p className={styles.subtitle}>
-            Start your child&apos;s journey at Virtus International. Complete
+            Start your child&apos;s journey at Milestone International. Complete
             the form and our admissions office will be in touch.
           </p>
         </div>

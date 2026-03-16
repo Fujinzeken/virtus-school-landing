@@ -4,16 +4,15 @@ export default function Advantages() {
       <div className="advantages__container">
         {/* Section header */}
         <div className="advantages__header">
-          <span className="advantages__label">Why Choose Us</span>
+          <span className="advantages__label">The Milestone Edge</span>
           <h2 className="advantages__title">
-            The Virtus{" "}
-            <span className="advantages__title-accent">Difference</span>
+            Why <span className="advantages__title-accent">Milestone?</span>
           </h2>
         </div>
 
         {/* Bento-style advantage blocks */}
         <div className="advantages__bento">
-          {/* Large featured card */}
+          {/* Large featured card — IB Programme */}
           <div className="advantages__card advantages__card--featured">
             <span className="advantages__card-number">01</span>
             <div className="advantages__card-content">
@@ -34,22 +33,23 @@ export default function Advantages() {
                 </svg>
               </div>
               <h3 className="advantages__card-title">
-                Globally Recognized Curriculum
+                International Baccalaureate (IB)
               </h3>
               <p className="advantages__card-text">
-                Internationally accredited programmes that are recognized by top
-                universities in the US, UK, Europe, and beyond.
+                Our IB Diploma gives students direct access to the world&apos;s
+                top 50 universities. All subjects taught in English ensure
+                international competitiveness.
               </p>
             </div>
             <div className="advantages__card-stat">
-              <span className="advantages__card-stat-number">150+</span>
+              <span className="advantages__card-stat-number">Top 50</span>
               <span className="advantages__card-stat-label">
-                Partner Universities
+                University Access
               </span>
             </div>
           </div>
 
-          {/* Regular cards */}
+          {/* Small class sizes */}
           <div className="advantages__card">
             <span className="advantages__card-number">02</span>
             <div className="advantages__card-content">
@@ -70,16 +70,15 @@ export default function Advantages() {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
               </div>
-              <h3 className="advantages__card-title">
-                Expert International Faculty
-              </h3>
+              <h3 className="advantages__card-title">Max 20–22 Per Class</h3>
               <p className="advantages__card-text">
-                Qualified educators from across the globe with proven track
-                records.
+                Individual attention for every student. Small groups allow
+                teachers to identify strengths and address weaknesses.
               </p>
             </div>
           </div>
 
+          {/* Oxford E-Library */}
           <div className="advantages__card">
             <span className="advantages__card-number">03</span>
             <div className="advantages__card-content">
@@ -98,17 +97,43 @@ export default function Advantages() {
                   <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                 </svg>
               </div>
-              <h3 className="advantages__card-title">
-                15:1 Student-Teacher Ratio
-              </h3>
+              <h3 className="advantages__card-title">Oxford E-Book Library</h3>
               <p className="advantages__card-text">
-                Personalized learning with small class sizes.
+                Access to the University of Oxford electronic book database,
+                plus a rich physical library and coworking area.
               </p>
             </div>
           </div>
 
+          {/* 3 Academic Tracks */}
           <div className="advantages__card">
             <span className="advantages__card-number">04</span>
+            <div className="advantages__card-content">
+              <div className="advantages__icon">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                </svg>
+              </div>
+              <h3 className="advantages__card-title">3 Specialized Tracks</h3>
+              <p className="advantages__card-text">
+                Exact Sciences, Natural Sciences, and Social Sciences — each
+                with deep subject focus and career preparation.
+              </p>
+            </div>
+          </div>
+
+          {/* All-in-One Campus */}
+          <div className="advantages__card">
+            <span className="advantages__card-number">05</span>
             <div className="advantages__card-content">
               <div className="advantages__icon">
                 <svg
@@ -125,18 +150,17 @@ export default function Advantages() {
                   <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                 </svg>
               </div>
-              <h3 className="advantages__card-title">
-                Modern Campus & Facilities
-              </h3>
+              <h3 className="advantages__card-title">All-in-One Campus</h3>
               <p className="advantages__card-text">
-                Science labs, sports centres, and creative studios.
+                Clubs, extra lessons and homework prep all happen on campus. No
+                need to look elsewhere — saving parents time and money.
               </p>
             </div>
           </div>
 
-          {/* Large stat card */}
+          {/* Large stat card — Grants */}
           <div className="advantages__card advantages__card--stat-block">
-            <span className="advantages__card-number">05</span>
+            <span className="advantages__card-number">06</span>
             <div className="advantages__card-content">
               <div className="advantages__icon">
                 <svg
@@ -149,21 +173,22 @@ export default function Advantages() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
                 </svg>
               </div>
               <h3 className="advantages__card-title">
-                University Placement Record
+                Performance-Based Grants
               </h3>
               <p className="advantages__card-text">
-                Our graduates earn admission to the world&apos;s best
-                institutions year after year.
+                Top-performing students earn grants every quarter — from 30% up
+                to a full 100% scholarship covering all education expenses.
               </p>
             </div>
             <div className="advantages__card-stat">
-              <span className="advantages__card-stat-number">98%</span>
+              <span className="advantages__card-stat-number">100%</span>
               <span className="advantages__card-stat-label">
-                Acceptance Rate
+                Grant Available
               </span>
             </div>
           </div>

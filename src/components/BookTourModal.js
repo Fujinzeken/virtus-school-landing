@@ -55,7 +55,7 @@ export default function BookTourModal({ isOpen, onClose }) {
           <span className={styles.label}>Schedule a Visit</span>
           <h2 className={styles.title}>Book a Campus Tour</h2>
           <p className={styles.subtitle}>
-            Experience Virtus first-hand. Fill out the form below and our
+            Experience Milestone first-hand. Fill out the form below and our
             admissions team will confirm your visit.
           </p>
         </div>
