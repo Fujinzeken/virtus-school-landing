@@ -1,0 +1,192 @@
+/* ─────────────────────────────────────────────
+   cta.module.css
+   Call-to-Action Banner
+   Bold accent section before footer
+   ───────────────────────────────────────────── */
+
+.section {
+  position: relative;
+  overflow: hidden;
+  padding: 140px 0;
+  background: var(--color-white);
+}
+
+/* Decorative circle shapes */
+.section::before,
+.section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.section::before {
+  width: 500px;
+  height: 500px;
+  top: -200px;
+  right: -100px;
+  background: rgba(27, 58, 92, 0.04);
+}
+
+.section::after {
+  width: 350px;
+  height: 350px;
+  bottom: -120px;
+  left: -80px;
+  background: rgba(232, 98, 42, 0.04);
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+/* Left: text content */
+.content {
+  max-width: 520px;
+  flex-shrink: 0;
+}
+
+.label {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-orange);
+  margin-bottom: 16px;
+  background: rgba(232, 98, 42, 0.08);
+  padding: 5px 14px;
+  border-radius: 100px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-dark);
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+/* Right: action buttons */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+/* Shared button base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border: none;
+  border-radius: 14px;
+  padding: 18px 36px;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+  min-width: 240px;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Primary: white bg */
+.btnPrimary {
+  background: var(--color-orange);
+  color: var(--color-white);
+  box-shadow: 0 8px 24px rgba(232, 98, 42, 0.3);
+}
+
+.btnPrimary:hover {
+  box-shadow: 0 14px 36px rgba(232, 98, 42, 0.4);
+  background: #d4551f;
+}
+
+/* Secondary: glass outline */
+.btnSecondary {
+  background: transparent;
+  color: var(--color-blue);
+  border: 1.5px solid rgba(27, 58, 92, 0.2);
+}
+
+.btnSecondary:hover {
+  background: rgba(27, 58, 92, 0.04);
+  border-color: var(--color-blue);
+  box-shadow: 0 12px 32px rgba(27, 58, 92, 0.1);
+}
+
+.btnIcon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .section {
+    padding: 80px 0;
+  }
+
+  .inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 36px;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .actions {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .btn {
+    padding: 16px 28px;
+    font-size: 0.84rem;
+    min-width: unset;
+  }
+}

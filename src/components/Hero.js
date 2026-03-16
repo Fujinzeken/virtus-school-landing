@@ -110,7 +110,7 @@ export default function Hero() {
 
             <div className="hero__cta-group fade-in-up">
               <a href="#tour" className="hero__cta-primary">
-                Book a School Tour
+                Book a Tour
                 <svg
                   width="16"
                   height="16"
