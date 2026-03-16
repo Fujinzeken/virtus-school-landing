@@ -192,6 +192,8 @@ button {
   font-size: 0.875rem;
   font-weight: 600;
   border-radius: 50px;
+  border: none;
+  cursor: pointer;
   transition:
     background var(--transition-fast),
     transform var(--transition-fast),
@@ -407,8 +409,11 @@ button {
   font-size: 0.95rem;
   font-weight: 600;
   border-radius: 50px;
+  border: none;
+  cursor: pointer;
   transition: all var(--transition-fast);
   letter-spacing: 0.01em;
+  text-decoration: none;
 }
 
 .hero__cta-primary:hover {
@@ -429,10 +434,12 @@ button {
   font-size: 0.95rem;
   font-weight: 600;
   border-radius: 50px;
+  cursor: pointer;
   transition: all var(--transition-fast);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   letter-spacing: 0.01em;
+  text-decoration: none;
 }
 
 .hero__cta-secondary:hover {
@@ -1329,4 +1336,3 @@ button {
     animation-duration: 30s;
   }
 }
-

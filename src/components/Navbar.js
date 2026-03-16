@@ -1,10 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import ApplyModal from "./ApplyModal";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [isApplyModalOpen, setIsApplyModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -69,13 +71,15 @@ export default function Navbar() {
           >
             Contact
           </a>
-          <a
-            href="#apply"
+          <button
             className="navbar__cta"
-            onClick={() => setMobileOpen(false)}
+            onClick={() => {
+              setMobileOpen(false);
+              setIsApplyModalOpen(true);
+            }}
           >
             Apply Now <span className="navbar__cta-arrow">→</span>
-          </a>
+          </button>
         </div>
 
         <button
@@ -88,6 +92,11 @@ export default function Navbar() {
           <span></span>
         </button>
       </div>
+
+      <ApplyModal
+        isOpen={isApplyModalOpen}
+        onClose={() => setIsApplyModalOpen(false)}
+      />
     </nav>
   );
 }

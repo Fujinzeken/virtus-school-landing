@@ -1,8 +1,18 @@
+"use client";
+
+import { useState } from "react";
 import styles from "./cta.module.css";
+import BookTourModal from "./BookTourModal";
+import ApplyModal from "./ApplyModal";
+import RequestCallModal from "./RequestCallModal";
 
 export default function CtaBanner() {
+  const [tourOpen, setTourOpen] = useState(false);
+  const [applyOpen, setApplyOpen] = useState(false);
+  const [callOpen, setCallOpen] = useState(false);
+
   return (
-    <section className={styles.section} id="cta">
+    <section className={styles.section} id="admissions">
       <div className={styles.container}>
         <div className={styles.inner}>
           {/* Left: copy */}
@@ -19,8 +29,11 @@ export default function CtaBanner() {
 
           {/* Right: action buttons */}
           <div className={styles.actions}>
-            {/* Primary CTA */}
-            <a href="#apply" className={`${styles.btn} ${styles.btnPrimary}`}>
+            <button
+              type="button"
+              className={`${styles.btn} ${styles.btnPrimary}`}
+              onClick={() => setApplyOpen(true)}
+            >
               <svg className={styles.btnIcon} viewBox="0 0 24 24" fill="none">
                 <path
                   d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"
@@ -31,10 +44,13 @@ export default function CtaBanner() {
                 />
               </svg>
               Apply Now
-            </a>
+            </button>
 
-            {/* Secondary CTAs */}
-            <a href="#tour" className={`${styles.btn} ${styles.btnSecondary}`}>
+            <button
+              type="button"
+              className={`${styles.btn} ${styles.btnSecondary}`}
+              onClick={() => setTourOpen(true)}
+            >
               <svg className={styles.btnIcon} viewBox="0 0 24 24" fill="none">
                 <path
                   d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"
@@ -52,11 +68,12 @@ export default function CtaBanner() {
                 />
               </svg>
               Book a Tour
-            </a>
+            </button>
 
-            <a
-              href="#callback"
+            <button
+              type="button"
               className={`${styles.btn} ${styles.btnSecondary}`}
+              onClick={() => setCallOpen(true)}
             >
               <svg className={styles.btnIcon} viewBox="0 0 24 24" fill="none">
                 <path
@@ -68,10 +85,15 @@ export default function CtaBanner() {
                 />
               </svg>
               Request a Call
-            </a>
+            </button>
           </div>
         </div>
       </div>
+
+      {/* Modals */}
+      <BookTourModal isOpen={tourOpen} onClose={() => setTourOpen(false)} />
+      <ApplyModal isOpen={applyOpen} onClose={() => setApplyOpen(false)} />
+      <RequestCallModal isOpen={callOpen} onClose={() => setCallOpen(false)} />
     </section>
   );
 }

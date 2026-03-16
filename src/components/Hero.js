@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
+import BookTourModal from "./BookTourModal";
+import ApplyModal from "./ApplyModal";
 
 const slides = [
   {
@@ -41,6 +43,8 @@ const SLIDE_INTERVAL = 6000;
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [isTourModalOpen, setIsTourModalOpen] = useState(false);
+  const [isApplyModalOpen, setIsApplyModalOpen] = useState(false);
 
   const goToSlide = useCallback(
     (index) => {
@@ -109,7 +113,11 @@ export default function Hero() {
             </p>
 
             <div className="hero__cta-group fade-in-up">
-              <a href="#tour" className="hero__cta-primary">
+              <button
+                type="button"
+                className="hero__cta-primary"
+                onClick={() => setIsTourModalOpen(true)}
+              >
                 Book a Tour
                 <svg
                   width="16"
@@ -126,10 +134,14 @@ export default function Hero() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </a>
-              <a href="#apply" className="hero__cta-secondary">
+              </button>
+              <button
+                type="button"
+                className="hero__cta-secondary"
+                onClick={() => setIsApplyModalOpen(true)}
+              >
                 Apply Now
-              </a>
+              </button>
             </div>
           </div>
 
@@ -152,6 +164,16 @@ export default function Hero() {
         <div className="hero__scroll-mouse" />
         <span>Scroll</span>
       </div>
+
+      {/* Book a Tour Modal */}
+      <BookTourModal
+        isOpen={isTourModalOpen}
+        onClose={() => setIsTourModalOpen(false)}
+      />
+      <ApplyModal
+        isOpen={isApplyModalOpen}
+        onClose={() => setIsApplyModalOpen(false)}
+      />
     </section>
   );
 }
