@@ -9,6 +9,8 @@ import Programmes from "@/components/Programmes";
 import AcademicTracks from "@/components/AcademicTracks";
 import Teachers from "@/components/Teachers";
 import News from "@/components/News";
+import Grants from "@/components/Grants";
+import Faq from "@/components/Faq";
 import CtaBanner from "@/components/CtaBanner";
 import Footer from "@/components/Footer";
 
@@ -26,6 +28,8 @@ export default function Home() {
       <AcademicTracks />
       <Teachers />
       <News />
+      <Faq />
+      <Grants />
       <CtaBanner />
       <Footer />
     </>

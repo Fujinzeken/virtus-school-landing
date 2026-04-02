@@ -173,9 +173,9 @@ export default function Footer() {
                 />
               </svg>
               <span>
-                Karasaroy ko&apos;chasi, 334,
+                334 Karasaroy Street,
                 <br />
-                Almazar tumani, Toshkent,
+                Almazor District Tashkent City,
                 <br />
                 Uzbekistan
               </span>
@@ -196,8 +196,8 @@ export default function Footer() {
                   strokeLinejoin="round"
                 />
               </svg>
-              <a href="tel:+998901234567" className={styles.contactLink}>
-                +998 90 123 45 67
+              <a href="tel:+998785555577" className={styles.contactLink}>
+                +998 78 555 55 77
               </a>
             </div>
 

@@ -7,7 +7,7 @@ import ApplyModal from "./ApplyModal";
 
 const slides = [
   {
-    image: "/hero.jpg",
+    image: "/school.png",
     badge: "International Baccalaureate School",
     titleTop: "Shaping",
     titleBottom: "Tomorrow's",

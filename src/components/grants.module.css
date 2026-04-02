@@ -1,0 +1,257 @@
+/* ─────────────────────────────────────────────
+   grants.module.css
+   Grants & Scholarships Section
+   ───────────────────────────────────────────── */
+
+.section {
+  background: var(--color-dark);
+  padding: 120px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* subtle radial glow */
+.section::before {
+  content: "";
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(232, 118, 43, 0.06) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Two-column split ── */
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* ── Left: Visual block ── */
+.visual {
+  position: relative;
+}
+
+.imageWrap {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  aspect-ratio: 4/5;
+}
+
+.imageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Orange overlay strip at the bottom */
+.imageBadge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 28px 32px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.imageBadgeNum {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--color-orange);
+  line-height: 1;
+}
+
+.imageBadgeText {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 500;
+}
+
+/* Floating accent dot */
+.accentDot {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px solid rgba(232, 118, 43, 0.15);
+  top: -30px;
+  left: -30px;
+  pointer-events: none;
+}
+
+/* ── Right: Content ── */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.label {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-orange);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.titleAccent {
+  color: var(--color-orange);
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 48px;
+}
+
+/* ── Tiers ── */
+.tiers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.tier {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 18px 24px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.tier:hover {
+  background: rgba(232, 118, 43, 0.08);
+  border-color: rgba(232, 118, 43, 0.25);
+  transform: translateX(6px);
+}
+
+.tierRank {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.5);
+  flex-shrink: 0;
+}
+
+.tier:first-child .tierRank {
+  border-color: var(--color-orange);
+  color: var(--color-orange);
+}
+
+.tierLabel {
+  flex: 1;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.tierLabel strong {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 2px;
+}
+
+.tierPercent {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--color-white);
+  line-height: 1;
+}
+
+.tier:first-child .tierPercent {
+  color: var(--color-orange);
+}
+
+/* ── Note strip ── */
+.note {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.35);
+  line-height: 1.6;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.note strong {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .imageWrap {
+    aspect-ratio: 16/9;
+    max-height: 420px;
+  }
+
+  .section {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .tierPercent {
+    font-size: 1.4rem;
+  }
+
+  .tier {
+    padding: 14px 18px;
+  }
+}
