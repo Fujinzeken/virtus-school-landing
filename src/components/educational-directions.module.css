@@ -1,0 +1,291 @@
+/* ===== Section ===== */
+.section {
+  background: #040037;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ===== Header ===== */
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pill {
+  display: inline-block;
+  background: rgba(236, 97, 92, 0.2);
+  color: #ec615c;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 20px 0 0 0;
+}
+
+.subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 16px auto 0 auto;
+  line-height: 1.65;
+}
+
+/* ===== Cards Grid ===== */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* ===== Card Base ===== */
+.card {
+  border-radius: 24px;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Background Numbers ===== */
+.bgNumber {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.bgNumberDark {
+  color: rgba(255, 255, 255, 0.04);
+}
+
+.bgNumberCoral {
+  color: rgba(255, 255, 255, 0.04);
+}
+
+.bgNumberLight {
+  color: rgba(4, 0, 55, 0.04);
+}
+
+/* ===== Card Variants ===== */
+.cardDark {
+  background: linear-gradient(135deg, #0d0060 0%, #1a0080 100%);
+}
+
+.cardCoral {
+  background: #ec615c;
+}
+
+.cardLight {
+  background: #ffffff;
+}
+
+/* ===== Icon Box ===== */
+.iconBox {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.iconBoxDark {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.iconBoxCoral {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.iconBoxLight {
+  background: rgba(4, 0, 55, 0.08);
+}
+
+/* ===== Card Title ===== */
+.cardTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 24px 0 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.cardTitleLight {
+  color: #040037;
+}
+
+/* ===== Subject Pills ===== */
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.pillTag {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.pillTagDark {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.pillTagCoral {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.pillTagLight {
+  background: #f2f6ff;
+  color: #040037;
+}
+
+/* ===== Card Description ===== */
+.cardDesc {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  flex-grow: 1;
+}
+
+.cardDescDark {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.cardDescCoral {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.cardDescLight {
+  color: #73818f;
+}
+
+/* ===== Accent Line ===== */
+.accentLine {
+  width: 60px;
+  height: 3px;
+  border-radius: 2px;
+  margin-top: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.accentCoral {
+  background: #ec615c;
+}
+
+.accentWhite {
+  background: #ffffff;
+}
+
+/* ===== Stat Bar ===== */
+.statBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 48px;
+}
+
+.statItem {
+  text-align: center;
+}
+
+.statNumber {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ec615c;
+  display: block;
+}
+
+.statLabel {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  margin-top: 4px;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card {
+    padding: 32px;
+  }
+
+  .bgNumber {
+    font-size: 7rem;
+  }
+
+  .cardTitle {
+    font-size: 1.35rem;
+  }
+
+  .statBar {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .statNumber {
+    font-size: 1.8rem;
+  }
+}

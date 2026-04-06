@@ -1,98 +1,111 @@
 import Image from "next/image";
 import styles from "./grants.module.css";
 
-const tiers = [
-  {
-    rank: "1st",
-    label: "Full Tuition Covered",
-    sublabel: "Complete education expenses — on us.",
-    percent: "100%",
-  },
-  {
-    rank: "2nd",
-    label: "Major Investment Covered",
-    sublabel: "The largest part of your fees, paid by Milestone.",
-    percent: "80%",
-  },
-  {
-    rank: "3rd",
-    label: "Half Tuition Covered",
-    sublabel: "Half of your child's education on our shoulders.",
-    percent: "50%",
-  },
-  {
-    rank: "4th",
-    label: "Additional Support",
-    sublabel: "4th place quarterly ranking.",
-    percent: "30%",
-  },
-  {
-    rank: "5th",
-    label: "Incentive Grant",
-    sublabel: "5th place quarterly ranking.",
-    percent: "30%",
-  },
-];
-
 export default function Grants() {
   return (
-    <section className={styles.section} id="grants">
+    <section className={styles.section} id="grant">
       <div className={styles.container}>
-        <div className={styles.inner}>
-          {/* Left — Visual */}
-          <div className={styles.visual}>
-            <div className={styles.accentDot} />
-            <div className={styles.imageWrap}>
-              <Image
-                src="/award.png"
-                alt="Milestone International School grants and scholarships"
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                style={{ objectFit: "cover" }}
-              />
-              <div className={styles.imageBadge}>
-                <span className={styles.imageBadgeNum}>100%</span>
-                <span className={styles.imageBadgeText}>
-                  Full grant for top quarterly performers
-                </span>
+        {/* Header */}
+        <h2 className={styles.title}>Grants and discounts</h2>
+        <p className={styles.subtitle}>
+          &ldquo;Special Offer for the 2024-2025 Academic Year&rdquo;.
+        </p>
+
+        {/* 3-column layout */}
+        <div className={styles.layout}>
+          {/* Left image */}
+          <div className={styles.imageWrap}>
+            <Image
+              src="/scholarship.png"
+              alt="Graduate student with diploma"
+              fill
+              sizes="320px"
+              style={{ objectFit: "cover" }}
+            />
+            <div className={`${styles.logoWatermark} ${styles.logoLeft}`}>
+              <img src="/logo.svg" alt="MIS logo" width={40} height={40} />
+            </div>
+          </div>
+
+          {/* Center card */}
+          <div className={styles.centerCard}>
+            <div className={styles.columns}>
+              {/* Discounts column */}
+              <div className={styles.column}>
+                <div className={styles.iconCircle}>%</div>
+                <h3 className={styles.colLabel}>Discounts</h3>
+
+                <p className={styles.stat}>5%</p>
+                <p className={styles.statDesc}>
+                  A 5% discount will be provided for each additional child from
+                  the same family.
+                </p>
+
+                <div className={styles.divider} />
+
+                <p className={styles.stat}>30%</p>
+                <p className={styles.statDesc}>
+                  A 30% discount for those who make payments for the 2024-2025
+                  academic year
+                </p>
+              </div>
+
+              {/* Grants column */}
+              <div className={styles.column}>
+                <div className={styles.iconCircle}>$</div>
+                <h3 className={styles.colLabel}>Grants</h3>
+
+                <p className={styles.stat}>150</p>
+                <p className={styles.statDesc}>
+                  150 scholarships provided by the school
+                </p>
+
+                <div className={styles.divider} />
+
+                <p className={styles.statDesc}>
+                  Grants are awarded to students who demonstrate excellent
+                  academic performance and achieve outstanding results in exams
+                  each quarter.
+                </p>
               </div>
             </div>
           </div>
 
-          {/* Right — Content */}
-          <div className={styles.content}>
-            <span className={styles.label}>Grants & Scholarships</span>
-            <h2 className={styles.title}>
-              Excellence Earns{" "}
-              <span className={styles.titleAccent}>Real Rewards</span>
-            </h2>
-            <p className={styles.subtitle}>
-              Every quarter, Milestone's highest-performing students are
-              rewarded through a structured grant programme — funded by a
-              dedicated scholarship fund and tracked transparently via our
-              Telegram monitoring system.
-            </p>
-
-            <div className={styles.tiers}>
-              {tiers.map((tier) => (
-                <div key={tier.rank} className={styles.tier}>
-                  <div className={styles.tierRank}>{tier.rank}</div>
-                  <div className={styles.tierLabel}>
-                    {tier.label}
-                    <strong>{tier.sublabel}</strong>
-                  </div>
-                  <span className={styles.tierPercent}>{tier.percent}</span>
-                </div>
-              ))}
+          {/* Right image */}
+          <div className={styles.imageWrap}>
+            <Image
+              src="/school-close.png"
+              alt="School building exterior"
+              fill
+              sizes="320px"
+              style={{ objectFit: "cover" }}
+            />
+            <div className={`${styles.logoWatermark} ${styles.logoRight}`}>
+              <img src="/logo.svg" alt="MIS logo" width={40} height={40} />
             </div>
-
-            <p className={styles.note}>
-              <strong>How it works:</strong> Results are evaluated every quarter
-              using a point-based system tracked via Telegram. Grants are
-              awarded based on academic performance and are funded by
-              Milestone's special scholarship fund.
-            </p>
           </div>
+        </div>
+
+        {/* CTA */}
+        <div className={styles.ctaWrap}>
+          <a href="#admissions" className={styles.ctaBtn}>
+            <span>Submit an application</span>
+            <span className={styles.arrowCircle}>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </span>
+          </a>
         </div>
       </div>
     </section>

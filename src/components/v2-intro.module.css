@@ -1,0 +1,312 @@
+/* ────────────────────────────────────────────
+   v2-intro.module.css  (Tilda design rebuild)
+   ──────────────────────────────────────────── */
+
+.section {
+  background: #ffffff;
+  padding: 72px 0 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ━━━ TOP ROW: logo left + mission text right ━━━ */
+.topRow {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 64px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+/* Logo block */
+.logoBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.logoImg {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+/* Mission text */
+.missionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.missionText {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.05rem;
+  color: #040037;
+  line-height: 1.75;
+  margin-bottom: 18px;
+}
+
+.missionAccent {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.05rem;
+  color: #ec615c;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+/* ━━━ BOTTOM ROW: campus info two columns ━━━ */
+.bottomRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 48px;
+}
+
+/* Left col — Campus */
+.campusCol {
+}
+
+.colHeading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.pillIcon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: #ec615c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pillIcon svg {
+  color: #fff;
+}
+
+.colTitle {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #040037;
+  line-height: 1.2;
+}
+
+.colText {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 0.97rem;
+  color: #73818f;
+  line-height: 1.7;
+}
+
+/* Right col — Classrooms (bold highlight) */
+.classroomCol {
+  background: #f2f6ff;
+  border-radius: 16px;
+  padding: 28px 32px;
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.classroomText {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #040037;
+  line-height: 1.5;
+}
+
+/* ━━━ GALLERY ROW ━━━ */
+.galleryRow {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 16px;
+  margin-top: 48px;
+  height: 500px;
+}
+
+/* Left: main building photo */
+.galleryMain {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Floating stat bubbles */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 16px;
+  z-index: 2;
+}
+
+.bubbleNavy {
+  width: 160px;
+  height: 160px;
+  background: #040037;
+  top: 28%;
+  left: 28%;
+}
+
+.bubbleRed {
+  width: 200px;
+  height: 200px;
+  background: #ec615c;
+  bottom: 10%;
+  left: 8%;
+}
+
+.bubbleWhite {
+  width: 110px;
+  height: 110px;
+  background: #ffffff;
+  bottom: 16%;
+  left: 46%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.bubbleStat {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.bubbleBig {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.bubbleLabel {
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.3;
+  font-family: var(--font-inter), "Inter", sans-serif;
+}
+
+.bubbleLabelDark {
+  font-size: 0.68rem;
+  color: #040037;
+  line-height: 1.3;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  text-align: center;
+}
+
+/* Right: 3 stacked photos */
+.galleryStack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+}
+
+.galleryThumb {
+  position: relative;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.thumbOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.28);
+  display: flex;
+  align-items: flex-end;
+  padding: 14px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.galleryThumb:hover .thumbOverlay {
+  opacity: 1;
+}
+
+.moreBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.morePlus {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* ━━━ Responsive ━━━ */
+@media (max-width: 900px) {
+  .topRow,
+  .bottomRow {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .logoImg {
+    width: 160px;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .galleryRow {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .galleryMain {
+    height: 320px;
+  }
+
+  .galleryStack {
+    flex-direction: row;
+    height: 180px;
+  }
+
+  .galleryThumb {
+    flex: 1;
+  }
+
+  .thumbOverlay {
+    opacity: 1;
+  }
+}

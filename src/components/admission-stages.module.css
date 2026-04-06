@@ -1,0 +1,225 @@
+/* admission-stages.module.css */
+
+.section {
+  background: #ffffff;
+  padding: 72px 0;
+}
+
+.outer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.wrapper {
+  background: #f9f9f9;
+  border-radius: 25px;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* Left side */
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #040037;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.stagesLabel {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #040037;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+/* Steps */
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.stepNumber {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border: 2px solid #ec615c;
+  border-radius: 50%;
+  color: #ec615c;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stepText {
+  font-size: 15px;
+  color: #040037;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 6px;
+}
+
+/* Right side: form */
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.formHeading {
+  font-family: "Inter", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #040037;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.formSubtext {
+  font-size: 0.85rem;
+  color: #73818f;
+  text-align: center;
+  line-height: 1.55;
+  margin-bottom: 28px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: #040037;
+  background: #ffffff;
+  outline: none;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #ec615c;
+}
+
+.phoneRow {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.phoneRow:focus-within {
+  border-color: #ec615c;
+}
+
+.phonePrefix {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 14px;
+  border-right: 1px solid #e8e8e8;
+  font-size: 0.88rem;
+  color: #73818f;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.phoneInput {
+  flex: 1;
+  padding: 14px 18px;
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: #040037;
+  outline: none;
+}
+
+.submitBtn {
+  width: 100%;
+  background: #ec615c;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submitBtn:hover {
+  background: #d94f4a;
+}
+
+.successMsg {
+  text-align: center;
+  color: #ec615c;
+  font-weight: 700;
+  padding: 24px 0;
+  font-size: 1rem;
+}
+
+.disclaimer {
+  font-size: 0.72rem;
+  color: #aaa;
+  text-align: center;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 32px 24px;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 24px 16px;
+  }
+
+  .heading {
+    font-size: 1.3rem;
+  }
+}

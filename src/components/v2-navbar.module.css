@@ -1,0 +1,207 @@
+/* ────────────────────────────────────────────
+   v2-navbar.module.css
+   Dark navy navbar — Tilda design match
+   ──────────────────────────────────────────── */
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #040037;
+  height: 70px;
+  transition: box-shadow 0.3s ease;
+}
+
+.nav.scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ── Logo ── */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logoImg {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+/* ── Desktop links ── */
+.links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.link {
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+/* ── CTA Button (desktop) ── */
+.cta {
+  background: #ec615c;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 10px 20px;
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.cta:hover {
+  background: #d94f4a;
+  transform: translateY(-1px);
+}
+
+/* ── CTA inside mobile menu (hidden on desktop) ── */
+.ctaMobile {
+  display: none;
+  background: #ec615c;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 12px 20px;
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  white-space: nowrap;
+  text-align: center;
+  width: calc(100% - 48px);
+  margin: 16px 24px 0;
+}
+
+.ctaMobile:hover {
+  background: #d94f4a;
+}
+
+/* ── Mobile hamburger ── */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  z-index: 1001;
+}
+
+.burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.burgerOpen span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.burgerOpen span:nth-child(2) {
+  opacity: 0;
+}
+
+.burgerOpen span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ── Responsive ── */
+@media (max-width: 1080px) {
+  .links {
+    gap: 16px;
+  }
+
+  .link {
+    font-size: 13px;
+  }
+
+  .cta {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 900px) {
+  .links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: #040037;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    padding: 12px 0 20px;
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+  }
+
+  .links.open {
+    display: flex;
+  }
+
+  .link {
+    width: 100%;
+    padding: 14px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    font-size: 15px;
+    opacity: 0.9;
+  }
+
+  .link:hover {
+    background: rgba(255, 255, 255, 0.05);
+    opacity: 1;
+  }
+
+  /* Hide desktop CTA, show mobile CTA */
+  .cta {
+    display: none;
+  }
+
+  .ctaMobile {
+    display: block;
+  }
+
+  .burger {
+    display: flex;
+  }
+}

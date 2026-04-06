@@ -1,0 +1,342 @@
+/* ────────────────────────────────────────────
+   v2-hero.module.css
+   Tilda-style hero: full-width image with overlay
+   ──────────────────────────────────────────── */
+
+.hero {
+  background: #ffffff;
+  padding-top: calc(var(--nav-height, 70px) + 20px);
+}
+
+.inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Image container ── */
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: calc(100vh);
+  min-height: 520px;
+  max-height: 700px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imageContainer img {
+  object-fit: cover;
+}
+
+/* ── Dark overlay ── */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+/* ── Content layer ── */
+.content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  padding: 40px 44px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0;
+}
+
+/* ── Phone number ── */
+.phone {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  color: #ffffff;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.9;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  letter-spacing: 0.3px;
+}
+
+.phone:hover {
+  opacity: 1;
+}
+
+/* ── Badge pill ── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  padding: 7px 16px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  align-self: flex-start;
+  margin-bottom: 16px;
+  backdrop-filter: blur(4px);
+}
+
+.badgeIcon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* ── Headline ── */
+.title {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: clamp(2rem, 3.2vw, 3rem);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+  max-width: 600px;
+}
+
+/* ── Subtitle ── */
+.subtitle {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.85;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-bottom: 24px;
+}
+
+/* ── CTA Row ── */
+.ctaRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+/* ── CTA Button ── */
+.cta {
+  background: #ec615c;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 14px 20px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  transition: background 0.2s ease;
+}
+
+.cta:hover {
+  background: #d94f4a;
+}
+
+.ctaText {
+  white-space: nowrap;
+}
+
+.ctaArrow {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: border-color 0.2s ease;
+}
+
+.cta:hover .ctaArrow {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+/* ── Note below CTA ── */
+.ctaNote {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+  font-style: italic;
+}
+
+/* ── Play button — centered in the right half ── */
+.playBtn {
+  position: absolute;
+  top: 52%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  z-index: 3;
+}
+
+.playBtn:hover {
+  background: rgba(236, 97, 92, 0.9);
+  border-color: transparent;
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 8px 32px rgba(236, 97, 92, 0.4);
+}
+
+.playBtn svg {
+  margin-left: 3px;
+}
+
+@media (max-width: 1200px) {
+  .playBtn {
+    display: none;
+  }
+}
+
+/* ── Stats bar — bottom of image container ── */
+.stats {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 0 0 20px 20px;
+}
+
+.stat {
+  flex: 1;
+  padding: 16px 24px;
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stat:last-child {
+  border-right: none;
+}
+
+.statNum {
+  display: block;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.statLabel {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .imageContainer {
+    height: calc(100vh - 100px);
+    min-height: 400px;
+    max-height: 560px;
+  }
+
+  .content {
+    padding: 24px 24px 80px;
+  }
+
+  .phone {
+    top: 16px;
+    right: 20px;
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+    max-width: 100%;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .cta {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  .ctaArrow {
+    width: 38px;
+    height: 38px;
+  }
+
+  .stat {
+    padding: 12px 16px;
+  }
+
+  .statNum {
+    font-size: 1.1rem;
+  }
+
+  .statLabel {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: calc(var(--nav-height, 70px) + 12px);
+  }
+
+  .inner {
+    padding: 0 16px;
+  }
+
+  .imageContainer {
+    height: calc(100vh - 90px);
+    min-height: 380px;
+    max-height: 500px;
+    border-radius: 16px;
+  }
+
+  .content {
+    padding: 20px 20px 70px;
+  }
+
+  .badge {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+
+  .stats {
+    border-radius: 0 0 16px 16px;
+  }
+
+  .stat {
+    padding: 10px 12px;
+  }
+
+  .statNum {
+    font-size: 1rem;
+  }
+}

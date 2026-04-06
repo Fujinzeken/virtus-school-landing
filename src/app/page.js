@@ -1,36 +1,34 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Introduction from "@/components/Introduction";
-import MissionValues from "@/components/MissionValues";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import CampusGallery from "@/components/CampusGallery";
-import IbExplainer from "@/components/IbExplainer";
-import Programmes from "@/components/Programmes";
-import AcademicTracks from "@/components/AcademicTracks";
-import Teachers from "@/components/Teachers";
-import News from "@/components/News";
+import NavbarV2 from "@/components/NavbarV2";
+import HeroV2 from "@/components/HeroV2";
+import IntroductionV2 from "@/components/IntroductionV2";
+import ClassroomFeaturesV2 from "@/components/ClassroomFeaturesV2";
+import FourPillarsV2 from "@/components/FourPillarsV2";
+import EnrollmentV2 from "@/components/EnrollmentV2";
+import AmenitiesV2 from "@/components/AmenitiesV2";
+import ComprehensiveCoverage from "@/components/ComprehensiveCoverage";
+import AdmissionStages from "@/components/AdmissionStages";
 import Grants from "@/components/Grants";
 import Faq from "@/components/Faq";
 import CtaBanner from "@/components/CtaBanner";
+import ContactInfo from "@/components/ContactInfo";
 import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Introduction />
-      <MissionValues />
-      <WhyChooseUs />
-      <CampusGallery />
-      <IbExplainer />
-      <Programmes />
-      <AcademicTracks />
-      <Teachers />
-      <News />
-      <Faq />
+      <NavbarV2 />
+      <HeroV2 />
+      <IntroductionV2 />
+      <ClassroomFeaturesV2 />
+      <FourPillarsV2 />
+      <EnrollmentV2 />
+      <AmenitiesV2 />
+      <ComprehensiveCoverage />
+      <AdmissionStages />
       <Grants />
+      <Faq />
       <CtaBanner />
+      <ContactInfo />
       <Footer />
     </>
   );

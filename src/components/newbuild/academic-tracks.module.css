@@ -1,0 +1,265 @@
+/* ─────────────────────────────────────────────
+   academic-tracks.module.css
+   3 specialised academic directions
+   ───────────────────────────────────────────── */
+
+.section {
+  padding: 110px 0;
+  background: var(--color-dark);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Header ── */
+.header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 64px;
+}
+
+.label {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-orange);
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+
+.titleAccent {
+  color: var(--color-orange);
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ── Tracks grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* ── Track card ── */
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 24px;
+  padding: 40px 32px 36px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--track-color);
+  border-radius: 24px 24px 0 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* Icon + badge row */
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconWrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--track-color) 12%, transparent);
+  color: var(--track-color);
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.card:hover .iconWrap {
+  background: var(--track-color);
+  color: var(--color-white);
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.badge {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--track-color);
+  padding: 5px 12px;
+  border: 1px solid color-mix(in srgb, var(--track-color) 20%, transparent);
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--track-color) 6%, transparent);
+}
+
+/* Text content */
+.cardTitle {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--color-white);
+  letter-spacing: -0.01em;
+}
+
+.cardDesc {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* Subject tags */
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.subject {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Career outcome */
+.outcome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: auto;
+}
+
+.outcomeIcon {
+  width: 18px;
+  height: 18px;
+  color: var(--track-color);
+  flex-shrink: 0;
+}
+
+.outcomeText {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.outcomeText strong {
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+/* ── Note bar ── */
+.note {
+  margin-top: 48px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.noteItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.noteDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-orange);
+  flex-shrink: 0;
+}
+
+.noteItem strong {
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 70px 0;
+  }
+
+  .card {
+    padding: 30px 24px 28px;
+  }
+
+  .note {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,149 @@
+.section {
+  background: #ffffff;
+  padding: 60px 0 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.darkCard {
+  background: #040037;
+  border-radius: 25px;
+  padding: 48px;
+}
+
+.title {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 8px;
+}
+
+.note {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin: 0 0 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.label {
+  display: block;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 13px;
+  color: #73818f;
+  margin-bottom: 8px;
+}
+
+.phone {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #040037;
+  margin: 0;
+}
+
+.callBtn {
+  display: inline-block;
+  margin-top: 16px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #ec615c;
+  border: none;
+  border-radius: 9px;
+  padding: 10px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.callBtn:hover {
+  background: #d94f4a;
+}
+
+.value {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #040037;
+  margin: 0;
+}
+
+.address {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 14px;
+  color: #73818f;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.divider {
+  height: 1px;
+  background: #e8e8e8;
+  margin: 16px 0;
+}
+
+.socialRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #f2f6ff;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.socialIcon:hover {
+  background: #e4ebf7;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .darkCard {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 40px 0 60px;
+  }
+
+  .darkCard {
+    padding: 24px;
+    border-radius: 18px;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+}
