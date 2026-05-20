@@ -94,7 +94,7 @@ export default function HeroV2() {
 
             {/* ── Play button — opens YouTube ── */}
             <a
-              href="https://www.youtube.com/watch?v=cMM-cy9pFz0"
+              href="https://www.youtube.com/@virtusschool"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.playBtn}

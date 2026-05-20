@@ -29,11 +29,11 @@ export default function FourPillarsV2() {
     <section className={styles.section} id="style">
       <div className={styles.imageWrap}>
         <Image
-          src="/images/real-school/hovli2.jpg"
-          alt="Virtus International School campus"
+          src="/front.jpg"
+          alt="Virtus International School building"
           fill
           sizes="100vw"
-          style={{ objectFit: "cover", objectPosition: "center 45%" }}
+          style={{ objectFit: "cover", objectPosition: "center 40%" }}
           priority
         />
 

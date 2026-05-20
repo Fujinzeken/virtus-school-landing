@@ -73,8 +73,8 @@ export default function Grants() {
           {/* Right image */}
           <div className={styles.imageWrap}>
             <Image
-              src="/school-close.png"
-              alt="School building exterior"
+              src="/virtus.jpg"
+              alt="Virtus International School building"
               fill
               sizes="320px"
               style={{ objectFit: "cover" }}
