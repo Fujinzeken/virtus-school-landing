@@ -17,14 +17,14 @@
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   margin: 0 0 12px;
 }
 
 .subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
-  color: #73818f;
+  color: #5b5b5e;
   line-height: 1.6;
   margin: 0;
 }
@@ -100,7 +100,7 @@
 .iconCircle {
   width: 48px;
   height: 48px;
-  background: #ec615c;
+  background: #ffae52;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -118,7 +118,7 @@
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   margin: 0 0 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #e8e8e8;
@@ -131,7 +131,7 @@
   font-family: 'Inter', sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
-  color: #ec615c;
+  color: #ffae52;
   margin: 8px 0 8px;
   line-height: 1.2;
 }
@@ -139,7 +139,7 @@
 .statDesc {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
-  color: #73818f;
+  color: #5b5b5e;
   line-height: 1.6;
   margin: 0;
 }
@@ -156,15 +156,34 @@
 .ctaWrap {
   margin-top: 32px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.regsLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #263560;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.regsLink:hover {
+  color: #f2992e;
 }
 
 .ctaBtn {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  background: #ec615c;
-  color: #ffffff;
+  background: #ffae52;
+  color: #263560;
   border: none;
   border-radius: 9px;
   padding: 16px 32px;
@@ -177,7 +196,7 @@
 }
 
 .ctaBtn:hover {
-  background: #d94f4a;
+  background: #f2992e;
 }
 
 .arrowCircle {

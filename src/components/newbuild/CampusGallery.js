@@ -36,7 +36,7 @@ export default function CampusGallery() {
       <div className="campus__featured">
         <Image
           src="/campus.png"
-          alt="Panoramic view of Milestone International School campus"
+          alt="Panoramic view of Virtus International School campus"
           fill
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center 40%" }}

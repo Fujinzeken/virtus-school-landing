@@ -7,16 +7,26 @@
 }
 
 :root {
-  --navy: #040037;
-  --coral: #ec615c;
-  --coral-hover: #d94f4a;
-  --pink-pill: #ffd8d3;
-  --card-blue: #f2f6ff;
-  --light-bg: #f9f9f9;
-  --card-gray: #f5f5f5;
+  /* Brand palette (Virtus corporate colors) */
+  --blue-shade: #263560;
+  --surf-green: #53d8b2;
+  --surf-green-hover: #3fc6a0;
+  --spring-sun: #f9ffdd;
+  --salmon: #ffae52;
+  --salmon-hover: #f2992e;
+  --strong-grey: #39393a;
+
+  /* Role tokens (legacy names kept so existing references still resolve) */
+  --navy: #263560;
+  --coral: #ffae52;
+  --coral-hover: #f2992e;
+  --pink-pill: #53d8b2;
+  --card-blue: #f9ffdd;
+  --light-bg: #fffdf7;
+  --card-gray: #fffdf7;
   --white: #ffffff;
-  --text-primary: #040037;
-  --text-secondary: #73818f;
+  --text-primary: #263560;
+  --text-secondary: #5b5b5e;
   --border: #e8e8e8;
   --font-heading: var(--font-inter), 'Inter', sans-serif;
   --font-body: var(--font-inter), 'Inter', sans-serif;

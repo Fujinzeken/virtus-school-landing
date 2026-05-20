@@ -13,7 +13,7 @@
   font-family: var(--font-inter), 'Inter', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -44,13 +44,13 @@
   font-family: var(--font-inter), 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 600;
-  color: #040037;
+  color: #263560;
   text-align: left;
 }
 
 .icon {
   font-size: 24px;
-  color: #73818f;
+  color: #5b5b5e;
   flex-shrink: 0;
   transition: transform 0.3s ease;
   line-height: 1;
@@ -75,7 +75,7 @@
   padding: 0 0 24px;
   font-family: var(--font-inter), 'Inter', sans-serif;
   font-size: 16px;
-  color: #73818f;
+  color: #5b5b5e;
   line-height: 1.7;
   margin: 0;
 }

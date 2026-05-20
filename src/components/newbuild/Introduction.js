@@ -9,7 +9,7 @@ export default function Introduction() {
           <div className="intro__image-wrapper">
             <Image
               src="/hero3.png"
-              alt="Students engaged in collaborative learning at Milestone International School"
+              alt="Students engaged in collaborative learning at Virtus International School"
               fill
               sizes="(max-width: 768px) 100vw, 55vw"
               style={{ objectFit: "cover" }}
@@ -37,7 +37,7 @@ export default function Introduction() {
             <span className="intro__title-accent">Designed to Lead.</span>
           </h2>
           <p className="intro__text">
-            Milestone International School was founded by education leaders who
+            Virtus International School was founded by education leaders who
             spent years analysing the gaps in Uzbekistan&apos;s education
             system. Our goal: to raise students who are not only knowledgeable,
             but independent and creative thinkers — globally competitive
@@ -154,7 +154,7 @@ export default function Introduction() {
             </p>
             <cite className="intro__quote-author">
               <strong>Niyozov Shahboz Shahobiddinovich</strong>
-              <span>Director, Milestone International School</span>
+              <span>Director, Virtus International School</span>
             </cite>
           </blockquote>
         </div>

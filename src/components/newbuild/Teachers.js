@@ -99,7 +99,7 @@ export default function Teachers() {
           ))}
         </div>
 
-        {/* The Milestone Support Ecosystem */}
+        {/* The Virtus Support Ecosystem */}
         <div className={styles.ecosystem}>
           <div className={styles.ecosystemHeader}>
             <span className={styles.ecosystemLabel}>Student Wellbeing</span>
@@ -107,7 +107,7 @@ export default function Teachers() {
               An Integrated Support Ecosystem
             </h3>
             <p className={styles.ecosystemSubtitle}>
-              At Milestone, we believe academic success is only possible when a
+              At Virtus, we believe academic success is only possible when a
               child feels seen, supported, and connected. Our system ensures no
               student is ever just a number.
             </p>

@@ -5,7 +5,7 @@ const pillars = [
   {
     num: "01",
     title: "Logical thinking:",
-    text: "MIS places great importance on developing students\u2019 logical thinking and analytical approach. Logic and analysis are the foundation of any decision-making process and are key to the students\u2019 success in life.",
+    text: "VIS places great importance on developing students\u2019 logical thinking and analytical approach. Logic and analysis are the foundation of any decision-making process and are key to the students\u2019 success in life.",
   },
   {
     num: "02",
@@ -15,7 +15,7 @@ const pillars = [
   {
     num: "03",
     title: "Independent thinking:",
-    text: "MIS teaches students to think independently and adhere to their life principles without succumbing to external influences. This enables them to benefit from various situations and make the most effective decisions.",
+    text: "VIS teaches students to think independently and adhere to their life principles without succumbing to external influences. This enables them to benefit from various situations and make the most effective decisions.",
   },
   {
     num: "04",
@@ -29,11 +29,11 @@ export default function FourPillarsV2() {
     <section className={styles.section} id="style">
       <div className={styles.imageWrap}>
         <Image
-          src="/school.png"
-          alt="Milestone International School campus"
+          src="/images/real-school/hovli2.jpg"
+          alt="Virtus International School campus"
           fill
           sizes="100vw"
-          style={{ objectFit: "cover", objectPosition: "center 40%" }}
+          style={{ objectFit: "cover", objectPosition: "center 45%" }}
           priority
         />
 

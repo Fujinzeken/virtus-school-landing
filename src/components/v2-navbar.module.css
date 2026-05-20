@@ -9,7 +9,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #040037;
+  background: #263560;
   height: 70px;
   transition: box-shadow 0.3s ease;
 }
@@ -38,8 +38,10 @@
 
 .logoImg {
   display: block;
-  height: 40px;
+  height: 52px;
   width: auto;
+  /* New Virtus logo is dark navy; whiten it for the navy navbar */
+  filter: brightness(0) invert(1);
 }
 
 /* ── Desktop links ── */
@@ -66,8 +68,8 @@
 
 /* ── CTA Button (desktop) ── */
 .cta {
-  background: #ec615c;
-  color: #ffffff;
+  background: #ffae52;
+  color: #263560;
   border: none;
   border-radius: 9px;
   padding: 10px 20px;
@@ -81,15 +83,15 @@
 }
 
 .cta:hover {
-  background: #d94f4a;
+  background: #f2992e;
   transform: translateY(-1px);
 }
 
 /* ── CTA inside mobile menu (hidden on desktop) ── */
 .ctaMobile {
   display: none;
-  background: #ec615c;
-  color: #ffffff;
+  background: #ffae52;
+  color: #263560;
   border: none;
   border-radius: 9px;
   padding: 12px 20px;
@@ -105,7 +107,7 @@
 }
 
 .ctaMobile:hover {
-  background: #d94f4a;
+  background: #f2992e;
 }
 
 /* ── Mobile hamburger ── */
@@ -164,7 +166,7 @@
     top: 70px;
     left: 0;
     right: 0;
-    background: #040037;
+    background: #263560;
     flex-direction: column;
     align-items: flex-start;
     gap: 0;

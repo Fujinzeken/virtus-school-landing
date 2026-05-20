@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? " scrolled" : ""}`}>
       <div className="container">
         <a href="/" className="navbar__logo">
-          <img src="/logo.svg" alt="Milestone International School" />
+          <img src="/logo.svg" alt="Virtus International School" />
         </a>
 
         <div className={`navbar__links${mobileOpen ? " open" : ""}`}>

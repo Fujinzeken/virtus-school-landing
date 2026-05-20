@@ -1,0 +1,39 @@
+.lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.bird {
+  display: block;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.word {
+  display: block;
+}
+
+.tag {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  color: #263560;
+  white-space: nowrap;
+}
+
+/* On dark backgrounds: whiten the image pieces, white tagline */
+.dark .bird,
+.dark .word {
+  filter: brightness(0) invert(1);
+}
+
+.dark .tag {
+  color: #ffffff;
+}

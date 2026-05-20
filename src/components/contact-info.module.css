@@ -10,7 +10,7 @@
 }
 
 .darkCard {
-  background: #040037;
+  background: #263560;
   border-radius: 25px;
   padding: 48px;
 }
@@ -47,7 +47,7 @@
   display: block;
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 13px;
-  color: #73818f;
+  color: #5b5b5e;
   margin-bottom: 8px;
 }
 
@@ -55,7 +55,7 @@
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   margin: 0;
 }
 
@@ -65,8 +65,8 @@
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #ffffff;
-  background: #ec615c;
+  color: #263560;
+  background: #ffae52;
   border: none;
   border-radius: 9px;
   padding: 10px 24px;
@@ -76,21 +76,21 @@
 }
 
 .callBtn:hover {
-  background: #d94f4a;
+  background: #f2992e;
 }
 
 .value {
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #040037;
+  color: #263560;
   margin: 0;
 }
 
 .address {
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 14px;
-  color: #73818f;
+  color: #5b5b5e;
   line-height: 1.5;
   margin: 0;
 }
@@ -113,14 +113,14 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: #f2f6ff;
+  background: #f9ffdd;
   border-radius: 10px;
   text-decoration: none;
   transition: background 0.2s ease;
 }
 
 .socialIcon:hover {
-  background: #e4ebf7;
+  background: #fffdf7;
 }
 
 @media (max-width: 900px) {

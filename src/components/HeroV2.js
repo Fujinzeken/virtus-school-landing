@@ -6,9 +6,9 @@ import { useState } from "react";
 import styles from "./v2-hero.module.css";
 
 const stats = [
-  { num: "13,000 m\u00B2", label: "School campus" },
-  { num: "1,500", label: "Students" },
-  { num: "600", label: "Dormitory beds" },
+  { num: "7,000 m\u00B2", label: "School campus" },
+  { num: "700", label: "Students" },
+  { num: "4\u201319", label: "Student ages" },
 ];
 
 export default function HeroV2() {
@@ -21,8 +21,8 @@ export default function HeroV2() {
           {/* ── Full-width image container with overlay ── */}
           <div className={styles.imageContainer}>
             <Image
-              src="/school.png"
-              alt="Milestone International School campus"
+              src="/virtus-banner.jpg"
+              alt="Virtus International School"
               fill
               sizes="(max-width: 768px) 100vw, 1200px"
               style={{ objectFit: "cover" }}
@@ -48,7 +48,7 @@ export default function HeroV2() {
                   <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
                   <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                 </svg>
-                From 1st to 9th grade
+                Ages 4 to 19
               </div>
 
               {/* Headline */}
@@ -59,7 +59,7 @@ export default function HeroV2() {
               {/* Subtitle */}
               <p className={styles.subtitle}>
                 A place where every child can unlock their potential and prepare
-                for admission to the world&apos;s top 50 universities.
+                for admission to the world&apos;s top 100 universities.
               </p>
 
               {/* CTA row */}

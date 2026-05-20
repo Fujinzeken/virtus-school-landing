@@ -8,11 +8,6 @@ const facilities = [
     desc: "The private school's laboratory and hands-on classrooms provide students with unique opportunities to experiment and apply theoretical knowledge into practice. The rooms are equipped with modern equipment that serves to develop deep learning of sciences and scientific thinking.",
   },
   {
-    img: "/images/real-school/karidor1.jpg",
-    title: "A dormitory with a capacity of 600 students",
-    desc: "A dormitory for 600 students creates a diverse student community, while the modern building provides comfortable living and learning conditions. Students become more independent and responsible as they learn to manage their time and interact with others.",
-  },
-  {
     img: "/images/real-school/gym.png",
     title: "Year-round sports halls",
     desc: "Winter sports hall \u2013 12\u00d730 meters, equipped with changing rooms and showers. Sports field \u2013 16\u00d732 meters, suitable for volleyball, tennis, football and basketball. Hall for gymnastics, karate, wrestling and other sports clubs.",
@@ -100,9 +95,11 @@ export default function AmenitiesV2() {
         <div className={styles.staffGrid}>
           {staffTop.map((s) => (
             <div key={s.title} className={styles.staffCard}>
-              <img
-                src="/logo-dark.svg"
-                alt="MIS"
+              <Image
+                src="/virtus-logo.png"
+                alt="Virtus International School"
+                width={754}
+                height={339}
                 className={styles.staffLogo}
               />
               <h3 className={styles.staffTitle}>{s.title}</h3>
@@ -114,7 +111,7 @@ export default function AmenitiesV2() {
         {/* Staff cards -- bottom row (tutor + wide faculty card) */}
         <div className={styles.staffGridBottom}>
           <div className={styles.staffCard}>
-            <img src="/logo-dark.svg" alt="MIS" className={styles.staffLogo} />
+            <Image src="/virtus-logo.png" alt="Virtus International School" width={754} height={339} className={styles.staffLogo} />
             <h3 className={styles.staffTitle}>Tutors</h3>
             <p className={styles.staffText}>
               Each student is assigned a personal tutor who monitors their
@@ -146,7 +143,7 @@ export default function AmenitiesV2() {
           <div className={styles.staffCardWide}>
             <div className={styles.wideContent}>
               <h3 className={styles.staffTitle}>
-                Faculty from the world&apos;s top 50 universities
+                Faculty from the world&apos;s top 100 universities
               </h3>
               <p className={styles.staffText}>
                 Experts from leading universities around the world conduct

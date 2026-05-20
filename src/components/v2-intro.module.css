@@ -46,7 +46,7 @@
 .missionText {
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 1.05rem;
-  color: #040037;
+  color: #263560;
   line-height: 1.75;
   margin-bottom: 18px;
 }
@@ -54,7 +54,7 @@
 .missionAccent {
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 1.05rem;
-  color: #ec615c;
+  color: #ffae52;
   font-weight: 600;
   line-height: 1.7;
 }
@@ -84,7 +84,7 @@
   width: 28px;
   height: 28px;
   border-radius: 6px;
-  background: #ec615c;
+  background: #ffae52;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,20 +99,20 @@
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 1.4rem;
   font-weight: 800;
-  color: #040037;
+  color: #263560;
   line-height: 1.2;
 }
 
 .colText {
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 0.97rem;
-  color: #73818f;
+  color: #5b5b5e;
   line-height: 1.7;
 }
 
 /* Right col — Classrooms (bold highlight) */
 .classroomCol {
-  background: #f2f6ff;
+  background: #f9ffdd;
   border-radius: 16px;
   padding: 28px 32px;
   display: flex;
@@ -124,7 +124,7 @@
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   line-height: 1.5;
 }
 
@@ -161,7 +161,7 @@
 .bubbleNavy {
   width: 160px;
   height: 160px;
-  background: #040037;
+  background: #263560;
   top: 28%;
   left: 28%;
 }
@@ -169,7 +169,7 @@
 .bubbleRed {
   width: 200px;
   height: 200px;
-  background: #ec615c;
+  background: #ffae52;
   bottom: 10%;
   left: 8%;
 }
@@ -210,7 +210,7 @@
 
 .bubbleLabelDark {
   font-size: 0.68rem;
-  color: #040037;
+  color: #263560;
   line-height: 1.3;
   font-family: var(--font-inter), "Inter", sans-serif;
   text-align: center;

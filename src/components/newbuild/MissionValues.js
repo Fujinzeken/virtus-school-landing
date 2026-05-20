@@ -95,7 +95,7 @@ export default function MissionValues() {
             </span>
           </h2>
           <p className={styles.mission}>
-            Milestone International School strives for excellence. We discover
+            Virtus International School strives for excellence. We discover
             the inner strength of every child and guide them toward their dreams
             — educating individuals who think logically, act creatively, and
             succeed on a global scale.

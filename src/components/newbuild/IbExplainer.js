@@ -55,7 +55,7 @@ const features = [
   },
   {
     title: "University Doors Open",
-    text: "IB Diploma holders access the world's top 50 universities",
+    text: "IB Diploma holders access the world's top 100 universities",
     icon: (
       <svg
         viewBox="0 0 24 24"
@@ -97,7 +97,7 @@ export default function IbExplainer() {
               memorise.
             </p>
             <p className={styles.text}>
-              At Milestone, the IB programme develops your child&apos;s
+              At Virtus, the IB programme develops your child&apos;s
               <strong> logical thinking, creativity and independence</strong>,
               preparing them not just for exams, but for life. All subjects are
               taught in English, giving graduates a competitive edge at the

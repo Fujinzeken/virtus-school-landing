@@ -33,7 +33,7 @@ const slides = [
     titleBottom: "World-Class",
     titleAccent: "Universities.",
     subtitle:
-      "Our IB Diploma opens doors to the world\u2019s top 50 universities.",
+      "Our IB Diploma opens doors to the world\u2019s top 100 universities.",
     subtitleBold: "Grants up to 100%.",
   },
 ];
@@ -78,7 +78,7 @@ export default function Hero() {
         >
           <Image
             src={s.image}
-            alt="Milestone International School campus"
+            alt="Virtus International School campus"
             fill
             sizes="100vw"
             style={{ objectFit: "cover", objectPosition: "center 30%" }}

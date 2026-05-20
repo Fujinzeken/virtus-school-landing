@@ -8,17 +8,19 @@ export default function IntroductionV2() {
         {/* ── TOP: Big logo left, mission text right ── */}
         <div className={styles.topRow}>
           <div className={styles.logoBlock}>
-            <img
-              src="/logo-dark.svg"
-              alt="Milestone International School"
+            <Image
+              src="/virtus-logo-stacked.png"
+              alt="Virtus International School"
+              width={514}
+              height={654}
               className={styles.logoImg}
             />
           </div>
           <div className={styles.missionBlock}>
             <p className={styles.missionText}>
-              Milestone International School educates children according to the
+              Virtus International School educates children according to the
               standards required for admission to the world&apos;s most
-              prestigious &ldquo;Top 50&rdquo; universities and fully supports
+              prestigious &ldquo;Top 100&rdquo; universities and fully supports
               them in preparing for these entrance exams.
             </p>
             <p className={styles.missionAccent}>
@@ -48,10 +50,10 @@ export default function IntroductionV2() {
                   <polyline points="9 22 9 12 15 12 15 22" />
                 </svg>
               </div>
-              <h2 className={styles.colTitle}>MIS campus</h2>
+              <h2 className={styles.colTitle}>VIS campus</h2>
             </div>
             <p className={styles.colText}>
-              The MIS building stands out with its spacious and modern
+              The VIS building stands out with its spacious and modern
               infrastructure. The school is equipped with all the necessary
               amenities, providing an ideal environment for students to receive
               an effective education.
@@ -59,7 +61,7 @@ export default function IntroductionV2() {
           </div>
           <div className={styles.classroomCol}>
             <p className={styles.classroomText}>
-              The classrooms at Milestone International School are specially
+              The classrooms at Virtus International School are specially
               designed to provide students with the most comfortable and
               effective learning environment possible.
             </p>
@@ -72,7 +74,7 @@ export default function IntroductionV2() {
           <div className={styles.galleryMain}>
             <Image
               src="/images/real-school/hovli.png"
-              alt="MIS school campus building"
+              alt="VIS school campus building"
               fill
               sizes="(max-width: 900px) 100vw, 60vw"
               style={{ objectFit: "cover", borderRadius: "12px" }}
@@ -80,22 +82,22 @@ export default function IntroductionV2() {
             />
             {/* Stat: navy circle */}
             <div className={`${styles.bubble} ${styles.bubbleNavy}`}>
-              <span className={styles.bubbleStat}>13,000 м²</span>
+              <span className={styles.bubbleStat}>7,000 м²</span>
               <span className={styles.bubbleLabel}>
                 The total land area of the school
               </span>
             </div>
             {/* Stat: red/coral circle */}
             <div className={`${styles.bubble} ${styles.bubbleRed}`}>
-              <span className={styles.bubbleBig}>1,500</span>
+              <span className={styles.bubbleBig}>700</span>
               <span className={styles.bubbleLabel}>
-                The capacity to accommodate 1,500 students at once
+                The capacity to accommodate 700 students at once
               </span>
             </div>
             {/* Stat: white circle */}
             <div className={`${styles.bubble} ${styles.bubbleWhite}`}>
               <span className={styles.bubbleLabelDark}>
-                A four-story school and dormitory
+                A modern four-story school building
               </span>
             </div>
           </div>

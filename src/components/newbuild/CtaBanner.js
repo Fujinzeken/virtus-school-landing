@@ -22,7 +22,7 @@ export default function CtaBanner() {
               Give Your Child the Future They Deserve
             </h2>
             <p className={styles.subtitle}>
-              Join the Milestone International family. High-performing students
+              Join the Virtus International family. High-performing students
               earn quarterly grants — take the first step today.
             </p>
 

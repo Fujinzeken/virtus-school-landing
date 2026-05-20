@@ -4,9 +4,9 @@ export default function Advantages() {
       <div className="advantages__container">
         {/* Section header */}
         <div className="advantages__header">
-          <span className="advantages__label">The Milestone Edge</span>
+          <span className="advantages__label">The Virtus Edge</span>
           <h2 className="advantages__title">
-            Why <span className="advantages__title-accent">Milestone?</span>
+            Why <span className="advantages__title-accent">Virtus?</span>
           </h2>
         </div>
 
@@ -37,12 +37,12 @@ export default function Advantages() {
               </h3>
               <p className="advantages__card-text">
                 Our IB Diploma gives students direct access to the world&apos;s
-                top 50 universities. All subjects taught in English ensure
+                top 100 universities. All subjects taught in English ensure
                 international competitiveness.
               </p>
             </div>
             <div className="advantages__card-stat">
-              <span className="advantages__card-stat-number">Top 50</span>
+              <span className="advantages__card-stat-number">Top 100</span>
               <span className="advantages__card-stat-label">
                 University Access
               </span>

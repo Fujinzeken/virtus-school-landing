@@ -49,19 +49,19 @@ export default function EnrollmentV2() {
             </div>
 
             <p className={styles.subtext}>
-              Hurry to apply for the best educational opportunities at Milestone
+              Hurry to apply for the best educational opportunities at Virtus
               International School!
             </p>
 
             {/* Quote banner at bottom */}
             <div className={styles.quoteBanner}>
               <p className={styles.quoteText}>
-                Milestone International School&apos;s mission is to strive for
+                Virtus International School&apos;s mission is to strive for
                 excellence!
               </p>
               <cite className={styles.quoteAuthor}>
                 <strong>&mdash; Niyozov Shahboz</strong>
-                <span>MIS Director &amp; Founder</span>
+                <span>VIS Director &amp; Founder</span>
               </cite>
             </div>
 
@@ -71,7 +71,7 @@ export default function EnrollmentV2() {
           <div className={styles.ceoWrap}>
             <Image
               src="/ceo.webp"
-              alt="Niyozov Shahboz — MIS Director & Founder"
+              alt="Niyozov Shahboz — VIS Director & Founder"
               fill
               sizes="(max-width: 800px) 50vw, 380px"
               style={{

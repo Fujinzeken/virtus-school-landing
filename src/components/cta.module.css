@@ -60,8 +60,8 @@
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #ffffff;
-  background: #ec615c;
+  color: #263560;
+  background: #ffae52;
   border: none;
   border-radius: 9px;
   padding: 14px 28px;
@@ -70,7 +70,7 @@
 }
 
 .button:hover {
-  background: #d94f4a;
+  background: #f2992e;
 }
 
 @media (max-width: 768px) {

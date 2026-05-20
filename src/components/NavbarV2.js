@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import ApplyModal from "./ApplyModal";
+import VirtusLogo from "./VirtusLogo";
 import styles from "./v2-navbar.module.css";
 
 const navLinks = [
@@ -41,11 +42,7 @@ export default function NavbarV2() {
         <div className={styles.container}>
           {/* Logo */}
           <a href="/" className={styles.logo}>
-            <img
-              src="/logo.svg"
-              alt="Milestone International School"
-              className={styles.logoImg}
-            />
+            <VirtusLogo dark birdHeight={52} priority />
           </a>
 
           {/* Desktop & mobile expanded links */}

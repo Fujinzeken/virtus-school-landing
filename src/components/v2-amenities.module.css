@@ -22,7 +22,7 @@
 .pillIcon {
   width: 30px;
   height: 30px;
-  background: #ec615c;
+  background: #ffae52;
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@
   font-family: "Inter", sans-serif;
   font-size: clamp(1.7rem, 3vw, 2.5rem);
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   line-height: 1.2;
 }
 
@@ -77,7 +77,7 @@
   flex: 0 0 300px;
   display: flex;
   flex-direction: column;
-  background: #f2f6ff;
+  background: #f9ffdd;
   border-radius: 25px;
   overflow: hidden;
 }
@@ -103,7 +103,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #ec615c;
+  background: #ffae52;
   padding: 12px 16px 12px 14px;
   clip-path: polygon(0 18%, 100% 0%, 100% 100%, 0% 100%);
 }
@@ -120,7 +120,7 @@
 .facilityDesc {
   padding: 18px;
   font-size: 0.95rem;
-  color: #73818f;
+  color: #5b5b5e;
   line-height: 1.65;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .staffCard {
-  background: #f5f5f5;
+  background: #fffdf7;
   border-radius: 16px;
   padding: 24px;
   position: relative;
@@ -150,7 +150,7 @@
 }
 
 .staffCardWide {
-  background: #f5f5f5;
+  background: #fffdf7;
   border-radius: 16px;
   padding: 24px;
   position: relative;
@@ -166,6 +166,8 @@
   right: 16px;
   width: 80px;
   height: 52px;
+  object-fit: contain;
+  object-position: right top;
   opacity: 1;
 }
 
@@ -173,13 +175,13 @@
   font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   line-height: 1.3;
 }
 
 .staffText {
   font-size: 1.05rem;
-  color: #73818f;
+  color: #5b5b5e;
   line-height: 1.7;
 }
 
@@ -215,7 +217,7 @@
   height: 48px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid #f5f5f5;
+  border: 3px solid #fffdf7;
   margin-right: -12px;
   flex-shrink: 0;
 }
@@ -230,15 +232,15 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #ec615c;
-  color: #ffffff;
+  background: #ffae52;
+  color: #263560;
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 14px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid #f5f5f5;
+  border: 3px solid #fffdf7;
   flex-shrink: 0;
 }
 

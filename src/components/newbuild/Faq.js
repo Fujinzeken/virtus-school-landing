@@ -6,11 +6,11 @@ import styles from "./faq.module.css";
 const faqs = [
   {
     q: "What is the International Baccalaureate (IB) programme?",
-    a: "The IB is an internationally recognised educational system that teaches students independent, critical thinking, creativity and a scientific approach. Milestone offers all four IB programmes — PYP (ages 3–12), MYP (ages 11–16), the Diploma Programme (ages 16–19), and the Career-related Programme (ages 16–19). An IB diploma is one of the most widely accepted qualifications by top universities globally.",
+    a: "The IB is an internationally recognised educational system that teaches students independent, critical thinking, creativity and a scientific approach. Virtus offers all four IB programmes — PYP (ages 3–12), MYP (ages 11–16), the Diploma Programme (ages 16–19), and the Career-related Programme (ages 16–19). An IB diploma is one of the most widely accepted qualifications by top universities globally.",
   },
   {
     q: "How many students are in each class?",
-    a: "Classes at Milestone never exceed 20–22 students. This intentionally small group size allows teachers to apply a genuinely individual approach to each student — identifying their strengths, addressing their weaknesses, and ensuring no child is overlooked.",
+    a: "Classes at Virtus never exceed 20–22 students. This intentionally small group size allows teachers to apply a genuinely individual approach to each student — identifying their strengths, addressing their weaknesses, and ensuring no child is overlooked.",
   },
   {
     q: "What academic tracks can my child choose from?",
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "How do grants and scholarships work?",
-    a: "At the end of every quarter, students are ranked by academic performance using a point-based system. The top performers receive tuition grants: 1st place earns a 100% grant (full tuition), 2nd place 80%, 3rd place 50%, and 4th and 5th place each receive 30%. Grants are funded by Milestone's dedicated scholarship fund.",
+    a: "At the end of every quarter, students are ranked by academic performance using a point-based system. The top performers receive tuition grants: 1st place earns a 100% grant (full tuition), 2nd place 80%, 3rd place 50%, and 4th and 5th place each receive 30%. Grants are funded by Virtus's dedicated scholarship fund.",
   },
   {
     q: "What documents are required for admission?",
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "What is the admission procedure for different grade levels?",
-    a: "Milestone International School accepts students from 1st to 9th grade. Our structured admissions process includes a formal application, entrance examinations specialized by track, and a personal interview with the student to ensure they are placed in the environment where they will thrive most.",
+    a: "Virtus International School accepts students from 1st to 9th grade. Our structured admissions process includes a formal application, entrance examinations specialized by track, and a personal interview with the student to ensure they are placed in the environment where they will thrive most.",
   },
   {
     q: "How are the school entrance examinations conducted?",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "Which universities can graduates access?",
-    a: "Milestone's IB Diploma Programme is designed to prepare students for entry into the top 50 universities globally. Graduates from the Exact Sciences track also complete IELTS and SAT certification as part of their studies, significantly strengthening their international university application.",
+    a: "Virtus's IB Diploma Programme is designed to prepare students for entry into the top 100 universities globally. Graduates from the Exact Sciences track also complete IELTS and SAT certification as part of their studies, significantly strengthening their international university application.",
   },
 ];
 

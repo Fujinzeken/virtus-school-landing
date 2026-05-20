@@ -8,7 +8,7 @@ export default function Grants() {
         {/* Header */}
         <h2 className={styles.title}>Grants and discounts</h2>
         <p className={styles.subtitle}>
-          &ldquo;Special Offer for the 2024-2025 Academic Year&rdquo;.
+          Supporting talented students with tuition grants and family discounts.
         </p>
 
         {/* 3-column layout */}
@@ -23,7 +23,7 @@ export default function Grants() {
               style={{ objectFit: "cover" }}
             />
             <div className={`${styles.logoWatermark} ${styles.logoLeft}`}>
-              <img src="/logo.svg" alt="MIS logo" width={40} height={40} />
+              <Image src="/virtus-mark.png" alt="Virtus International School" width={32} height={40} />
             </div>
           </div>
 
@@ -43,10 +43,9 @@ export default function Grants() {
 
                 <div className={styles.divider} />
 
-                <p className={styles.stat}>30%</p>
+                <p className={styles.stat}>10%</p>
                 <p className={styles.statDesc}>
-                  A 30% discount for those who make payments for the 2024-2025
-                  academic year
+                  A 10% discount is offered on the annual fee.
                 </p>
               </div>
 
@@ -55,9 +54,9 @@ export default function Grants() {
                 <div className={styles.iconCircle}>$</div>
                 <h3 className={styles.colLabel}>Grants</h3>
 
-                <p className={styles.stat}>150</p>
+                <p className={styles.stat}>50</p>
                 <p className={styles.statDesc}>
-                  150 scholarships provided by the school
+                  50 scholarships provided by the school
                 </p>
 
                 <div className={styles.divider} />
@@ -81,7 +80,7 @@ export default function Grants() {
               style={{ objectFit: "cover" }}
             />
             <div className={`${styles.logoWatermark} ${styles.logoRight}`}>
-              <img src="/logo.svg" alt="MIS logo" width={40} height={40} />
+              <Image src="/virtus-mark.png" alt="Virtus International School" width={32} height={40} />
             </div>
           </div>
         </div>
@@ -105,6 +104,14 @@ export default function Grants() {
                 <polyline points="12 5 19 12 12 19" />
               </svg>
             </span>
+          </a>
+          <a
+            href="/virtus-scholarship-regulations.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.regsLink}
+          >
+            Read the full scholarship grant regulations (PDF)
           </a>
         </div>
       </div>

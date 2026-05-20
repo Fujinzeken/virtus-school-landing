@@ -9,8 +9,8 @@ export default function Footer() {
           {/* Brand */}
           <div className={styles.brand}>
             <div className={styles.logoRow}>
-              <span className={styles.logoMark}>MIS</span>
-              <span className={styles.logoText}>Milestone International</span>
+              <span className={styles.logoMark}>VIS</span>
+              <span className={styles.logoText}>Virtus International</span>
             </div>
             <p className={styles.brandDesc}>
               Shaping tomorrow&apos;s global leaders through a rigorous
@@ -261,7 +261,7 @@ export default function Footer() {
         {/* ── Bottom bar ── */}
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            &copy; {new Date().getFullYear()} Milestone International School.
+            &copy; {new Date().getFullYear()} Virtus International School.
             All rights reserved.
           </p>
           <div className={styles.bottomLinks}>

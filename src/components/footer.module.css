@@ -1,5 +1,5 @@
 .footer {
-  background: #040037;
+  background: #263560;
   padding: 16px 0;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .logo {
-  height: 30px;
+  height: 46px;
   filter: brightness(0) invert(1);
 }
 

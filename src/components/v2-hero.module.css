@@ -125,8 +125,8 @@
 
 /* ── CTA Button ── */
 .cta {
-  background: #ec615c;
-  color: #ffffff;
+  background: #ffae52;
+  color: #263560;
   border: none;
   border-radius: 9px;
   padding: 14px 20px;
@@ -141,7 +141,7 @@
 }
 
 .cta:hover {
-  background: #d94f4a;
+  background: #f2992e;
 }
 
 .ctaText {
@@ -194,10 +194,10 @@
 }
 
 .playBtn:hover {
-  background: rgba(236, 97, 92, 0.9);
+  background: rgba(255, 174, 82, 0.9);
   border-color: transparent;
   transform: translate(-50%, -50%) scale(1.1);
-  box-shadow: 0 8px 32px rgba(236, 97, 92, 0.4);
+  box-shadow: 0 8px 32px rgba(255, 174, 82, 0.4);
 }
 
 .playBtn svg {

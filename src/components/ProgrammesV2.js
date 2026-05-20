@@ -29,7 +29,7 @@ const programmes = [
     color: "#2e5a8a",
     ages: "Ages 16–19 · Grades 9–12",
     title: "Diploma Programme (DP)",
-    desc: "Prepares students for top 50 world universities through deep research, a comprehensive curriculum and professional career guidance.",
+    desc: "Prepares students for top 100 world universities through deep research, a comprehensive curriculum and professional career guidance.",
     highlights: [
       "3 tracks: Exact, Natural & Social Sciences",
       "Extended Essay & Theory of Knowledge",

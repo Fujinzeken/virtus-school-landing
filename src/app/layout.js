@@ -16,9 +16,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Milestone International School | World-Class Education in Tashkent",
+  title: "Virtus International School | World-Class Education in Tashkent",
   description:
-    "Milestone International School offers a world-class international education programme in Tashkent, preparing students for top universities worldwide.",
+    "Virtus International School offers a world-class international education programme in Tashkent, preparing students for top universities worldwide.",
 };
 
 export default function RootLayout({ children }) {

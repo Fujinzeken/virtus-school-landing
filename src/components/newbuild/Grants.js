@@ -11,7 +11,7 @@ const tiers = [
   {
     rank: "2nd",
     label: "Major Investment Covered",
-    sublabel: "The largest part of your fees, paid by Milestone.",
+    sublabel: "The largest part of your fees, paid by Virtus.",
     percent: "80%",
   },
   {
@@ -45,7 +45,7 @@ export default function Grants() {
             <div className={styles.imageWrap}>
               <Image
                 src="/award.png"
-                alt="Milestone International School grants and scholarships"
+                alt="Virtus International School grants and scholarships"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 style={{ objectFit: "cover" }}
@@ -67,7 +67,7 @@ export default function Grants() {
               <span className={styles.titleAccent}>Real Rewards</span>
             </h2>
             <p className={styles.subtitle}>
-              Every quarter, Milestone's highest-performing students are
+              Every quarter, Virtus's highest-performing students are
               rewarded through a structured grant programme — funded by a
               dedicated scholarship fund and tracked transparently via our
               Telegram monitoring system.
@@ -90,7 +90,7 @@ export default function Grants() {
               <strong>How it works:</strong> Results are evaluated every quarter
               using a point-based system tracked via Telegram. Grants are
               awarded based on academic performance and are funded by
-              Milestone's special scholarship fund.
+              Virtus's special scholarship fund.
             </p>
           </div>
         </div>

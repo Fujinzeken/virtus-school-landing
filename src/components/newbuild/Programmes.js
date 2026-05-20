@@ -48,7 +48,7 @@ const levels = [
       "IELTS & SAT certification pathway",
     ],
     description:
-      "The IB Diploma prepares students for top 50 world universities through deep research, comprehensive curriculum and professional career guidance.",
+      "The IB Diploma prepares students for top 100 world universities through deep research, comprehensive curriculum and professional career guidance.",
   },
   {
     id: "career",

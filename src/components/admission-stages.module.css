@@ -12,7 +12,7 @@
 }
 
 .wrapper {
-  background: #f9f9f9;
+  background: #fffdf7;
   border-radius: 25px;
   padding: 48px;
   display: grid;
@@ -31,7 +31,7 @@
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   line-height: 1.3;
   margin-bottom: 0;
 }
@@ -40,7 +40,7 @@
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   margin-top: 32px;
   margin-bottom: 20px;
 }
@@ -62,9 +62,9 @@
   width: 36px;
   height: 36px;
   min-width: 36px;
-  border: 2px solid #ec615c;
+  border: 2px solid #ffae52;
   border-radius: 50%;
-  color: #ec615c;
+  color: #ffae52;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -76,7 +76,7 @@
 
 .stepText {
   font-size: 15px;
-  color: #040037;
+  color: #263560;
   line-height: 1.5;
   margin: 0;
   padding-top: 6px;
@@ -92,7 +92,7 @@
   font-family: "Inter", sans-serif;
   font-size: 1.35rem;
   font-weight: 700;
-  color: #040037;
+  color: #263560;
   line-height: 1.3;
   margin-bottom: 10px;
   text-align: center;
@@ -100,7 +100,7 @@
 
 .formSubtext {
   font-size: 0.85rem;
-  color: #73818f;
+  color: #5b5b5e;
   text-align: center;
   line-height: 1.55;
   margin-bottom: 28px;
@@ -119,7 +119,7 @@
   border-radius: 8px;
   font-size: 0.9rem;
   font-family: inherit;
-  color: #040037;
+  color: #263560;
   background: #ffffff;
   outline: none;
   transition: border-color 0.2s ease;
@@ -127,7 +127,7 @@
 }
 
 .input:focus {
-  border-color: #ec615c;
+  border-color: #ffae52;
 }
 
 .phoneRow {
@@ -141,7 +141,7 @@
 }
 
 .phoneRow:focus-within {
-  border-color: #ec615c;
+  border-color: #ffae52;
 }
 
 .phonePrefix {
@@ -151,7 +151,7 @@
   padding: 0 14px;
   border-right: 1px solid #e8e8e8;
   font-size: 0.88rem;
-  color: #73818f;
+  color: #5b5b5e;
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -163,14 +163,14 @@
   background: transparent;
   font-size: 0.9rem;
   font-family: inherit;
-  color: #040037;
+  color: #263560;
   outline: none;
 }
 
 .submitBtn {
   width: 100%;
-  background: #ec615c;
-  color: #ffffff;
+  background: #ffae52;
+  color: #263560;
   border: none;
   border-radius: 9px;
   padding: 16px;
@@ -182,12 +182,12 @@
 }
 
 .submitBtn:hover {
-  background: #d94f4a;
+  background: #f2992e;
 }
 
 .successMsg {
   text-align: center;
-  color: #ec615c;
+  color: #ffae52;
   font-weight: 700;
   padding: 24px 0;
   font-size: 1rem;

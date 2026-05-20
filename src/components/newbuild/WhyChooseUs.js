@@ -7,7 +7,7 @@ import styles from "./why.module.css";
 const WHY_ITEMS = [
   {
     id: 1,
-    stat: "Top 50",
+    stat: "Top 100",
     statLabel: "University Access",
     title: "International Baccalaureate (IB)",
     body: "Our IB Diploma Programme gives students direct access to the world\u2019s top universities. All subjects taught in English ensure global competitiveness from day one.",
@@ -127,7 +127,7 @@ export default function WhyChooseUs() {
             <div className={styles.circleImg}>
               <Image
                 src={WHY_ITEMS[0].image}
-                alt="Milestone students"
+                alt="Virtus students"
                 fill
                 className={styles.circlePhoto}
                 style={{ objectFit: "cover" }}
@@ -144,11 +144,11 @@ export default function WhyChooseUs() {
           <div className={styles.entryCopy}>
             <p className={styles.eyebrow}>Why Choose Us</p>
             <h2 className={styles.heading}>
-              The Milestone <em className={styles.headingAccent}>Difference</em>
+              The Virtus <em className={styles.headingAccent}>Difference</em>
             </h2>
             <p className={styles.entryBody}>
               Every choice a family makes about education shapes a lifetime. At
-              Milestone International, we build the foundation that top
+              Virtus International, we build the foundation that top
               universities — and the world — actually reward.
             </p>
 
