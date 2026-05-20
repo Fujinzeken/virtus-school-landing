@@ -88,11 +88,19 @@
 }
 
 .address {
+  display: inline-block;
   font-family: var(--font-inter), "Inter", sans-serif;
   font-size: 14px;
   color: #5b5b5e;
   line-height: 1.5;
   margin: 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.address:hover {
+  color: #263560;
+  text-decoration: underline;
 }
 
 .divider {
