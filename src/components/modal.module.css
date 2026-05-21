@@ -221,9 +221,78 @@
   box-shadow: 0 10px 28px rgba(255, 174, 82, 0.35);
 }
 
+.submitBtn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 .submitIcon {
   width: 18px;
   height: 18px;
+}
+
+/* Success state */
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  padding: 16px 32px 40px;
+}
+
+.successIcon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #eafaf4;
+  color: #2bbd97;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.successIcon svg {
+  width: 34px;
+  height: 34px;
+}
+
+.successTitle {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #263560;
+  margin: 0;
+}
+
+.successText {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: #5b5b5e;
+  max-width: 320px;
+  margin: 0;
+}
+
+.successBtn {
+  margin-top: 6px;
+  padding: 12px 32px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #263560;
+  background: #ffae52;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.successBtn:hover {
+  background: #f2992e;
+  transform: translateY(-1px);
 }
 
 /* Responsive */

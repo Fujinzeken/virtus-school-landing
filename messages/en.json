@@ -246,7 +246,9 @@
     "flagLabel": "Uzbekistan flag",
     "subtext": "After filling out the form, our personal manager will call you.",
     "submit": "Submit an application",
+    "sending": "Sending…",
     "success": "Thank you! We will contact you shortly.",
+    "error": "Something went wrong. Please try again.",
     "disclaimer": "*Your information will not be shared with third parties."
   },
   "Modal": {
@@ -259,7 +261,11 @@
     "emailPlaceholder": "you@example.com",
     "childAge": "Child's Age",
     "selectAge": "Select age",
-    "ageOption": "{age} years old"
+    "ageOption": "{age} years old",
+    "sending": "Sending…",
+    "successTitle": "Thank you!",
+    "success": "We've received your request and will contact you shortly.",
+    "error": "Something went wrong. Please try again."
   },
   "ApplyModal": {
     "label": "Enrolment",

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { submitLead } from "@/lib/submitLead";
 import styles from "./v2-enrollment.module.css";
 
 export default function EnrollmentV2() {
@@ -10,11 +11,25 @@ export default function EnrollmentV2() {
   const tf = useTranslations("Form");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [company, setCompany] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
     if (!name.trim() || !phone.trim()) return;
+    setSending(true);
+    const ok = await submitLead({
+      formType: "enrollment",
+      name: name.trim(),
+      phone: `+998 ${phone.trim()}`,
+      company,
+    });
+    setSending(false);
+    if (!ok) {
+      alert(tf("error"));
+      return;
+    }
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 4000);
     setName("");
@@ -109,8 +124,19 @@ export default function EnrollmentV2() {
                   />
                 </div>
 
-                <button type="submit" className={styles.submitBtn}>
-                  {tf("submit")}
+                <input
+                  type="text"
+                  name="company"
+                  value={company}
+                  onChange={(e) => setCompany(e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
+                />
+
+                <button type="submit" className={styles.submitBtn} disabled={sending}>
+                  {sending ? tf("sending") : tf("submit")}
                 </button>
               </form>
             )}

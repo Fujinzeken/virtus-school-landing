@@ -246,7 +246,9 @@
     "flagLabel": "Oʻzbekiston bayrogʻi",
     "subtext": "Formani toʻldirgandan soʻng, shaxsiy menejerimiz sizga qoʻngʻiroq qiladi.",
     "submit": "Ariza topshirish",
+    "sending": "Yuborilmoqda…",
     "success": "Rahmat! Tez orada siz bilan bogʻlanamiz.",
+    "error": "Nimadir xato ketdi. Iltimos, qaytadan urinib koʻring.",
     "disclaimer": "*Maʼlumotlaringiz uchinchi shaxslarga berilmaydi."
   },
   "Modal": {
@@ -259,7 +261,11 @@
     "emailPlaceholder": "you@example.com",
     "childAge": "Bola yoshi",
     "selectAge": "Yoshni tanlang",
-    "ageOption": "{age} yosh"
+    "ageOption": "{age} yosh",
+    "sending": "Yuborilmoqda…",
+    "successTitle": "Rahmat!",
+    "success": "Soʻrovingizni qabul qildik va tez orada siz bilan bogʻlanamiz.",
+    "error": "Nimadir xato ketdi. Iltimos, qaytadan urinib koʻring."
   },
   "ApplyModal": {
     "label": "Qabul",
