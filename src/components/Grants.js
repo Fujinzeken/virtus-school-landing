@@ -1,15 +1,16 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import styles from "./grants.module.css";
 
 export default function Grants() {
+  const t = useTranslations("Grants");
+
   return (
     <section className={styles.section} id="grant">
       <div className={styles.container}>
         {/* Header */}
-        <h2 className={styles.title}>Grants and discounts</h2>
-        <p className={styles.subtitle}>
-          Supporting talented students with tuition grants and family discounts.
-        </p>
+        <h2 className={styles.title}>{t("title")}</h2>
+        <p className={styles.subtitle}>{t("subtitle")}</p>
 
         {/* 3-column layout */}
         <div className={styles.layout}>
@@ -17,13 +18,13 @@ export default function Grants() {
           <div className={styles.imageWrap}>
             <Image
               src="/scholarship.png"
-              alt="Graduate student with diploma"
+              alt={t("imgLeftAlt")}
               fill
               sizes="320px"
               style={{ objectFit: "cover" }}
             />
             <div className={`${styles.logoWatermark} ${styles.logoLeft}`}>
-              <Image src="/virtus-mark.png" alt="Virtus International School" width={32} height={40} />
+              <Image src="/virtus-mark.png" alt={t("logoAlt")} width={32} height={40} />
             </div>
           </div>
 
@@ -33,39 +34,28 @@ export default function Grants() {
               {/* Discounts column */}
               <div className={styles.column}>
                 <div className={styles.iconCircle}>%</div>
-                <h3 className={styles.colLabel}>Discounts</h3>
+                <h3 className={styles.colLabel}>{t("discountsLabel")}</h3>
 
-                <p className={styles.stat}>5%</p>
-                <p className={styles.statDesc}>
-                  A 5% discount will be provided for each additional child from
-                  the same family.
-                </p>
+                <p className={styles.stat}>{t("discount1Stat")}</p>
+                <p className={styles.statDesc}>{t("discount1Desc")}</p>
 
                 <div className={styles.divider} />
 
-                <p className={styles.stat}>10%</p>
-                <p className={styles.statDesc}>
-                  A 10% discount is offered on the annual fee.
-                </p>
+                <p className={styles.stat}>{t("discount2Stat")}</p>
+                <p className={styles.statDesc}>{t("discount2Desc")}</p>
               </div>
 
               {/* Grants column */}
               <div className={styles.column}>
                 <div className={styles.iconCircle}>$</div>
-                <h3 className={styles.colLabel}>Grants</h3>
+                <h3 className={styles.colLabel}>{t("grantsLabel")}</h3>
 
-                <p className={styles.stat}>50</p>
-                <p className={styles.statDesc}>
-                  50 scholarships provided by the school
-                </p>
+                <p className={styles.stat}>{t("grantsStat")}</p>
+                <p className={styles.statDesc}>{t("grantsStatDesc")}</p>
 
                 <div className={styles.divider} />
 
-                <p className={styles.statDesc}>
-                  Grants are awarded to students who demonstrate excellent
-                  academic performance and achieve outstanding results in exams
-                  each quarter.
-                </p>
+                <p className={styles.statDesc}>{t("grantsDesc")}</p>
               </div>
             </div>
           </div>
@@ -74,13 +64,13 @@ export default function Grants() {
           <div className={styles.imageWrap}>
             <Image
               src="/virtus.jpg"
-              alt="Virtus International School building"
+              alt={t("imgRightAlt")}
               fill
               sizes="320px"
               style={{ objectFit: "cover" }}
             />
             <div className={`${styles.logoWatermark} ${styles.logoRight}`}>
-              <Image src="/virtus-mark.png" alt="Virtus International School" width={32} height={40} />
+              <Image src="/virtus-mark.png" alt={t("logoAlt")} width={32} height={40} />
             </div>
           </div>
         </div>
@@ -88,7 +78,7 @@ export default function Grants() {
         {/* CTA */}
         <div className={styles.ctaWrap}>
           <a href="#admissions" className={styles.ctaBtn}>
-            <span>Submit an application</span>
+            <span>{t("cta")}</span>
             <span className={styles.arrowCircle}>
               <svg
                 width="18"
@@ -104,14 +94,6 @@ export default function Grants() {
                 <polyline points="12 5 19 12 12 19" />
               </svg>
             </span>
-          </a>
-          <a
-            href="/virtus-scholarship-regulations.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.regsLink}
-          >
-            Read the full scholarship grant regulations (PDF)
           </a>
         </div>
       </div>

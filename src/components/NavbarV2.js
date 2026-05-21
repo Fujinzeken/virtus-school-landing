@@ -1,19 +1,22 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import ApplyModal from "./ApplyModal";
 import VirtusLogo from "./VirtusLogo";
+import LanguageSwitcher from "./LanguageSwitcher";
 import styles from "./v2-navbar.module.css";
 
 const navLinks = [
-  { label: "About us", href: "#about" },
-  { label: "Educational Approach", href: "#style" },
-  { label: "Our Amenities", href: "#advantage" },
-  { label: "Grants and Discounts", href: "#grant" },
-  { label: "FAQ", href: "#qa" },
+  { key: "about", href: "#about" },
+  { key: "approach", href: "#style" },
+  { key: "amenities", href: "#advantage" },
+  { key: "grants", href: "#grant" },
+  { key: "faq", href: "#qa" },
 ];
 
 export default function NavbarV2() {
+  const t = useTranslations("Navbar");
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [isApplyModalOpen, setIsApplyModalOpen] = useState(false);
@@ -54,7 +57,7 @@ export default function NavbarV2() {
                 className={styles.link}
                 onClick={() => setMobileOpen(false)}
               >
-                {link.label}
+                {t(link.key)}
               </a>
             ))}
             <button
@@ -64,17 +67,20 @@ export default function NavbarV2() {
                 setIsApplyModalOpen(true);
               }}
             >
-              Apply Now
+              {t("apply")}
             </button>
           </div>
 
-          {/* Desktop CTA */}
-          <button
-            className={styles.cta}
-            onClick={() => setIsApplyModalOpen(true)}
-          >
-            Apply Now
-          </button>
+          {/* Language switcher + Desktop CTA */}
+          <div className={styles.actions}>
+            <LanguageSwitcher />
+            <button
+              className={styles.cta}
+              onClick={() => setIsApplyModalOpen(true)}
+            >
+              {t("apply")}
+            </button>
+          </div>
 
           {/* Mobile hamburger */}
           <button

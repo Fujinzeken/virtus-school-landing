@@ -1,0 +1,298 @@
+{
+  "Meta": {
+    "title": "Virtus International School | Toshkentda jahon darajasidagi taʼlim",
+    "description": "Virtus International School Toshkentda jahon darajasidagi xalqaro taʼlim dasturini taklif etadi va oʻquvchilarni dunyoning yetakchi universitetlariga tayyorlaydi."
+  },
+  "Navbar": {
+    "about": "Biz haqimizda",
+    "approach": "Taʼlim yondashuvi",
+    "amenities": "Qulayliklarimiz",
+    "grants": "Grantlar va chegirmalar",
+    "faq": "Savol-javob",
+    "apply": "Ariza topshirish"
+  },
+  "Hero": {
+    "badge": "4 yoshdan 19 yoshgacha",
+    "title": "Farzandingiz uchun arzon premium taʼlim",
+    "subtitle": "Har bir bola oʻz salohiyatini ochib, dunyoning top-100 universitetlariga kirishga tayyorgarlik koʻradigan joy.",
+    "cta": "Ekskursiyaga yozilish",
+    "note": "*Hoziroq ekskursiyaga yoziling va batafsil maʼlumot oling!",
+    "stats": [
+      { "num": "7,000 m²", "label": "Maktab hududi" },
+      { "num": "700", "label": "Oʻquvchilar" },
+      { "num": "4–19", "label": "Oʻquvchilar yoshi" }
+    ]
+  },
+  "Introduction": {
+    "logoAlt": "Virtus International School",
+    "mission": "Virtus International School bolalarni dunyoning eng nufuzli «Top 100» universitetlariga kirish uchun zarur boʻlgan standartlarga muvofiq oʻqitadi va ularni kirish imtihonlariga tayyorlashda toʻliq qoʻllab-quvvatlaydi.",
+    "missionAccent": "Bu taʼlim jarayoni oʻquvchilarimizga xalqaro darajada sifatli taʼlim olish imkoniyatini beradi.",
+    "campusTitle": "VIS kampusi",
+    "campusText": "VIS binosi keng va zamonaviy infratuzilmasi bilan ajralib turadi. Maktab barcha zarur qulayliklar bilan jihozlangan boʻlib, oʻquvchilarga samarali taʼlim olish uchun ideal muhit yaratadi.",
+    "classroomText": "Virtus International School sinflari oʻquvchilarga eng qulay va samarali oʻquv muhitini taʼminlash uchun maxsus loyihalangan.",
+    "buildingAlt": "VIS maktab kampusi binosi",
+    "landStat": "7,000 m²",
+    "landLabel": "Maktabning umumiy yer maydoni",
+    "capacityStat": "700",
+    "capacityLabel": "Bir vaqtning oʻzida 700 oʻquvchini qabul qilish imkoniyati",
+    "buildingLabel": "Zamonaviy toʻrt qavatli maktab binosi",
+    "moreDetails": "Batafsil"
+  },
+  "ClassroomFeatures": {
+    "items": [
+      {
+        "title": "Ergonomik mebel",
+        "text": "Sinflardagi parta va stullar oʻquvchilarga qulay oʻtirish va diqqatni jamlashga yordam berish uchun tanlangan. Ergonomik mebel suyak-mushak tizimining toʻgʻri rivojlanishini taʼminlaydi."
+      },
+      {
+        "title": "Yoritish va quyosh nuri",
+        "text": "Sinflardagi derazalar chap tomonda joylashgan boʻlib, tabiiy quyosh nurining oʻqish va yozish uchun eng qulay yoʻnalishdan kirishiga imkon beradi."
+      },
+      {
+        "title": "Doskagacha boʻlgan masofa",
+        "text": "Doska va oʻquvchilar orasidagi masofa 90–170 sm ni tashkil etadi, bu barcha oʻquvchilar uchun yaxshi koʻrinishni taʼminlaydi va yozishda soya tushishining oldini oladi."
+      },
+      {
+        "title": "Shamollatish va harorat",
+        "text": "Sinflar shamollatish va isitish tizimlari bilan toʻliq jihozlangan boʻlib, diqqatni jamlash va oʻquvchilar salomatligi uchun optimal harorat va namlikni saqlaydi."
+      }
+    ]
+  },
+  "FourPillars": {
+    "heading": "Taʼlim yondashuvimizning toʻrt asosi",
+    "imageAlt": "Virtus International School binosi",
+    "items": [
+      {
+        "title": "Mantiqiy fikrlash:",
+        "text": "VIS oʻquvchilarning mantiqiy fikrlash va tahliliy yondashuvini rivojlantirishga katta eʼtibor beradi. Mantiq va tahlil har qanday qaror qabul qilish jarayonining asosi va oʻquvchilarning hayotdagi muvaffaqiyatining kalitidir."
+      },
+      {
+        "title": "Ijodiy yondashuv:",
+        "text": "Biz oʻquvchilarimizni hayotiy muammolarga ijodiy va amaliy yondashishga oʻrgatamiz. Bu yondashuv ularga samarasiz yechimlardan qochish va resurslardan samarali foydalanishga yordam beradi."
+      },
+      {
+        "title": "Mustaqil fikrlash:",
+        "text": "VIS oʻquvchilarni mustaqil fikrlashga va tashqi taʼsirlarga berilmasdan oʻz hayotiy tamoyillariga sodiq qolishga oʻrgatadi. Bu ularga turli vaziyatlardan foyda olish va eng samarali qarorlarni qabul qilish imkonini beradi."
+      },
+      {
+        "title": "Turli vaziyatlarda eng yaxshi yechimlarni topish:",
+        "text": "Biz oʻquvchilarimizni turli vaziyatlarni tahlil qilish va oʻzlari uchun eng foydali qarorlarni qabul qilishga oʻrgatamiz. Ular samarasiz tafsilotlar yoki hissiyotlarga chalgʻimasdan samarali harakat qilishni oʻrganadilar."
+      }
+    ]
+  },
+  "Enrollment": {
+    "heading": "2024–2025 oʻquv yili uchun qabul boshlandi",
+    "subtext": "Virtus International Schooldagi eng yaxshi taʼlim imkoniyatlari uchun ariza topshirishga shoshiling!",
+    "quoteText": "Virtus International School missiyasi — mukammallikka intilishdir!",
+    "quoteAuthor": "— Niyozov Shahboz",
+    "quoteRole": "VIS direktori va asoschisi",
+    "ceoAlt": "Niyozov Shahboz — VIS direktori va asoschisi",
+    "formHeading": "Formani toʻldiring, biz siz bilan bogʻlanamiz."
+  },
+  "Amenities": {
+    "title": "Samarali taʼlim uchun barcha qulayliklar",
+    "logoAlt": "Virtus International School",
+    "facilities": [
+      {
+        "title": "Laboratoriyalar va amaliy xonalar",
+        "desc": "Xususiy maktabning laboratoriyasi va amaliy sinflari oʻquvchilarga tajriba oʻtkazish va nazariy bilimlarni amaliyotda qoʻllash uchun noyob imkoniyatlar beradi. Xonalar fanlarni chuqur oʻrganish va ilmiy fikrlashni rivojlantirishga xizmat qiluvchi zamonaviy jihozlar bilan jihozlangan."
+      },
+      {
+        "title": "Yil davomida ishlaydigan sport zallari",
+        "desc": "Qishki sport zali — 12×30 metr, kiyinish xonalari va dushlar bilan jihozlangan. Sport maydoni — 16×32 metr, voleybol, tennis, futbol va basketbol uchun mos. Gimnastika, karate, kurash va boshqa sport toʻgaraklari uchun zal."
+      },
+      {
+        "title": "600 oʻrinli oshxona",
+        "desc": "Katta oshxona oʻquvchilarga tushlik tanaffuslari paytida qulaylik yaratadi. Keng maydon barcha oʻquvchilarga navbatsiz va olomonsiz ovqatlanish imkonini beradi. Keng ovqatlanish maydoni muloqot va doʻstona muhitni ragʻbatlantirib, maktab jamoasini mustahkamlaydi."
+      },
+      {
+        "title": "50 oʻquvchiga moʻljallangan kutubxona",
+        "desc": "Kutubxona oʻquvchilarga keng koʻlamli oʻquv resurslarini taqdim etib, ularning bilimini va kitobxonlikka boʻlgan muhabbatini oshiradi. U mustaqil oʻqish uchun qulay makon taklif etadi va kutubxonachilar oʻquvchilar ehtiyojiga koʻra yordam berishga tayyor."
+      }
+    ],
+    "staffTop": [
+      {
+        "title": "Tajribali oʻqituvchilar",
+        "text": "Malakali va tajribali oʻqituvchilarimiz zamonaviy taʼlim usullaridan foydalanib, har bir oʻquvchiga individual yondashuvni taʼminlaydi va ularning salohiyatini ochishga yordam beradi."
+      },
+      {
+        "title": "Professional psixologlar",
+        "text": "Maktab psixologlari oʻquvchilarning hissiy farovonligini qoʻllab-quvvatlaydi, maslahatlar beradi va ular rivojlanishi uchun qulay muhit yaratadi."
+      },
+      {
+        "title": "Qatʼiy nazorat",
+        "text": "Biz oʻquvchilarning intizomi va oʻzlashtirishini qatʼiy nazorat qilib, yuqori taʼlim standartlarini saqlaymiz."
+      }
+    ],
+    "tutorTitle": "Tyutorlar",
+    "tutorText": "Har bir oʻquvchiga shaxsiy tyutor biriktiriladi, u oʻquvchining oʻquv va intizomiy rivojlanishini kuzatib boradi, ota-onalar bilan har kuni muloqot qiladi va har chorakda uchrashuvlar oʻtkazadi.",
+    "tutorAlt": "Tyutor",
+    "facultyTitle": "Dunyoning top-100 universitetlaridan oʻqituvchilar",
+    "facultyText": "Dunyoning yetakchi universitetlaridan ekspertlar maʼruza va master-klasslar oʻtkazib, oʻquvchilarni eng yaxshi oliy oʻquv yurtlariga kirishga tayyorlaydi.",
+    "facultyAlt": "Onlayn oʻqituvchi mashgʻuloti"
+  },
+  "ComprehensiveCoverage": {
+    "title": "Barcha jihatlarni qamrab oluvchi rivojlanish",
+    "descText": "Endi farzandingizni turli toʻgaraklar va repetitorlarga yozdirishingiz shart emas. Biz farzandingizning har tomonlama rivojlanishi haqida gʻamxoʻrlik qilamiz.",
+    "pills": ["Ijodkorlik", "Intellekt", "Hissiyotlar", "Madaniyat", "Mantiq", "Tafakkur", "Tillar"],
+    "cards": [
+      {
+        "category": "Intellekt",
+        "title": "Dasturlash va robototexnika",
+        "description": "Oʻquvchilar dasturlash asoslarini oʻrganadilar, robototexnika musobaqalari va xakatonlarda ishtirok etadilar hamda raqamli davr uchun hisoblash tafakkuri koʻnikmalarini rivojlantiradilar."
+      },
+      {
+        "category": "Sport",
+        "title": "Jamoaviy sport turlari",
+        "description": "Futbol, basketbol va voleybol mashgʻulotlari jamoaviy ishlash, intizom va jismoniy tayyorgarlikni rivojlantiradi. Oʻquvchilar maktablararo turnirlar va mintaqaviy chempionatlarda qatnashadilar."
+      },
+      {
+        "category": "Sport",
+        "title": "Jang sanʼati",
+        "description": "Karate, dzyudo va oʻzini himoya qilish darslari oʻziga ishonch, jismoniy muvofiqlik va ruhiy intizomni shakllantiradi. Oʻquvchilar sertifikatlangan murabbiylar rahbarligida shugʻullanadilar."
+      },
+      {
+        "category": "Intellekt",
+        "title": "Ilmiy toʻgaraklar",
+        "description": "Fizika, kimyo va biologiyadan amaliy tajribalar ilmiy tafakkurni rivojlantiradi. Oʻquvchilar tadqiqot loyihalari ustida ishlaydilar va fan olimpiadalarida qatnashadilar."
+      }
+    ]
+  },
+  "AdmissionStages": {
+    "heading": "2024–2025 oʻquv yili uchun qabul boshlandi.",
+    "stagesLabel": "Qabul bosqichlari:",
+    "steps": [
+      "Maʼlumotlaringizni qoldiring va saytimizda roʻyxatdan oʻting",
+      "Mutaxassisimiz suhbatni belgilash uchun siz bilan bogʻlanadi",
+      "Siz direktor bilan suhbatdan oʻtasiz",
+      "Suhbat va testlardan soʻng qabul qarorini olasiz",
+      "Zarur hujjatlarni rasmiylashtiring va roʻyxatdan oʻtish toʻlovini amalga oshiring"
+    ],
+    "formHeading": "Biz siz bilan bogʻlanishimiz uchun maʼlumotlaringizni qoldiring"
+  },
+  "Grants": {
+    "title": "Grantlar va chegirmalar",
+    "subtitle": "Iqtidorli oʻquvchilarni oʻqish grantlari va oilaviy chegirmalar bilan qoʻllab-quvvatlash.",
+    "imgLeftAlt": "Diplomli bitiruvchi",
+    "imgRightAlt": "Maktab binosining tashqi koʻrinishi",
+    "logoAlt": "Virtus International School",
+    "discountsLabel": "Chegirmalar",
+    "discount1Stat": "5%",
+    "discount1Desc": "Bir oiladan har bir qoʻshimcha bola uchun 5% chegirma taqdim etiladi.",
+    "discount2Stat": "10%",
+    "discount2Desc": "Yillik toʻlov uchun 10% chegirma taklif etiladi.",
+    "grantsLabel": "Grantlar",
+    "grantsStat": "50",
+    "grantsStatDesc": "Maktab tomonidan taqdim etiladigan 50 ta stipendiya",
+    "grantsDesc": "Grantlar har chorakda aʼlo oʻzlashtirgan va imtihonlarda yuqori natijalarga erishgan oʻquvchilarga beriladi.",
+    "cta": "Ariza topshirish"
+  },
+  "Faq": {
+    "title": "Savol-javob",
+    "items": [
+      {
+        "q": "Virtus International School necha yoshdagi bolalarni qabul qiladi?",
+        "a": "Virtus International School 4 yoshdan 19 yoshgacha boʻlgan bolalarni qabul qiladi. Yangi oʻquvchilar 4 yoshdan 15 yoshgacha qabul qilinadi. Har bir sinfda 20–22 tagacha oʻquvchi boʻlib, bu har bir bolaga individual yondashuv va samarali taʼlimni taʼminlaydi. Kichik sinflar oʻqituvchilarga har bir oʻquvchining ehtiyoj va qobiliyatlarini yaxshiroq aniqlash imkonini beradi."
+      },
+      {
+        "q": "Qanday taʼlim yoʻnalishlari mavjud?",
+        "a": "Biz uchta ixtisoslashgan yoʻnalishni taklif etamiz: Aniq fanlar (matematika, fizika, IT), Tabiiy fanlar (kimyo, biologiya, geografiya) va Ijtimoiy fanlar (tarix, huquq, iqtisod, biznes boshqaruv). Matematika va ingliz tili barcha yoʻnalishlarda chuqur oʻrgatiladi, bu oʻquvchilarning xalqaro miqyosda raqobatbardosh boʻlishini taʼminlaydi."
+      },
+      {
+        "q": "Grant stipendiyalari qanday ishlaydi?",
+        "a": "Grantlar konkurs asosidagi kirish imtihonlari natijasida 5% dan 100% gacha boʻlgan oʻqish chegirmasi koʻrinishida beriladi. Toʻliq (100%) grantlar soni 50 ta oʻrin bilan cheklangan. Grantlar bir oʻquv chorakiga beriladi va har chorakda qayta koʻrib chiqiladi — grantni saqlab qolish uchun oʻquvchi oʻz sinfida Top-5 da qolishi va maktabning IB intizomiy standartlariga rioya qilishi kerak."
+      },
+      {
+        "q": "Kim grantga ariza topshira oladi va nomzodlar qanday baholanadi?",
+        "a": "11–15 yoshdagi nomzodlar (MYP dasturi) uchta yoʻnalish boʻyicha yozma imtihon topshiradilar — Aniq fanlar (matematika, fizika, informatika), Tabiiy fanlar (kimyo, biologiya) va Gumanitar fanlar (tarix, huquq va boshqalar). Imtihonlar maktab hududida ingliz tilida oʻtkaziladi. 4–10 yoshdagi bolalar (PYP dasturi) psixolog bilan suhbatdan oʻtadilar hamda oilaning ijtimoiy ahvoli baholanadi."
+      },
+      {
+        "q": "Oʻquv yili qancha davom etadi?",
+        "a": "Kurs 10 oy davom etadi, 2-sentabrdan 30-iyungacha."
+      },
+      {
+        "q": "Yozgi dastur taklif qilasizmi?",
+        "a": "Ha — biz bolalarni maktabimizning kirish imtihonlariga tayyorlashga yordam beradigan yozgi dasturni taklif etamiz."
+      },
+      {
+        "q": "Maktab oʻquvchilar farovonligini qanday qoʻllab-quvvatlaydi?",
+        "a": "Har 40–50 oʻquvchiga shaxsiy murabbiy biriktiriladi, u oʻquv va intizomiy rivojlanishni kuzatib boradi va ota-onalar bilan har kuni muloqot qiladi. Professional psixologlar oʻquvchilarning hissiy farovonligini qoʻllab-quvvatlaydi, maxsus moslashuv dasturlari esa yangi oʻquvchilarga maktab muhitiga koʻnikishga yordam beradi. Barcha taraqqiyot Telegram-bot tizimimiz orqali kuzatib boriladi."
+      }
+    ]
+  },
+  "Cta": {
+    "heading": "Savollaringizga javob topa olmadingizmi?",
+    "note": "*Biz bilan bogʻlaning, batafsil maʼlumot beramiz",
+    "button": "Savol berish",
+    "imageAlt": "Maktab koridori"
+  },
+  "ContactInfo": {
+    "title": "Aloqa maʼlumotlari:",
+    "note": "*Biz bilan istalgan qulay usulda bogʻlaning yoki ofisimizga tashrif buyuring.",
+    "phoneLabel": "Telefon",
+    "callBtn": "Qoʻngʻiroq qilish",
+    "emailLabel": "Email",
+    "addressLabel": "Manzil",
+    "address": "Arnasoy koʻchasi, 1d, Chilonzor tumani, Toshkent shahri",
+    "hoursLabel": "Ish vaqti",
+    "hours": "Du–Sha: 8:00 – 21:00"
+  },
+  "Footer": {
+    "rights": "Barcha huquqlar himoyalangan, 2024"
+  },
+  "Form": {
+    "namePlaceholder": "Ismingiz",
+    "phonePlaceholder": "00-000-0000",
+    "flagLabel": "Oʻzbekiston bayrogʻi",
+    "subtext": "Formani toʻldirgandan soʻng, shaxsiy menejerimiz sizga qoʻngʻiroq qiladi.",
+    "submit": "Ariza topshirish",
+    "success": "Rahmat! Tez orada siz bilan bogʻlanamiz.",
+    "disclaimer": "*Maʼlumotlaringiz uchinchi shaxslarga berilmaydi."
+  },
+  "Modal": {
+    "close": "Yopish",
+    "fullName": "Toʻliq ism",
+    "namePlaceholder": "Toʻliq ismingiz",
+    "phone": "Telefon",
+    "phonePlaceholder": "+998 __ ___ __ __",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "childAge": "Bola yoshi",
+    "selectAge": "Yoshni tanlang",
+    "ageOption": "{age} yosh"
+  },
+  "ApplyModal": {
+    "label": "Qabul",
+    "title": "Ariza topshirish",
+    "subtitle": "Farzandingizning Virtus Internationaldagi yoʻlini boshlang. Formani toʻldiring va qabul boʻlimimiz siz bilan bogʻlanadi.",
+    "parentName": "Ota-ona ismi",
+    "parentPlaceholder": "Ota-ona / vasiyning toʻliq ismi",
+    "childName": "Bola ismi",
+    "childPlaceholder": "Bolaning toʻliq ismi",
+    "grade": "Qaysi sinfga",
+    "selectGrade": "Sinfni tanlang",
+    "gradeOption": "{grade}-sinf",
+    "comment": "Izoh",
+    "commentPlaceholder": "Har qanday qoʻshimcha maʼlumot yoki savollar...",
+    "submit": "Arizani yuborish"
+  },
+  "BookTourModal": {
+    "label": "Tashrifga yozilish",
+    "title": "Kampus boʻylab ekskursiyaga yozilish",
+    "subtitle": "Virtus bilan shaxsan tanishing. Quyidagi formani toʻldiring va qabul jamoamiz tashrifingizni tasdiqlaydi.",
+    "preferredDate": "Qulay sana",
+    "submit": "Soʻrov yuborish"
+  },
+  "RequestCallModal": {
+    "label": "Bogʻlanish",
+    "title": "Qoʻngʻiroqqa buyurtma",
+    "subtitle": "Maʼlumotlaringizni qoldiring va qabul jamoamiz bir ish kuni ichida sizga qayta qoʻngʻiroq qiladi.",
+    "submit": "Qoʻngʻiroqqa buyurtma"
+  },
+  "LanguageSwitcher": {
+    "label": "Til",
+    "uz": "O‘zbekcha",
+    "ru": "Русский",
+    "en": "English"
+  }
+}

@@ -1,7 +1,10 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import styles from "./v2-intro.module.css";
 
 export default function IntroductionV2() {
+  const t = useTranslations("Introduction");
+
   return (
     <section className={styles.section} id="about">
       <div className={styles.container}>
@@ -10,24 +13,15 @@ export default function IntroductionV2() {
           <div className={styles.logoBlock}>
             <Image
               src="/virtus-logo-stacked.png"
-              alt="Virtus International School"
+              alt={t("logoAlt")}
               width={514}
               height={654}
               className={styles.logoImg}
             />
           </div>
           <div className={styles.missionBlock}>
-            <p className={styles.missionText}>
-              Virtus International School educates children according to the
-              standards required for admission to the world&apos;s most
-              prestigious &ldquo;Top 100&rdquo; universities and fully supports
-              them in preparing for these entrance exams.
-            </p>
-            <p className={styles.missionAccent}>
-              This educational process provides our students with the
-              opportunity to receive a high-quality education on an
-              international scale.
-            </p>
+            <p className={styles.missionText}>{t("mission")}</p>
+            <p className={styles.missionAccent}>{t("missionAccent")}</p>
           </div>
         </div>
 
@@ -50,21 +44,12 @@ export default function IntroductionV2() {
                   <polyline points="9 22 9 12 15 12 15 22" />
                 </svg>
               </div>
-              <h2 className={styles.colTitle}>VIS campus</h2>
+              <h2 className={styles.colTitle}>{t("campusTitle")}</h2>
             </div>
-            <p className={styles.colText}>
-              The VIS building stands out with its spacious and modern
-              infrastructure. The school is equipped with all the necessary
-              amenities, providing an ideal environment for students to receive
-              an effective education.
-            </p>
+            <p className={styles.colText}>{t("campusText")}</p>
           </div>
           <div className={styles.classroomCol}>
-            <p className={styles.classroomText}>
-              The classrooms at Virtus International School are specially
-              designed to provide students with the most comfortable and
-              effective learning environment possible.
-            </p>
+            <p className={styles.classroomText}>{t("classroomText")}</p>
           </div>
         </div>
 
@@ -74,7 +59,7 @@ export default function IntroductionV2() {
           <div className={styles.galleryMain}>
             <Image
               src="/images/real-school/hovli.png"
-              alt="VIS school campus building"
+              alt={t("buildingAlt")}
               fill
               sizes="(max-width: 900px) 100vw, 60vw"
               style={{ objectFit: "cover", borderRadius: "12px" }}
@@ -82,23 +67,17 @@ export default function IntroductionV2() {
             />
             {/* Stat: navy circle */}
             <div className={`${styles.bubble} ${styles.bubbleNavy}`}>
-              <span className={styles.bubbleStat}>7,000 м²</span>
-              <span className={styles.bubbleLabel}>
-                The total land area of the school
-              </span>
+              <span className={styles.bubbleStat}>{t("landStat")}</span>
+              <span className={styles.bubbleLabel}>{t("landLabel")}</span>
             </div>
             {/* Stat: red/coral circle */}
             <div className={`${styles.bubble} ${styles.bubbleRed}`}>
-              <span className={styles.bubbleBig}>700</span>
-              <span className={styles.bubbleLabel}>
-                The capacity to accommodate 700 students at once
-              </span>
+              <span className={styles.bubbleBig}>{t("capacityStat")}</span>
+              <span className={styles.bubbleLabel}>{t("capacityLabel")}</span>
             </div>
             {/* Stat: white circle */}
             <div className={`${styles.bubble} ${styles.bubbleWhite}`}>
-              <span className={styles.bubbleLabelDark}>
-                A modern four-story school building
-              </span>
+              <span className={styles.bubbleLabelDark}>{t("buildingLabel")}</span>
             </div>
           </div>
 
@@ -120,7 +99,7 @@ export default function IntroductionV2() {
                 <div className={styles.thumbOverlay}>
                   <button className={styles.moreBtn}>
                     <span className={styles.morePlus}>+</span>
-                    More details
+                    {t("moreDetails")}
                   </button>
                 </div>
               </div>

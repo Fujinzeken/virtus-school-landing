@@ -1,10 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import styles from "./v2-enrollment.module.css";
 
 export default function EnrollmentV2() {
+  const t = useTranslations("Enrollment");
+  const tf = useTranslations("Form");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -41,37 +44,26 @@ export default function EnrollmentV2() {
                   <path d="M6 12v5c3 3 9 3 12 0v-5" />
                 </svg>
               </div>
-              <h2 className={styles.heading}>
-                2024-2025 Academic Year
-                <br />
-                Enrollment is Now Open
-              </h2>
+              <h2 className={styles.heading}>{t("heading")}</h2>
             </div>
 
-            <p className={styles.subtext}>
-              Hurry to apply for the best educational opportunities at Virtus
-              International School!
-            </p>
+            <p className={styles.subtext}>{t("subtext")}</p>
 
             {/* Quote banner at bottom */}
             <div className={styles.quoteBanner}>
-              <p className={styles.quoteText}>
-                Virtus International School&apos;s mission is to strive for
-                excellence!
-              </p>
+              <p className={styles.quoteText}>{t("quoteText")}</p>
               <cite className={styles.quoteAuthor}>
-                <strong>&mdash; Niyozov Shahboz</strong>
-                <span>VIS Director &amp; Founder</span>
+                <strong>{t("quoteAuthor")}</strong>
+                <span>{t("quoteRole")}</span>
               </cite>
             </div>
-
           </div>
 
           {/* CEO cutout image — anchored to wrapper, between columns */}
           <div className={styles.ceoWrap}>
             <Image
               src="/ceo.webp"
-              alt="Niyozov Shahboz — VIS Director & Founder"
+              alt={t("ceoAlt")}
               fill
               sizes="(max-width: 800px) 50vw, 380px"
               style={{
@@ -84,23 +76,17 @@ export default function EnrollmentV2() {
 
           {/* ── Right side: form ── */}
           <div className={styles.right}>
-            <h3 className={styles.formHeading}>
-              Fill out the form and we will contact you.
-            </h3>
-            <p className={styles.formSubtext}>
-              After filling out the form, our personal manager will call you.
-            </p>
+            <h3 className={styles.formHeading}>{t("formHeading")}</h3>
+            <p className={styles.formSubtext}>{tf("subtext")}</p>
 
             {submitted ? (
-              <p className={styles.successMsg}>
-                Thank you! We will contact you shortly.
-              </p>
+              <p className={styles.successMsg}>{tf("success")}</p>
             ) : (
               <form className={styles.form} onSubmit={handleSubmit}>
                 <input
                   className={styles.input}
                   type="text"
-                  placeholder="Your name"
+                  placeholder={tf("namePlaceholder")}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
@@ -108,7 +94,7 @@ export default function EnrollmentV2() {
 
                 <div className={styles.phoneRow}>
                   <div className={styles.phonePrefix}>
-                    <span role="img" aria-label="Uzbekistan flag">
+                    <span role="img" aria-label={tf("flagLabel")}>
                       🇺🇿
                     </span>{" "}
                     +998
@@ -116,7 +102,7 @@ export default function EnrollmentV2() {
                   <input
                     className={styles.phoneInput}
                     type="tel"
-                    placeholder="00-000-0000"
+                    placeholder={tf("phonePlaceholder")}
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     required
@@ -124,14 +110,12 @@ export default function EnrollmentV2() {
                 </div>
 
                 <button type="submit" className={styles.submitBtn}>
-                  Submit an application
+                  {tf("submit")}
                 </button>
               </form>
             )}
 
-            <p className={styles.disclaimer}>
-              *Your information will not be shared with third parties.
-            </p>
+            <p className={styles.disclaimer}>{tf("disclaimer")}</p>
           </div>
         </div>
       </div>

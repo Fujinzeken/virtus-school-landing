@@ -66,6 +66,13 @@
   opacity: 1;
 }
 
+/* ── Right-side actions (language switcher + CTA) ── */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 /* ── CTA Button (desktop) ── */
 .cta {
   background: #ffae52;

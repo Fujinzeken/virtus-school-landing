@@ -1,17 +1,14 @@
 "use client";
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import BookTourModal from "./BookTourModal";
 import { useState } from "react";
 import styles from "./v2-hero.module.css";
 
-const stats = [
-  { num: "7,000 m\u00B2", label: "School campus" },
-  { num: "700", label: "Students" },
-  { num: "4\u201319", label: "Student ages" },
-];
-
 export default function HeroV2() {
+  const t = useTranslations("Hero");
+  const stats = t.raw("stats");
   const [tourOpen, setTourOpen] = useState(false);
 
   return (
@@ -48,19 +45,14 @@ export default function HeroV2() {
                   <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
                   <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                 </svg>
-                Ages 4 to 19
+                {t("badge")}
               </div>
 
               {/* Headline */}
-              <h1 className={styles.title}>
-                Affordable premium education for your child
-              </h1>
+              <h1 className={styles.title}>{t("title")}</h1>
 
               {/* Subtitle */}
-              <p className={styles.subtitle}>
-                A place where every child can unlock their potential and prepare
-                for admission to the world&apos;s top 100 universities.
-              </p>
+              <p className={styles.subtitle}>{t("subtitle")}</p>
 
               {/* CTA row */}
               <div className={styles.ctaRow}>
@@ -68,7 +60,7 @@ export default function HeroV2() {
                   className={styles.cta}
                   onClick={() => setTourOpen(true)}
                 >
-                  <span className={styles.ctaText}>Sign up for a tour</span>
+                  <span className={styles.ctaText}>{t("cta")}</span>
                   <span className={styles.ctaArrow}>
                     <svg
                       width="18"
@@ -87,9 +79,7 @@ export default function HeroV2() {
                 </button>
               </div>
 
-              <span className={styles.ctaNote}>
-                *Sign up for a tour now and get detailed information!
-              </span>
+              <span className={styles.ctaNote}>{t("note")}</span>
             </div>
 
             {/* ── Play button — opens YouTube ── */}

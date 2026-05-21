@@ -1,17 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import styles from "./admission-stages.module.css";
 
-const steps = [
-  "Submit your information and register on our website",
-  "Our specialist will contact you to schedule an interview",
-  "You will have an interview with the director",
-  "After the interview and tests, receive admission decision",
-  "Complete necessary documentation and make registration payment",
-];
-
 export default function AdmissionStages() {
+  const t = useTranslations("AdmissionStages");
+  const tf = useTranslations("Form");
+  const steps = t.raw("steps");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -31,11 +27,9 @@ export default function AdmissionStages() {
         <div className={styles.wrapper}>
           {/* Left side: stages */}
           <div className={styles.left}>
-            <h2 className={styles.heading}>
-              Admissions for the 2024-2025 academic year have begun.
-            </h2>
+            <h2 className={styles.heading}>{t("heading")}</h2>
 
-            <h3 className={styles.stagesLabel}>Admission stages:</h3>
+            <h3 className={styles.stagesLabel}>{t("stagesLabel")}</h3>
 
             <div className={styles.steps}>
               {steps.map((step, i) => (
@@ -49,23 +43,17 @@ export default function AdmissionStages() {
 
           {/* Right side: form */}
           <div className={styles.right}>
-            <h3 className={styles.formHeading}>
-              Leave your information so we can contact you
-            </h3>
-            <p className={styles.formSubtext}>
-              After filling out the form, our personal manager will call you.
-            </p>
+            <h3 className={styles.formHeading}>{t("formHeading")}</h3>
+            <p className={styles.formSubtext}>{tf("subtext")}</p>
 
             {submitted ? (
-              <p className={styles.successMsg}>
-                Thank you! We will contact you shortly.
-              </p>
+              <p className={styles.successMsg}>{tf("success")}</p>
             ) : (
               <form className={styles.form} onSubmit={handleSubmit}>
                 <input
                   className={styles.input}
                   type="text"
-                  placeholder="Your name"
+                  placeholder={tf("namePlaceholder")}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
@@ -73,7 +61,7 @@ export default function AdmissionStages() {
 
                 <div className={styles.phoneRow}>
                   <div className={styles.phonePrefix}>
-                    <span role="img" aria-label="Uzbekistan flag">
+                    <span role="img" aria-label={tf("flagLabel")}>
                       🇺🇿
                     </span>{" "}
                     +998
@@ -81,7 +69,7 @@ export default function AdmissionStages() {
                   <input
                     className={styles.phoneInput}
                     type="tel"
-                    placeholder="00-000-0000"
+                    placeholder={tf("phonePlaceholder")}
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     required
@@ -89,14 +77,12 @@ export default function AdmissionStages() {
                 </div>
 
                 <button type="submit" className={styles.submitBtn}>
-                  Submit an application
+                  {tf("submit")}
                 </button>
               </form>
             )}
 
-            <p className={styles.disclaimer}>
-              *Your information will not be shared with third parties.
-            </p>
+            <p className={styles.disclaimer}>{tf("disclaimer")}</p>
           </div>
         </div>
       </div>

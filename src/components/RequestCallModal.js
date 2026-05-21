@@ -1,9 +1,13 @@
 "use client";
 
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 import styles from "./modal.module.css";
 
 export default function RequestCallModal({ isOpen, onClose }) {
+  const t = useTranslations("RequestCallModal");
+  const tm = useTranslations("Modal");
+
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
@@ -34,7 +38,7 @@ export default function RequestCallModal({ isOpen, onClose }) {
         <button
           className={styles.closeBtn}
           onClick={onClose}
-          aria-label="Close"
+          aria-label={tm("close")}
         >
           <svg className={styles.closeIcon} viewBox="0 0 24 24" fill="none">
             <path
@@ -48,35 +52,32 @@ export default function RequestCallModal({ isOpen, onClose }) {
         </button>
 
         <div className={styles.header}>
-          <span className={styles.label}>Get in Touch</span>
-          <h2 className={styles.title}>Request a Call</h2>
-          <p className={styles.subtitle}>
-            Leave your details and our admissions team will call you back within
-            one business day.
-          </p>
+          <span className={styles.label}>{t("label")}</span>
+          <h2 className={styles.title}>{t("title")}</h2>
+          <p className={styles.subtitle}>{t("subtitle")}</p>
         </div>
 
         <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
           <div className={styles.field}>
             <label className={styles.fieldLabel}>
-              Full Name <span className={styles.fieldRequired}>*</span>
+              {tm("fullName")} <span className={styles.fieldRequired}>*</span>
             </label>
             <input
               type="text"
               className={styles.input}
-              placeholder="Your full name"
+              placeholder={tm("namePlaceholder")}
               required
             />
           </div>
 
           <div className={styles.field}>
             <label className={styles.fieldLabel}>
-              Phone <span className={styles.fieldRequired}>*</span>
+              {tm("phone")} <span className={styles.fieldRequired}>*</span>
             </label>
             <input
               type="tel"
               className={styles.input}
-              placeholder="+998 __ ___ __ __"
+              placeholder={tm("phonePlaceholder")}
               required
             />
           </div>
@@ -91,7 +92,7 @@ export default function RequestCallModal({ isOpen, onClose }) {
                 strokeLinejoin="round"
               />
             </svg>
-            Request a Call
+            {t("submit")}
           </button>
         </form>
       </div>

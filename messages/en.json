@@ -1,0 +1,298 @@
+{
+  "Meta": {
+    "title": "Virtus International School | World-Class Education in Tashkent",
+    "description": "Virtus International School offers a world-class international education programme in Tashkent, preparing students for top universities worldwide."
+  },
+  "Navbar": {
+    "about": "About us",
+    "approach": "Educational Approach",
+    "amenities": "Our Amenities",
+    "grants": "Grants and Discounts",
+    "faq": "FAQ",
+    "apply": "Apply Now"
+  },
+  "Hero": {
+    "badge": "Ages 4 to 19",
+    "title": "Affordable premium education for your child",
+    "subtitle": "A place where every child can unlock their potential and prepare for admission to the world's top 100 universities.",
+    "cta": "Sign up for a tour",
+    "note": "*Sign up for a tour now and get detailed information!",
+    "stats": [
+      { "num": "7,000 m²", "label": "School campus" },
+      { "num": "700", "label": "Students" },
+      { "num": "4–19", "label": "Student ages" }
+    ]
+  },
+  "Introduction": {
+    "logoAlt": "Virtus International School",
+    "mission": "Virtus International School educates children according to the standards required for admission to the world's most prestigious “Top 100” universities and fully supports them in preparing for these entrance exams.",
+    "missionAccent": "This educational process provides our students with the opportunity to receive a high-quality education on an international scale.",
+    "campusTitle": "VIS campus",
+    "campusText": "The VIS building stands out with its spacious and modern infrastructure. The school is equipped with all the necessary amenities, providing an ideal environment for students to receive an effective education.",
+    "classroomText": "The classrooms at Virtus International School are specially designed to provide students with the most comfortable and effective learning environment possible.",
+    "buildingAlt": "VIS school campus building",
+    "landStat": "7,000 м²",
+    "landLabel": "The total land area of the school",
+    "capacityStat": "700",
+    "capacityLabel": "The capacity to accommodate 700 students at once",
+    "buildingLabel": "A modern four-story school building",
+    "moreDetails": "More details"
+  },
+  "ClassroomFeatures": {
+    "items": [
+      {
+        "title": "Ergonomic furniture",
+        "text": "The desks and chairs in the classrooms are chosen to help students sit comfortably and stay focused. Ergonomic furniture supports the proper development of the skeletal system."
+      },
+      {
+        "title": "Lighting and sunlight",
+        "text": "The windows in the classrooms are located on the left side, allowing natural sunlight to stream in from the optimal direction for reading and writing."
+      },
+      {
+        "title": "Board distance",
+        "text": "The distance between the board and students is 90–170 cm, ensuring clear visibility for all students and preventing shadows while writing."
+      },
+      {
+        "title": "Ventilation and temperature",
+        "text": "Classrooms are fully equipped with ventilation and heating systems, maintaining optimal temperature and humidity for enhanced focus and student health."
+      }
+    ]
+  },
+  "FourPillars": {
+    "heading": "The four pillars of our educational approach",
+    "imageAlt": "Virtus International School building",
+    "items": [
+      {
+        "title": "Logical thinking:",
+        "text": "VIS places great importance on developing students’ logical thinking and analytical approach. Logic and analysis are the foundation of any decision-making process and are key to the students’ success in life."
+      },
+      {
+        "title": "Creative approach:",
+        "text": "We teach our students to approach real-life problems creatively and practically. This approach helps them avoid unproductive solutions and use resources efficiently."
+      },
+      {
+        "title": "Independent thinking:",
+        "text": "VIS teaches students to think independently and adhere to their life principles without succumbing to external influences. This enables them to benefit from various situations and make the most effective decisions."
+      },
+      {
+        "title": "Finding the best solutions in various situations:",
+        "text": "We teach our students to analyze various situations and make the most beneficial decisions for themselves. They learn to act effectively without being distracted by unproductive details or emotions."
+      }
+    ]
+  },
+  "Enrollment": {
+    "heading": "2024-2025 Academic Year Enrollment is Now Open",
+    "subtext": "Hurry to apply for the best educational opportunities at Virtus International School!",
+    "quoteText": "Virtus International School's mission is to strive for excellence!",
+    "quoteAuthor": "— Niyozov Shahboz",
+    "quoteRole": "VIS Director & Founder",
+    "ceoAlt": "Niyozov Shahboz — VIS Director & Founder",
+    "formHeading": "Fill out the form and we will contact you."
+  },
+  "Amenities": {
+    "title": "All the amenities for effective learning",
+    "logoAlt": "Virtus International School",
+    "facilities": [
+      {
+        "title": "Laboratories and practical rooms",
+        "desc": "The private school's laboratory and hands-on classrooms provide students with unique opportunities to experiment and apply theoretical knowledge into practice. The rooms are equipped with modern equipment that serves to develop deep learning of sciences and scientific thinking."
+      },
+      {
+        "title": "Year-round sports halls",
+        "desc": "Winter sports hall – 12×30 meters, equipped with changing rooms and showers. Sports field – 16×32 meters, suitable for volleyball, tennis, football and basketball. Hall for gymnastics, karate, wrestling and other sports clubs."
+      },
+      {
+        "title": "A cafeteria with a capacity of 600 seats",
+        "desc": "The large cafeteria provides convenience for students during lunch breaks. The spacious area allows all students to dine without lines or crowds. The ample dining space encourages interaction and a friendly atmosphere, strengthening the school community."
+      },
+      {
+        "title": "Library with a capacity of 50 students",
+        "desc": "The library provides students with a wide range of academic resources, enhancing their knowledge and love for reading. It offers comfortable space for independent study with librarians available to assist based on students’ needs."
+      }
+    ],
+    "staffTop": [
+      {
+        "title": "Experienced teachers",
+        "text": "Our qualified and experienced teachers use modern educational methods to provide an individual approach to each student, helping them unlock their potential."
+      },
+      {
+        "title": "Professional psychologists",
+        "text": "School psychologists support students’ emotional well-being, provide counseling, and create a conducive environment for their development."
+      },
+      {
+        "title": "Strict supervision",
+        "text": "We strictly monitor students’ discipline and academic performance, maintaining high educational standards."
+      }
+    ],
+    "tutorTitle": "Tutors",
+    "tutorText": "Each student is assigned a personal tutor who monitors their academic and disciplinary development, maintains daily communication with parents, and holds meetings every quarter.",
+    "tutorAlt": "Tutor",
+    "facultyTitle": "Faculty from the world's top 100 universities",
+    "facultyText": "Experts from leading universities around the world conduct lectures and masterclasses, preparing students for admission to the best higher education institutions.",
+    "facultyAlt": "Online faculty session"
+  },
+  "ComprehensiveCoverage": {
+    "title": "Comprehensive coverage of all aspects",
+    "descText": "You no longer need to enroll your child in various extracurricular activities and tutors. We will take care of the comprehensive development of your child.",
+    "pills": ["Creativity", "Intelligence", "Emotions", "Culture", "Logic", "Mindset", "Languages"],
+    "cards": [
+      {
+        "category": "Intelligence",
+        "title": "Programming and robotics",
+        "description": "Students learn the fundamentals of programming, participate in robotics competitions and hackathons, and develop computational thinking skills for the digital age."
+      },
+      {
+        "category": "Sport",
+        "title": "Team sports",
+        "description": "Football, basketball and volleyball training develops teamwork, discipline and physical fitness. Students compete in inter-school tournaments and regional championships."
+      },
+      {
+        "category": "Sport",
+        "title": "Martial arts",
+        "description": "Karate, judo and self-defense classes build confidence, physical coordination and mental discipline. Students train under certified instructors."
+      },
+      {
+        "category": "Intelligence",
+        "title": "Scientific clubs",
+        "description": "Hands-on physics, chemistry and biology experiments develop scientific thinking. Students work on research projects and participate in science olympiads."
+      }
+    ]
+  },
+  "AdmissionStages": {
+    "heading": "Admissions for the 2024-2025 academic year have begun.",
+    "stagesLabel": "Admission stages:",
+    "steps": [
+      "Submit your information and register on our website",
+      "Our specialist will contact you to schedule an interview",
+      "You will have an interview with the director",
+      "After the interview and tests, receive admission decision",
+      "Complete necessary documentation and make registration payment"
+    ],
+    "formHeading": "Leave your information so we can contact you"
+  },
+  "Grants": {
+    "title": "Grants and discounts",
+    "subtitle": "Supporting talented students with tuition grants and family discounts.",
+    "imgLeftAlt": "Graduate student with diploma",
+    "imgRightAlt": "School building exterior",
+    "logoAlt": "Virtus International School",
+    "discountsLabel": "Discounts",
+    "discount1Stat": "5%",
+    "discount1Desc": "A 5% discount will be provided for each additional child from the same family.",
+    "discount2Stat": "10%",
+    "discount2Desc": "A 10% discount is offered on the annual fee.",
+    "grantsLabel": "Grants",
+    "grantsStat": "50",
+    "grantsStatDesc": "50 scholarships provided by the school",
+    "grantsDesc": "Grants are awarded to students who demonstrate excellent academic performance and achieve outstanding results in exams each quarter.",
+    "cta": "Submit an application"
+  },
+  "Faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "What ages does Virtus International School accept?",
+        "a": "Virtus International School enrolls children aged 4 to 19. New students are admitted from age 4 up to age 15. Each class has a maximum of 20-22 students, ensuring an individual approach and effective learning for every child. Small class sizes allow teachers to better identify each student's needs and abilities."
+      },
+      {
+        "q": "What educational directions are available?",
+        "a": "We offer three specialized tracks: Exact Sciences (mathematics, physics, IT), Natural Sciences (chemistry, biology, geography), and Social Sciences (history, law, economics, business management). Mathematics and English are taught in depth across all directions, ensuring students are internationally competitive."
+      },
+      {
+        "q": "How do scholarship grants work?",
+        "a": "Grants are awarded as tuition discounts ranging from 5% to 100%, based on competitive entrance examinations. The number of full (100%) grants is limited to 50 places. Grants are awarded for one academic quarter and reviewed each quarter — to keep a grant, a student must remain within the Top 5 of their grade and uphold the school's IB disciplinary standards."
+      },
+      {
+        "q": "Who can apply for a grant, and how are candidates assessed?",
+        "a": "Candidates aged 11–15 (MYP) sit written exams in three tracks — Exact Sciences (mathematics, physics, computer science), Natural Sciences (chemistry, biology), and Humanities (history, law, etc.). Exams are held on campus and conducted in English. Children aged 4–10 (PYP) take part in an interview with a psychologist, alongside an assessment of the family's social profile."
+      },
+      {
+        "q": "How long is the academic year?",
+        "a": "The course lasts 10 months, from September 2nd to June 30th."
+      },
+      {
+        "q": "Do you offer a summer program?",
+        "a": "Yes — we offer a summer program to help children prepare for our school's entrance exams."
+      },
+      {
+        "q": "How does the school support students' well-being?",
+        "a": "Every 40-50 students are assigned a personal mentor who monitors academic and disciplinary development and maintains daily communication with parents. Professional psychologists support students' emotional well-being, and special adaptation programs help new students adjust to the school environment. All progress is tracked via our Telegram bot system."
+      }
+    ]
+  },
+  "Cta": {
+    "heading": "Did you not find answers to your questions?",
+    "note": "*Contact us and we will provide detailed information",
+    "button": "Ask a question",
+    "imageAlt": "School corridor"
+  },
+  "ContactInfo": {
+    "title": "Contact information:",
+    "note": "*Contact us using any convenient method or visit our office.",
+    "phoneLabel": "Phone",
+    "callBtn": "Call us",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "address": "1d Arnasay Street, Chilanzar District, Tashkent City",
+    "hoursLabel": "Working hours",
+    "hours": "Mon-Sat: 8:00 AM - 9:00 PM"
+  },
+  "Footer": {
+    "rights": "All rights reserved 2024"
+  },
+  "Form": {
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "00-000-0000",
+    "flagLabel": "Uzbekistan flag",
+    "subtext": "After filling out the form, our personal manager will call you.",
+    "submit": "Submit an application",
+    "success": "Thank you! We will contact you shortly.",
+    "disclaimer": "*Your information will not be shared with third parties."
+  },
+  "Modal": {
+    "close": "Close",
+    "fullName": "Full Name",
+    "namePlaceholder": "Your full name",
+    "phone": "Phone",
+    "phonePlaceholder": "+998 __ ___ __ __",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "childAge": "Child's Age",
+    "selectAge": "Select age",
+    "ageOption": "{age} years old"
+  },
+  "ApplyModal": {
+    "label": "Enrolment",
+    "title": "Apply Now",
+    "subtitle": "Start your child's journey at Virtus International. Complete the form and our admissions office will be in touch.",
+    "parentName": "Parent's Name",
+    "parentPlaceholder": "Full name of parent / guardian",
+    "childName": "Child's Name",
+    "childPlaceholder": "Full name of the child",
+    "grade": "Grade Applying For",
+    "selectGrade": "Select grade",
+    "gradeOption": "Grade {grade}",
+    "comment": "Comment",
+    "commentPlaceholder": "Any additional information or questions...",
+    "submit": "Submit Application"
+  },
+  "BookTourModal": {
+    "label": "Schedule a Visit",
+    "title": "Book a Campus Tour",
+    "subtitle": "Experience Virtus first-hand. Fill out the form below and our admissions team will confirm your visit.",
+    "preferredDate": "Preferred Date",
+    "submit": "Submit Request"
+  },
+  "RequestCallModal": {
+    "label": "Get in Touch",
+    "title": "Request a Call",
+    "subtitle": "Leave your details and our admissions team will call you back within one business day.",
+    "submit": "Request a Call"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "uz": "O‘zbekcha",
+    "ru": "Русский",
+    "en": "English"
+  }
+}

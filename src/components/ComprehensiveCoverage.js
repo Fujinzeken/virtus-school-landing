@@ -1,62 +1,27 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import styles from "./comprehensive-coverage.module.css";
 
-const pills = [
-  "Creativity",
-  "Intelligence",
-  "Emotions",
-  "Culture",
-  "Logic",
-  "Mindset",
-  "Languages",
-];
-
-const cards = [
-  {
-    image: "/images/real-school/comp.jpg",
-    category: "Intelligence",
-    title: "Programming and robotics",
-    description:
-      "Students learn the fundamentals of programming, participate in robotics competitions and hackathons, and develop computational thinking skills for the digital age.",
-  },
-  {
-    image: "/images/real-school/gym.png",
-    category: "Sport",
-    title: "Team sports",
-    description:
-      "Football, basketball and volleyball training develops teamwork, discipline and physical fitness. Students compete in inter-school tournaments and regional championships.",
-  },
-  {
-    image: "/images/real-school/martial-arts.png",
-    category: "Sport",
-    title: "Martial arts",
-    description:
-      "Karate, judo and self-defense classes build confidence, physical coordination and mental discipline. Students train under certified instructors.",
-  },
-  {
-    image: "/images/real-school/science.png",
-    category: "Intelligence",
-    title: "Scientific clubs",
-    description:
-      "Hands-on physics, chemistry and biology experiments develop scientific thinking. Students work on research projects and participate in science olympiads.",
-  },
+const cardImages = [
+  "/images/real-school/comp.jpg",
+  "/images/real-school/gym.png",
+  "/images/real-school/martial-arts.png",
+  "/images/real-school/science.png",
 ];
 
 export default function ComprehensiveCoverage() {
+  const t = useTranslations("ComprehensiveCoverage");
+  const pills = t.raw("pills");
+  const cards = t.raw("cards");
+
   return (
     <section className={styles.section}>
       <div className={styles.container}>
         {/* Top row: title + description card */}
         <div className={styles.topRow}>
-          <h2 className={styles.title}>
-            Comprehensive coverage of all aspects
-          </h2>
+          <h2 className={styles.title}>{t("title")}</h2>
           <div className={styles.descCard}>
-            <p className={styles.descText}>
-              You no longer need to enroll your child in various extracurricular
-              activities and tutors. We will take care of the comprehensive
-              development of your child.
-            </p>
+            <p className={styles.descText}>{t("descText")}</p>
           </div>
         </div>
 
@@ -75,7 +40,7 @@ export default function ComprehensiveCoverage() {
             <div key={i} className={styles.card}>
               <div className={styles.cardImage}>
                 <Image
-                  src={card.image}
+                  src={cardImages[i]}
                   alt={card.title}
                   fill
                   sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 25vw"

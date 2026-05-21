@@ -1,0 +1,23 @@
+.switcher {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 7px 10px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.switcher:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Native dropdown options render on a white surface */
+.switcher option {
+  color: #263560;
+  background: #ffffff;
+}

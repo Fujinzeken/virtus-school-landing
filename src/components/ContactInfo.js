@@ -1,38 +1,38 @@
+import { useTranslations } from "next-intl";
 import styles from "./contact-info.module.css";
 
 export default function ContactInfo() {
+  const t = useTranslations("ContactInfo");
   return (
     <section className={styles.section} id="contact">
       <div className={styles.container}>
         <div className={styles.darkCard}>
-          <h2 className={styles.title}>Contact information:</h2>
-          <p className={styles.note}>
-            *Contact us using any convenient method or visit our office.
-          </p>
+          <h2 className={styles.title}>{t("title")}</h2>
+          <p className={styles.note}>{t("note")}</p>
 
           <div className={styles.grid}>
             {/* Card 1 - Phone */}
             <div className={styles.card}>
-              <span className={styles.label}>Phone</span>
+              <span className={styles.label}>{t("phoneLabel")}</span>
               <p className={styles.phone}>+998 555 886 555</p>
               <a href="tel:+998555886555" className={styles.callBtn}>
-                Call us
+                {t("callBtn")}
               </a>
             </div>
 
             {/* Card 2 - Email & Address */}
             <div className={styles.card}>
-              <span className={styles.label}>Email</span>
+              <span className={styles.label}>{t("emailLabel")}</span>
               <p className={styles.value}>ibprivateschool@gmail.com</p>
               <div className={styles.divider} />
-              <span className={styles.label}>Address</span>
+              <span className={styles.label}>{t("addressLabel")}</span>
               <a
                 href="https://www.google.com/maps/search/?api=1&query=1d%20Arnasay%20Street%2C%20Chilanzar%20District%2C%20Tashkent%20City"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.address}
               >
-                1d Arnasay Street, Chilanzar District, Tashkent City
+                {t("address")}
               </a>
             </div>
 
@@ -64,8 +64,8 @@ export default function ContactInfo() {
                 </a>
               </div>
               <div className={styles.divider} />
-              <span className={styles.label}>Working hours</span>
-              <p className={styles.value}>Mon-Sat: 8:00 AM - 9:00 PM</p>
+              <span className={styles.label}>{t("hoursLabel")}</span>
+              <p className={styles.value}>{t("hours")}</p>
             </div>
           </div>
         </div>

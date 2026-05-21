@@ -1,10 +1,9 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import styles from "./v2-classroom-features.module.css";
 
-const features = [
+const featureMeta = [
   {
-    title: "Ergonomic furniture",
-    text: "The desks and chairs in the classrooms are chosen to help students sit comfortably and stay focused. Ergonomic furniture supports the proper development of the skeletal system.",
     image: "/images/real-school/oshxona1.jpg",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -13,8 +12,6 @@ const features = [
     ),
   },
   {
-    title: "Lighting and sunlight",
-    text: "The windows in the classrooms are located on the left side, allowing natural sunlight to stream in from the optimal direction for reading and writing.",
     image: "/images/real-school/sinf 05.jpg",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -31,8 +28,6 @@ const features = [
     ),
   },
   {
-    title: "Board distance",
-    text: "The distance between the board and students is 90\u2013170 cm, ensuring clear visibility for all students and preventing shadows while writing.",
     image: "/images/real-school/sinf 01.jpg",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -43,8 +38,6 @@ const features = [
     ),
   },
   {
-    title: "Ventilation and temperature",
-    text: "Classrooms are fully equipped with ventilation and heating systems, maintaining optimal temperature and humidity for enhanced focus and student health.",
     image: "/images/real-school/sinf01.png",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -55,16 +48,19 @@ const features = [
 ];
 
 export default function ClassroomFeaturesV2() {
+  const t = useTranslations("ClassroomFeatures");
+  const items = t.raw("items");
+
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        {features.map((f) => (
-          <div key={f.title} className={styles.card}>
+        {featureMeta.map((f, i) => (
+          <div key={i} className={styles.card}>
             {/* Image with icon badge */}
             <div className={styles.cardImageWrap}>
               <Image
                 src={f.image}
-                alt={f.title}
+                alt={items[i].title}
                 fill
                 sizes="(max-width: 500px) 100vw, (max-width: 900px) 50vw, 25vw"
                 style={{ objectFit: "cover" }}
@@ -73,8 +69,8 @@ export default function ClassroomFeaturesV2() {
             </div>
             {/* Text content */}
             <div className={styles.cardBody}>
-              <h3 className={styles.cardTitle}>{f.title}</h3>
-              <p className={styles.cardText}>{f.text}</p>
+              <h3 className={styles.cardTitle}>{items[i].title}</h3>
+              <p className={styles.cardText}>{items[i].text}</p>
             </div>
           </div>
         ))}

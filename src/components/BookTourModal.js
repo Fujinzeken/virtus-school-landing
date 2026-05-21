@@ -1,9 +1,13 @@
 "use client";
 
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 import styles from "./modal.module.css";
 
 export default function BookTourModal({ isOpen, onClose }) {
+  const t = useTranslations("BookTourModal");
+  const tm = useTranslations("Modal");
+
   // Lock body scroll when modal is open
   useEffect(() => {
     if (isOpen) {
@@ -37,7 +41,7 @@ export default function BookTourModal({ isOpen, onClose }) {
         <button
           className={styles.closeBtn}
           onClick={onClose}
-          aria-label="Close"
+          aria-label={tm("close")}
         >
           <svg className={styles.closeIcon} viewBox="0 0 24 24" fill="none">
             <path
@@ -52,12 +56,9 @@ export default function BookTourModal({ isOpen, onClose }) {
 
         {/* Header */}
         <div className={styles.header}>
-          <span className={styles.label}>Schedule a Visit</span>
-          <h2 className={styles.title}>Book a Campus Tour</h2>
-          <p className={styles.subtitle}>
-            Experience Virtus first-hand. Fill out the form below and our
-            admissions team will confirm your visit.
-          </p>
+          <span className={styles.label}>{t("label")}</span>
+          <h2 className={styles.title}>{t("title")}</h2>
+          <p className={styles.subtitle}>{t("subtitle")}</p>
         </div>
 
         {/* Form */}
@@ -65,12 +66,12 @@ export default function BookTourModal({ isOpen, onClose }) {
           {/* Name */}
           <div className={styles.field}>
             <label className={styles.fieldLabel}>
-              Full Name <span className={styles.fieldRequired}>*</span>
+              {tm("fullName")} <span className={styles.fieldRequired}>*</span>
             </label>
             <input
               type="text"
               className={styles.input}
-              placeholder="Your full name"
+              placeholder={tm("namePlaceholder")}
               required
             />
           </div>
@@ -79,23 +80,23 @@ export default function BookTourModal({ isOpen, onClose }) {
           <div className={styles.row}>
             <div className={styles.field}>
               <label className={styles.fieldLabel}>
-                Phone <span className={styles.fieldRequired}>*</span>
+                {tm("phone")} <span className={styles.fieldRequired}>*</span>
               </label>
               <input
                 type="tel"
                 className={styles.input}
-                placeholder="+998 __ ___ __ __"
+                placeholder={tm("phonePlaceholder")}
                 required
               />
             </div>
             <div className={styles.field}>
               <label className={styles.fieldLabel}>
-                Email <span className={styles.fieldRequired}>*</span>
+                {tm("email")} <span className={styles.fieldRequired}>*</span>
               </label>
               <input
                 type="email"
                 className={styles.input}
-                placeholder="you@example.com"
+                placeholder={tm("emailPlaceholder")}
                 required
               />
             </div>
@@ -104,20 +105,20 @@ export default function BookTourModal({ isOpen, onClose }) {
           {/* Child's age + Preferred date row */}
           <div className={styles.row}>
             <div className={styles.field}>
-              <label className={styles.fieldLabel}>Child&apos;s Age</label>
+              <label className={styles.fieldLabel}>{tm("childAge")}</label>
               <select className={styles.select} defaultValue="">
                 <option value="" disabled>
-                  Select age
+                  {tm("selectAge")}
                 </option>
                 {Array.from({ length: 13 }, (_, i) => i + 6).map((age) => (
                   <option key={age} value={age}>
-                    {age} years old
+                    {tm("ageOption", { age })}
                   </option>
                 ))}
               </select>
             </div>
             <div className={styles.field}>
-              <label className={styles.fieldLabel}>Preferred Date</label>
+              <label className={styles.fieldLabel}>{t("preferredDate")}</label>
               <input type="date" className={styles.input} />
             </div>
           </div>
@@ -133,7 +134,7 @@ export default function BookTourModal({ isOpen, onClose }) {
                 strokeLinejoin="round"
               />
             </svg>
-            Submit Request
+            {t("submit")}
           </button>
         </form>
       </div>
