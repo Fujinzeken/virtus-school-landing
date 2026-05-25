@@ -4,6 +4,7 @@ import { routing } from "./i18n/routing";
 export default createMiddleware(routing);
 
 export const config = {
-  // Match all pathnames except for API routes, Next internals, and static files.
-  matcher: "/((?!api|_next|_vercel|.*\\..*).*)",
+  // Match all pathnames except for API routes, the Sanity Studio, Next
+  // internals, and static files.
+  matcher: "/((?!api|studio|_next|_vercel|.*\\..*).*)",
 };

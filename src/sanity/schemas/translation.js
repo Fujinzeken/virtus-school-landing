@@ -1,9 +1,9 @@
 import { defineField, defineType } from "sanity";
 
-// Sections used to organise translations in the Studio sidebar.
-// Keep in sync with the top-level namespaces in messages/*.json.
+// Sections shown in the Studio sidebar. 14 page sections + 3 modals + 1
+// catch-all "Shared" group for utility namespaces (Form, Modal, Meta,
+// LanguageSwitcher) — keeps the sidebar concise for non-technical editors.
 export const SECTIONS = [
-  "Meta",
   "Navbar",
   "Hero",
   "Introduction",
@@ -18,13 +18,25 @@ export const SECTIONS = [
   "Cta",
   "ContactInfo",
   "Footer",
-  "Form",
-  "Modal",
   "ApplyModal",
   "BookTourModal",
   "RequestCallModal",
-  "LanguageSwitcher",
+  "Shared",
 ];
+
+// Maps a translation key's top-level namespace to its Studio section.
+// Utility namespaces collapse into "Shared".
+const SECTION_OVERRIDES = {
+  Form: "Shared",
+  Modal: "Shared",
+  Meta: "Shared",
+  LanguageSwitcher: "Shared",
+};
+
+export function sectionFor(key) {
+  const top = String(key).split(".")[0].split("[")[0];
+  return SECTION_OVERRIDES[top] || top;
+}
 
 // One document per translation key. The `key` is the full dot-path used in
 // the code (e.g. "Hero.title"); the `section` matches its top-level

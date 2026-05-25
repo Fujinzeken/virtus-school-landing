@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale, getTranslations, getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import "../globals.css";
+import "../../globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
