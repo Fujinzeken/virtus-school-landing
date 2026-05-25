@@ -16,7 +16,7 @@
     "title": "Farzandingiz uchun arzon premium taʼlim",
     "subtitle": "Har bir bola oʻz salohiyatini ochib, dunyoning top-100 universitetlariga kirishga tayyorgarlik koʻradigan joy.",
     "cta": "Ekskursiyaga yozilish",
-    "note": "*Hoziroq ekskursiyaga yoziling va batafsil maʼlumot oling!",
+    "note": "*Hoziroq maktab ekskursiyasiga yoziling va batafsil ma'lumot oling!",
     "stats": [
       { "num": "7,000 m²", "label": "Maktab hududi" },
       { "num": "700", "label": "Oʻquvchilar" },
@@ -26,7 +26,7 @@
   "Introduction": {
     "logoAlt": "Virtus International School",
     "mission": "Virtus International School bolalarni dunyoning eng nufuzli «Top 100» universitetlariga kirish uchun zarur boʻlgan standartlarga muvofiq oʻqitadi va ularni kirish imtihonlariga tayyorlashda toʻliq qoʻllab-quvvatlaydi.",
-    "missionAccent": "Bu taʼlim jarayoni oʻquvchilarimizga xalqaro darajada sifatli taʼlim olish imkoniyatini beradi.",
+    "missionAccent": "Farzandingizni TOP 100 universitetlarga grand asosida kirishini kafolatlaymiz. Aks holda to'lov 100% qaytariladi!",
     "campusTitle": "VIS kampusi",
     "campusText": "VIS binosi keng va zamonaviy infratuzilmasi bilan ajralib turadi. Maktab barcha zarur qulayliklar bilan jihozlangan boʻlib, oʻquvchilarga samarali taʼlim olish uchun ideal muhit yaratadi.",
     "classroomText": "Virtus International School sinflari oʻquvchilarga eng qulay va samarali oʻquv muhitini taʼminlash uchun maxsus loyihalangan.",
@@ -83,7 +83,7 @@
   "Enrollment": {
     "heading": "2026–2027 oʻquv yili uchun qabul boshlandi",
     "subtext": "Virtus International Schooldagi eng yaxshi taʼlim imkoniyatlari uchun ariza topshirishga shoshiling!",
-    "quoteText": "Virtus International School missiyasi — mukammallikka intilishdir!",
+    "quoteText": "Mukammallikga bilim va tarbiya bilan erishamiz!",
     "quoteAuthor": "— Niyozov Shahboz",
     "quoteRole": "VIS direktori va asoschisi",
     "ceoAlt": "Niyozov Shahboz — VIS direktori va asoschisi",
@@ -183,7 +183,7 @@
     "discount2Desc": "Yillik toʻlov uchun 10% chegirma taklif etiladi.",
     "grantsLabel": "Grantlar",
     "grantsStat": "50",
-    "grantsStatDesc": "Maktab tomonidan taqdim etiladigan 50 ta stipendiya",
+    "grantsStatDesc": "Maktab tomonidan 50 ta to'liq grantlar taqdim etiladi",
     "grantsDesc": "Grantlar har chorakda aʼlo oʻzlashtirgan va imtihonlarda yuqori natijalarga erishgan oʻquvchilarga beriladi.",
     "cta": "Ariza topshirish"
   },
@@ -192,7 +192,7 @@
     "items": [
       {
         "q": "Virtus International School necha yoshdagi bolalarni qabul qiladi?",
-        "a": "Virtus International School 4 yoshdan 19 yoshgacha boʻlgan bolalarni qabul qiladi. Yangi oʻquvchilar 4 yoshdan 15 yoshgacha qabul qilinadi. Har bir sinfda 20–22 tagacha oʻquvchi boʻlib, bu har bir bolaga individual yondashuv va samarali taʼlimni taʼminlaydi. Kichik sinflar oʻqituvchilarga har bir oʻquvchining ehtiyoj va qobiliyatlarini yaxshiroq aniqlash imkonini beradi."
+        "a": "Virtus International School 4 yoshdan 19 yoshgacha boʻlgan bolalarni qabul qiladi. Yangi oʻquvchilar 4 yoshdan 15 yoshgacha qabul qilinadi. Har bir sinfda 18–20 tagacha oʻquvchi boʻlib, bu har bir bolaga individual yondashuv va samarali taʼlimni taʼminlaydi. Sinfda o'quvchi soni kam bo'lsa, oʻqituvchilar har bir oʻquvchining ehtiyoj va qobiliyatlarini yaxshiroq aniqlash imkonini beradi."
       },
       {
         "q": "Qanday taʼlim yoʻnalishlari mavjud?",
@@ -200,7 +200,7 @@
       },
       {
         "q": "Grant stipendiyalari qanday ishlaydi?",
-        "a": "Grantlar konkurs asosidagi kirish imtihonlari natijasida 5% dan 100% gacha boʻlgan oʻqish chegirmasi koʻrinishida beriladi. Toʻliq (100%) grantlar soni 50 ta oʻrin bilan cheklangan. Grantlar bir oʻquv chorakiga beriladi va har chorakda qayta koʻrib chiqiladi — grantni saqlab qolish uchun oʻquvchi oʻz sinfida Top-5 da qolishi va maktabning IB intizomiy standartlariga rioya qilishi kerak."
+        "a": "Grantlar konkurs asosidagi kirish imtihonlari natijasida 5% dan 100% gacha boʻlgan oʻqish chegirmasi koʻrinishida beriladi. Toʻliq (100%) grantlar soni 50 ta oʻrin bilan cheklangan. Grantlar bir oʻquv choragiga beriladi va har chorakda qayta koʻrib chiqiladi — grantni saqlab qolish uchun oʻquvchi oʻz sinfida Top-5 da qolishi va maktabning IB intizomiy standartlariga rioya qilishi kerak."
       },
       {
         "q": "Kim grantga ariza topshira oladi va nomzodlar qanday baholanadi?",
@@ -208,7 +208,7 @@
       },
       {
         "q": "Oʻquv yili qancha davom etadi?",
-        "a": "Kurs 10 oy davom etadi, 2-sentabrdan 30-iyungacha."
+        "a": "Akademik oʻquv yili 10 oy davom etadi, 2-sentabrdan 30-iyungacha."
       },
       {
         "q": "Yozgi dastur taklif qilasizmi?",
@@ -216,7 +216,7 @@
       },
       {
         "q": "Maktab oʻquvchilar farovonligini qanday qoʻllab-quvvatlaydi?",
-        "a": "Har 40–50 oʻquvchiga shaxsiy murabbiy biriktiriladi, u oʻquv va intizomiy rivojlanishni kuzatib boradi va ota-onalar bilan har kuni muloqot qiladi. Professional psixologlar oʻquvchilarning hissiy farovonligini qoʻllab-quvvatlaydi, maxsus moslashuv dasturlari esa yangi oʻquvchilarga maktab muhitiga koʻnikishga yordam beradi. Barcha taraqqiyot Telegram-bot tizimimiz orqali kuzatib boriladi."
+        "a": "Har 40–50 oʻquvchiga shaxsiy mentor biriktiriladi, u oʻquv va intizomiy rivojlanishni kuzatib boradi va ota-onalar bilan har kuni muloqot qiladi. Professional psixologlar oʻquvchilarning hissiy farovonligini qoʻllab-quvvatlaydi, maxsus moslashuv dasturlari esa yangi oʻquvchilarga maktab muhitiga koʻnikishga yordam beradi. Farzandingiz rivojlanish jarayonini Telegram-bot orqali kuzatib borasiz."
       }
     ]
   },
@@ -227,7 +227,7 @@
     "imageAlt": "Maktab koridori"
   },
   "ContactInfo": {
-    "title": "Aloqa maʼlumotlari:",
+    "title": "Aloqa uchun maʼlumotlar!",
     "note": "*Biz bilan istalgan qulay usulda bogʻlaning yoki ofisimizga tashrif buyuring.",
     "phoneLabel": "Telefon",
     "callBtn": "Qoʻngʻiroq qilish",
@@ -244,7 +244,7 @@
     "namePlaceholder": "Ismingiz",
     "phonePlaceholder": "00-000-0000",
     "flagLabel": "Oʻzbekiston bayrogʻi",
-    "subtext": "Formani toʻldirgandan soʻng, shaxsiy menejerimiz sizga qoʻngʻiroq qiladi.",
+    "subtext": "Formani toʻldirgandan soʻng, menejerimiz sizga qoʻngʻiroq qiladi.",
     "submit": "Ariza topshirish",
     "sending": "Yuborilmoqda…",
     "success": "Rahmat! Tez orada siz bilan bogʻlanamiz.",
@@ -278,6 +278,8 @@
     "grade": "Qaysi sinfga",
     "selectGrade": "Sinfni tanlang",
     "gradeOption": "{grade}-sinf",
+    "currentSchool": "Hozirgi maktabi",
+    "currentSchoolPlaceholder": "Hozirgi maktab nomi",
     "comment": "Izoh",
     "commentPlaceholder": "Har qanday qoʻshimcha maʼlumot yoki savollar...",
     "submit": "Arizani yuborish"
@@ -291,9 +293,9 @@
   },
   "RequestCallModal": {
     "label": "Bogʻlanish",
-    "title": "Qoʻngʻiroqqa buyurtma",
+    "title": "Qoʻngʻiroq uchun",
     "subtitle": "Maʼlumotlaringizni qoldiring va qabul jamoamiz bir ish kuni ichida sizga qayta qoʻngʻiroq qiladi.",
-    "submit": "Qoʻngʻiroqqa buyurtma"
+    "submit": "Qoʻngʻiroq uchun"
   },
   "LanguageSwitcher": {
     "label": "Til",

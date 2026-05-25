@@ -35,10 +35,9 @@ export default function ApplyModal({ isOpen, onClose }) {
       formType: "apply",
       name: fd.get("name"),
       phone: fd.get("phone"),
-      email: fd.get("email"),
       childName: fd.get("childName"),
       childAge: fd.get("childAge"),
-      grade: fd.get("grade"),
+      currentSchool: fd.get("currentSchool"),
       comment: fd.get("comment"),
       company: fd.get("company"),
     });
@@ -106,32 +105,18 @@ export default function ApplyModal({ isOpen, onClose }) {
               />
             </div>
 
-            {/* Phone + Email */}
-            <div className={styles.row}>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel}>
-                  {tm("phone")} <span className={styles.fieldRequired}>*</span>
-                </label>
-                <input
-                  type="tel"
-                  name="phone"
-                  className={styles.input}
-                  placeholder={tm("phonePlaceholder")}
-                  required
-                />
-              </div>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel}>
-                  {tm("email")} <span className={styles.fieldRequired}>*</span>
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  className={styles.input}
-                  placeholder={tm("emailPlaceholder")}
-                  required
-                />
-              </div>
+            {/* Phone */}
+            <div className={styles.field}>
+              <label className={styles.fieldLabel}>
+                {tm("phone")} <span className={styles.fieldRequired}>*</span>
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                className={styles.input}
+                placeholder={tm("phonePlaceholder")}
+                required
+              />
             </div>
 
             {/* Child's name */}
@@ -148,36 +133,30 @@ export default function ApplyModal({ isOpen, onClose }) {
               />
             </div>
 
-            {/* Child's age + Grade */}
-            <div className={styles.row}>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel}>{tm("childAge")}</label>
-                <select name="childAge" className={styles.select} defaultValue="">
-                  <option value="" disabled>
-                    {tm("selectAge")}
+            {/* Child's age */}
+            <div className={styles.field}>
+              <label className={styles.fieldLabel}>{tm("childAge")}</label>
+              <select name="childAge" className={styles.select} defaultValue="">
+                <option value="" disabled>
+                  {tm("selectAge")}
+                </option>
+                {Array.from({ length: 12 }, (_, i) => i + 4).map((age) => (
+                  <option key={age} value={age}>
+                    {tm("ageOption", { age })}
                   </option>
-                  {Array.from({ length: 13 }, (_, i) => i + 6).map((age) => (
-                    <option key={age} value={age}>
-                      {tm("ageOption", { age })}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel}>
-                  {t("grade")} <span className={styles.fieldRequired}>*</span>
-                </label>
-                <select name="grade" className={styles.select} defaultValue="" required>
-                  <option value="" disabled>
-                    {t("selectGrade")}
-                  </option>
-                  {Array.from({ length: 12 }, (_, i) => i + 1).map((grade) => (
-                    <option key={grade} value={grade}>
-                      {t("gradeOption", { grade })}
-                    </option>
-                  ))}
-                </select>
-              </div>
+                ))}
+              </select>
+            </div>
+
+            {/* Current school */}
+            <div className={styles.field}>
+              <label className={styles.fieldLabel}>{t("currentSchool")}</label>
+              <input
+                type="text"
+                name="currentSchool"
+                className={styles.input}
+                placeholder={t("currentSchoolPlaceholder")}
+              />
             </div>
 
             {/* Comment */}

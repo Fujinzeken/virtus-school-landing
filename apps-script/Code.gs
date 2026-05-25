@@ -24,8 +24,8 @@
 var FORMS = {
   apply: {
     sheet: "Applications",
-    headers: ["Timestamp", "Parent Name", "Phone", "Email", "Child Name", "Child Age", "Grade", "Comment", "Language", "Source / UTM", "Page"],
-    fields: ["name", "phone", "email", "childName", "childAge", "grade", "comment", "locale", "source", "page"],
+    headers: ["Timestamp", "Parent Name", "Phone", "Child Name", "Child Age", "Current School", "Comment", "Language", "Source / UTM", "Page"],
+    fields: ["name", "phone", "childName", "childAge", "currentSchool", "comment", "locale", "source", "page"],
   },
   tour: {
     sheet: "Campus Tours",

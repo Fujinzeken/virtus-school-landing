@@ -26,7 +26,7 @@
   "Introduction": {
     "logoAlt": "Virtus International School",
     "mission": "Virtus International School educates children according to the standards required for admission to the world's most prestigious “Top 100” universities and fully supports them in preparing for these entrance exams.",
-    "missionAccent": "This educational process provides our students with the opportunity to receive a high-quality education on an international scale.",
+    "missionAccent": "We guarantee your child's admission to the TOP 100 universities on a grant basis. Otherwise, the payment is 100% refunded!",
     "campusTitle": "VIS campus",
     "campusText": "The VIS building stands out with its spacious and modern infrastructure. The school is equipped with all the necessary amenities, providing an ideal environment for students to receive an effective education.",
     "classroomText": "The classrooms at Virtus International School are specially designed to provide students with the most comfortable and effective learning environment possible.",
@@ -83,7 +83,7 @@
   "Enrollment": {
     "heading": "2026-2027 Academic Year Enrollment is Now Open",
     "subtext": "Hurry to apply for the best educational opportunities at Virtus International School!",
-    "quoteText": "Virtus International School's mission is to strive for excellence!",
+    "quoteText": "We achieve excellence through knowledge and character!",
     "quoteAuthor": "— Niyozov Shahboz",
     "quoteRole": "VIS Director & Founder",
     "ceoAlt": "Niyozov Shahboz — VIS Director & Founder",
@@ -183,7 +183,7 @@
     "discount2Desc": "A 10% discount is offered on the annual fee.",
     "grantsLabel": "Grants",
     "grantsStat": "50",
-    "grantsStatDesc": "50 scholarships provided by the school",
+    "grantsStatDesc": "The school provides 50 full grants",
     "grantsDesc": "Grants are awarded to students who demonstrate excellent academic performance and achieve outstanding results in exams each quarter.",
     "cta": "Submit an application"
   },
@@ -192,7 +192,7 @@
     "items": [
       {
         "q": "What ages does Virtus International School accept?",
-        "a": "Virtus International School enrolls children aged 4 to 19. New students are admitted from age 4 up to age 15. Each class has a maximum of 20-22 students, ensuring an individual approach and effective learning for every child. Small class sizes allow teachers to better identify each student's needs and abilities."
+        "a": "Virtus International School enrolls children aged 4 to 19. New students are admitted from age 4 up to age 15. Each class has 18-20 students, ensuring an individual approach and effective learning for every child. With fewer students per class, teachers can better identify each student's needs and abilities."
       },
       {
         "q": "What educational directions are available?",
@@ -208,7 +208,7 @@
       },
       {
         "q": "How long is the academic year?",
-        "a": "The course lasts 10 months, from September 2nd to June 30th."
+        "a": "The academic year lasts 10 months, from September 2nd to June 30th."
       },
       {
         "q": "Do you offer a summer program?",
@@ -216,7 +216,7 @@
       },
       {
         "q": "How does the school support students' well-being?",
-        "a": "Every 40-50 students are assigned a personal mentor who monitors academic and disciplinary development and maintains daily communication with parents. Professional psychologists support students' emotional well-being, and special adaptation programs help new students adjust to the school environment. All progress is tracked via our Telegram bot system."
+        "a": "Every 40-50 students are assigned a personal mentor who monitors academic and disciplinary development and maintains daily communication with parents. Professional psychologists support students' emotional well-being, and special adaptation programs help new students adjust to the school environment. You can track your child's progress through our Telegram bot."
       }
     ]
   },
@@ -244,7 +244,7 @@
     "namePlaceholder": "Your name",
     "phonePlaceholder": "00-000-0000",
     "flagLabel": "Uzbekistan flag",
-    "subtext": "After filling out the form, our personal manager will call you.",
+    "subtext": "After filling out the form, our manager will call you.",
     "submit": "Submit an application",
     "sending": "Sending…",
     "success": "Thank you! We will contact you shortly.",
@@ -278,6 +278,8 @@
     "grade": "Grade Applying For",
     "selectGrade": "Select grade",
     "gradeOption": "Grade {grade}",
+    "currentSchool": "Current school",
+    "currentSchoolPlaceholder": "Name of the current school",
     "comment": "Comment",
     "commentPlaceholder": "Any additional information or questions...",
     "submit": "Submit Application"
