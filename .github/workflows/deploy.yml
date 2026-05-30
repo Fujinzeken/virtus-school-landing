@@ -24,6 +24,10 @@ jobs:
             touch .env
           fi
 
+      - name: Stop and remove old containers
+        run: |
+          docker compose down || true
+          echo "Old containers stopped and removed"
 
       - name: Build Docker image
         run: |
@@ -36,26 +40,54 @@ jobs:
       - name: Wait for application to start
         run: |
           echo "Waiting for application to start..."
-          sleep 20
+          sleep 30
 
       - name: Check container status
         run: |
           docker compose ps
-          docker compose logs --tail=50
+          docker compose logs --tail=100
 
       - name: Health check
         run: |
           echo "Checking application health..."
-          for i in {1..10}; do
-            if curl -f http://localhost:3001 > /dev/null 2>&1; then
+          MAX_ATTEMPTS=15
+          ATTEMPT=0
+          
+          while [ $ATTEMPT -lt $MAX_ATTEMPTS ]; do
+            ATTEMPT=$((ATTEMPT + 1))
+            echo "Attempt $ATTEMPT/$MAX_ATTEMPTS: Checking http://localhost:3001"
+            
+            # Check if container is running
+            if ! docker compose ps | grep -q "running"; then
+              echo "❌ Container is not running!"
+              docker compose logs --tail=50
+              exit 1
+            fi
+            
+            # Try to connect
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:3001 || echo "000")
+            echo "HTTP Response Code: $HTTP_CODE"
+            
+            if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "301" ] || [ "$HTTP_CODE" = "302" ]; then
               echo "✅ Application is running successfully!"
+              echo "Response code: $HTTP_CODE"
+              curl -I http://localhost:3001 || true
               exit 0
             fi
-            echo "Attempt $i/10: Application not ready yet, waiting..."
-            sleep 5
+            
+            if [ $ATTEMPT -lt $MAX_ATTEMPTS ]; then
+              echo "Application not ready yet, waiting 5 seconds..."
+              sleep 5
+            fi
           done
-          echo "❌ Application failed to start properly"
-          docker compose logs
+          
+          echo "❌ Application failed to start properly after $MAX_ATTEMPTS attempts"
+          echo "=== Container Status ==="
+          docker compose ps
+          echo "=== Recent Logs ==="
+          docker compose logs --tail=100
+          echo "=== Network Check ==="
+          netstat -tlnp | grep 3001 || true
           exit 1
 
       - name: Cleanup old images
