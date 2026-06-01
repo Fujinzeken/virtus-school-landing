@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import Marquee from "react-fast-marquee";
 import styles from "./v2-amenities.module.css";
 
 const facilityImages = [
@@ -44,11 +45,10 @@ export default function AmenitiesV2() {
           <h2 className={styles.title}>{t("title")}</h2>
         </div>
 
-        {/* Facility cards -- marquee auto-scroll */}
+        {/* Facility cards — seamless auto-scroll via react-fast-marquee */}
         <div className={styles.facilityScrollOuter}>
-          <div className={styles.facilityScroll}>
-            {/* Duplicate the cards for seamless infinite loop */}
-            {[...facilities, ...facilities].map((f, i) => (
+          <Marquee speed={40} pauseOnHover autoFill>
+            {facilities.map((f, i) => (
               <div key={i} className={styles.facilityCard}>
                 <div className={styles.facilityImgWrap}>
                   <Image
@@ -57,6 +57,7 @@ export default function AmenitiesV2() {
                     fill
                     sizes="300px"
                     style={{ objectFit: "cover" }}
+                    loading="eager"
                   />
                   <div className={styles.facilityBanner}>
                     <p className={styles.facilityBannerText}>{f.title}</p>
@@ -65,7 +66,7 @@ export default function AmenitiesV2() {
                 <p className={styles.facilityDesc}>{f.desc}</p>
               </div>
             ))}
-          </div>
+          </Marquee>
         </div>
 
         {/* Staff cards -- top row (3 columns) */}

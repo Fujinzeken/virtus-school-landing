@@ -53,11 +53,23 @@
   overflow: hidden;
 }
 
+/* react-fast-marquee uses TWO nested flex containers (.rfm-marquee outer
+   and .rfm-initial-child-container inner with autoFill), both with
+   align-items: center by default. Override both so cards stretch to the
+   tallest one's height — matching the previous uniform look. */
+.facilityScrollOuter :global(.rfm-marquee),
+.facilityScrollOuter :global(.rfm-initial-child-container),
+.facilityScrollOuter :global(.marquee) {
+  align-items: stretch;
+}
+
 .facilityScroll {
   display: flex;
-  gap: 16px;
   width: max-content;
   animation: marquee 35s linear infinite;
+  /* Hint the browser to keep this on its own compositor layer so the
+     continuous animation doesn't drop frames / cause image re-decodes. */
+  will-change: transform;
 }
 
 .facilityScroll:hover {
@@ -66,20 +78,28 @@
 
 @keyframes marquee {
   0% {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
 .facilityCard {
-  flex: 0 0 300px;
+  /* Explicit width — flex-basis was being overridden by the marquee
+     package's internal flex layout, stretching cards to viewport width. */
+  width: 300px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   background: #f9ffdd;
   border-radius: 25px;
   overflow: hidden;
+  margin-right: 16px;
+  /* Force uniform card height — the package's nested flex containers
+     swallow `align-items: stretch`, so we set it explicitly. The
+     description below uses flex-grow to fill any leftover space. */
+  min-height: 450px;
 }
 
 .facilityImgWrap {
@@ -122,6 +142,9 @@
   font-size: 0.95rem;
   color: #5b5b5e;
   line-height: 1.65;
+  /* Expand to fill leftover vertical space inside the fixed-height card,
+     so shorter descriptions don't leave the card with a visible gap. */
+  flex: 1;
 }
 
 /* Staff cards grid -- top row (3 columns) */
@@ -274,6 +297,6 @@
   }
 
   .facilityCard {
-    flex: 0 0 260px;
+    width: 260px;
   }
 }
