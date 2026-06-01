@@ -1,0 +1,93 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [med-project]
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup environment file
+        run: |
+          if [ -f /root/.secrets/.virtus-school-env ]; then
+            cp /root/.secrets/.virtus-school-env .env
+          else
+            echo "Warning: Environment file not found at /root/.secrets/.virtus-school-env"
+            echo "Creating empty .env file"
+            touch .env
+          fi
+
+      - name: Stop and remove old containers
+        run: |
+          docker compose down || true
+          echo "Old containers stopped and removed"
+
+      - name: Build Docker image
+        run: |
+          docker compose build
+
+      - name: Start containers
+        run: |
+          docker compose up -d
+
+      - name: Wait for application to start
+        run: |
+          echo "Waiting for application to start..."
+          sleep 15
+
+      - name: Check container status
+        run: |
+          echo "=== Container Status ==="
+          docker compose ps
+          echo ""
+          echo "=== Application Logs ==="
+          docker compose logs --tail=50
+
+      - name: Health check
+        run: |
+          echo "Checking application health on http://localhost:3001..."
+          
+          # Simple retry loop
+          for i in {1..10}; do
+            echo "Attempt $i/10..."
+            
+            if curl -s http://localhost:3001 > /dev/null; then
+              echo "✅ Application is responding!"
+              echo ""
+              echo "Testing full response:"
+              curl -I http://localhost:3001
+              exit 0
+            fi
+            
+            echo "Not ready yet, waiting 3 seconds..."
+            sleep 3
+          done
+          
+          echo ""
+          echo "❌ Application did not respond after 10 attempts"
+          echo ""
+          echo "=== Final Container Status ==="
+          docker compose ps
+          echo ""
+          echo "=== Final Logs ==="
+          docker compose logs --tail=100
+          exit 1
+
+      - name: Cleanup old images
+        run: |
+          docker image prune -f
+          echo "✅ Cleanup completed"
+
+      - name: Deployment summary
+        if: success()
+        run: |
+          echo "🎉 Deployment successful!"
+          echo "Application is running at: http://localhost:3001"
+          docker compose ps

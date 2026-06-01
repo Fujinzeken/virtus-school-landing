@@ -1,0 +1,19 @@
+services:
+  virtus-school:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: virtus-school-app
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 30s
