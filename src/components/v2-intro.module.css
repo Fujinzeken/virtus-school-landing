@@ -297,6 +297,52 @@
     height: 320px;
   }
 
+  /* Shrink the floating stat bubbles + reposition so they don't overlap
+     in the smaller mobile container. Navy → top-left, salmon → bottom-left,
+     white → vertically centred on the right. */
+  .bubble {
+    padding: 10px;
+  }
+
+  .bubbleNavy {
+    width: 105px;
+    height: 105px;
+    top: 14px;
+    left: 14px;
+  }
+
+  .bubbleRed {
+    width: 140px;
+    height: 140px;
+    bottom: 14px;
+    left: 14px;
+    top: auto;
+  }
+
+  .bubbleWhite {
+    width: 95px;
+    height: 95px;
+    top: 50%;
+    right: 14px;
+    bottom: auto;
+    left: auto;
+    transform: translateY(-50%);
+  }
+
+  .bubbleStat {
+    font-size: 0.85rem;
+  }
+
+  .bubbleBig {
+    font-size: 1.4rem;
+  }
+
+  .bubbleLabel,
+  .bubbleLabelDark {
+    font-size: 0.55rem;
+    line-height: 1.2;
+  }
+
   .galleryStack {
     flex-direction: row;
     height: 180px;
