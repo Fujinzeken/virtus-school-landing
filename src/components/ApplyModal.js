@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { useTranslations } from "next-intl";
 import { submitLead } from "@/lib/submitLead";
 import styles from "./modal.module.css";
@@ -8,6 +8,7 @@ import styles from "./modal.module.css";
 export default function ApplyModal({ isOpen, onClose }) {
   const t = useTranslations("ApplyModal");
   const tm = useTranslations("Modal");
+  const titleId = useId();
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
 
@@ -53,7 +54,12 @@ export default function ApplyModal({ isOpen, onClose }) {
         if (e.target === e.currentTarget) onClose();
       }}
     >
-      <div className={styles.panel} role="dialog" aria-modal="true">
+      <div
+        className={styles.panel}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby={titleId}
+      >
         <button
           className={styles.closeBtn}
           onClick={onClose}
@@ -72,7 +78,9 @@ export default function ApplyModal({ isOpen, onClose }) {
 
         <div className={styles.header}>
           <span className={styles.label}>{t("label")}</span>
-          <h2 className={styles.title}>{t("title")}</h2>
+          <p className={styles.title} id={titleId}>
+            {t("title")}
+          </p>
           {!sent && <p className={styles.subtitle}>{t("subtitle")}</p>}
         </div>
 

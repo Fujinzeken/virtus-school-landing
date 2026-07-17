@@ -21,18 +21,20 @@ export default async function Home({ params }) {
   return (
     <>
       <NavbarV2 />
-      <HeroV2 />
-      <IntroductionV2 />
-      <ClassroomFeaturesV2 />
-      <FourPillarsV2 />
-      <EnrollmentV2 />
-      <AmenitiesV2 />
-      <ComprehensiveCoverage />
-      <AdmissionStages />
-      <Grants />
-      <Faq />
-      <CtaBanner />
-      <ContactInfo />
+      <main>
+        <HeroV2 />
+        <IntroductionV2 />
+        <ClassroomFeaturesV2 />
+        <FourPillarsV2 />
+        <EnrollmentV2 />
+        <AmenitiesV2 />
+        <ComprehensiveCoverage />
+        <AdmissionStages />
+        <Grants />
+        <Faq />
+        <CtaBanner />
+        <ContactInfo />
+      </main>
       <Footer />
     </>
   );

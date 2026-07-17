@@ -41,8 +41,8 @@ export default function NavbarV2() {
 
   return (
     <>
-      <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ""}`}>
-        <div className={styles.container}>
+      <header className={`${styles.nav} ${scrolled ? styles.scrolled : ""}`}>
+        <nav className={styles.container}>
           {/* Logo */}
           <a href="/" className={styles.logo}>
             <VirtusLogo dark birdHeight={52} priority />
@@ -92,8 +92,8 @@ export default function NavbarV2() {
             <span />
             <span />
           </button>
-        </div>
-      </nav>
+        </nav>
+      </header>
 
       <ApplyModal
         isOpen={isApplyModalOpen}
