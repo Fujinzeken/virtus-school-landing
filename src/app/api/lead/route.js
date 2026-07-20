@@ -9,6 +9,7 @@ const FIELDS = [
   "email",
   "childName",
   "childAge",
+  "currentSchool",
   "grade",
   "preferredDate",
   "comment",
