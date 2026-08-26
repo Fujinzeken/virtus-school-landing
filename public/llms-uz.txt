@@ -1,0 +1,57 @@
+# Virtus International School
+
+> Virtus International School (VIS) — Toshkent shahridagi (Oʻzbekiston) 4 yoshdan 19 yoshgacha boʻlgan bolalar uchun xususiy xalqaro maktab. Maktab IB dasturlari (4–10 yosh uchun PYP va 11–15 yosh uchun MYP) asosida ishlaydi va oʻquvchilarni dunyoning top-100 universitetlariga kirishga tayyorlaydi. Kampus — 7 000 m² maydonga ega, 700 oʻquvchiga moʻljallangan zamonaviy 6 qavatli bino. Sayt uch tilda mavjud: oʻzbek, rus va ingliz.
+
+Virtus International School Toshkentdagi arzon premium xalqaro taʼlim sifatida oʻrin egallaydi. Asosiy vazifa — oʻquvchilarni dunyoning yetakchi universitetlariga (Top-100) kirishga tayyorlash va kirish imtihonlarini topshirishda toʻliq qoʻllab-quvvatlash. Maktab farzandingizning Top-100 universitetlarga grant asosida kirishini kafolatlaydi, aks holda toʻlov 100% qaytariladi.
+
+Asosiy maʼlumotlar:
+
+- Oʻquvchilar yoshi: 4–19 yosh; yangi qabul — 4 yoshdan 15 yoshgacha
+- Sinf toʻldiruvchanligi: 18–20 oʻquvchi
+- Kampus: 6 qavatli bino, 7 000 m², bir vaqtning oʻzida 700 oʻquvchigacha
+- Oʻquv yili: 10 oy, 2-sentabrdan 30-iyungacha
+- IB dasturlari: PYP (4–10 yosh) va MYP (11–15 yosh)
+- Taʼlim yoʻnalishlari: aniq fanlar (matematika, fizika, IT), tabiiy fanlar (kimyo, biologiya, geografiya), ijtimoiy va gumanitar fanlar (tarix, huquq, iqtisodiyot, biznes boshqaruvi)
+- Barcha yoʻnalishlarda chuqurlashtirilgan: matematika va ingliz tili
+- Taʼlim va kirish imtihonlari tili: ingliz tili
+- Grantlar: 50 ta toʻliq (100%) grant; kirish imtihonlari natijalari boʻyicha 5% dan 100% gacha oʻqish chegirmalari; har chorak uchun beriladi, saqlab qolish uchun sinfda Top-5 talabga javob berish va IB intizom standartlariga rioya qilish talab etiladi
+- Oilaviy chegirmalar: bir oiladan har bir qoʻshimcha bola uchun 5%; yillik toʻlov uchun 10%
+- Kirish imtihonlariga tayyorgarlik uchun yozgi dastur mavjud
+
+Aloqa:
+
+- Telefon: +998 555 886 555
+- Email: ibprivateschool@gmail.com
+- Manzil: Arnasoy koʻchasi, 1d, Chilonzor tumani, Toshkent shahri
+- Ish vaqti: Du–Sha, 8:00–21:00
+
+## Til versiyalari
+
+- [Oʻzbekcha versiya — Oʻzbekcha (asosiy)](https://virtusschool.uz/): Bosh sahifa oʻzbek tilida
+- [Ruscha versiya — Русский](https://virtusschool.uz/ru): Bosh sahifa rus tilida
+- [Inglizcha versiya — English](https://virtusschool.uz/en): Bosh sahifa ingliz tilida
+
+Ushbu fayl boshqa tillarda:
+
+- [llms.txt — ruscha](https://virtusschool.uz/llms.txt): Ushbu maʼlumot rus tilida
+- [llms.txt — inglizcha](https://virtusschool.uz/llms-en.txt): Ushbu maʼlumot ingliz tilida
+
+## Asosiy boʻlimlar (oʻzbekcha versiya)
+
+- [Biz haqimizda](https://virtusschool.uz/#about): Virtus International School, VIS kampusi (7 000 m², 6 qavat, 700 oʻquvchigacha) va infratuzilma haqida — laboratoriyalar va amaliy xonalar, kutubxona, sport zallari, ergonomik mebel, yoritish, ventilyatsiya.
+- [Taʼlim yondashuvi](https://virtusschool.uz/#style): VIS metodikasining toʻrt asosi — mantiqiy fikrlash, ijodiy yondashuv, mustaqil fikrlash va turli vaziyatlarda eng yaxshi yechimlarni topish.
+- [Qulayliklarimiz](https://virtusschool.uz/#advantage): Tajribali oʻqituvchilar, professional psixologlar, qatʼiy nazorat, shaxsiy tyutorlar, dunyoning top-100 universitetlaridan oʻqituvchilar, barcha jihatlarni qamrab oluvchi rivojlanish (dasturlash va robototexnika, jamoaviy sport turlari, jang sanʼati, ilmiy toʻgaraklar).
+- [Grantlar va chegirmalar](https://virtusschool.uz/#grant): 50 ta toʻliq grant, har bir qoʻshimcha bola uchun 5% va yillik toʻlov uchun 10% chegirma; grantlarni berish va saqlab qolish shartlari.
+- [Qabul](https://virtusschool.uz/#admissions): Qabul bosqichlari — saytda roʻyxatdan oʻtish, direktor bilan suhbat, testlar, hujjatlarni rasmiylashtirish va roʻyxatdan oʻtish toʻlovi. 2026–2027 oʻquv yili uchun qabul.
+- [Savol-javob](https://virtusschool.uz/#qa): Qabul yoshi, taʼlim yoʻnalishlari, grantlar qanday ishlashi, tanlov mezonlari, oʻquv yili davomiyligi, yozgi dastur va oʻquvchilar farovonligini qoʻllab-quvvatlash haqida koʻp beriladigan savollar.
+
+## Ijtimoiy tarmoqlar
+
+- [Telegram](https://t.me/virtusschool): Maktabning rasmiy Telegram kanali.
+- [Instagram](https://www.instagram.com/virtusschool): Rasmiy Instagram.
+- [YouTube](https://www.youtube.com/@virtusschool): Maktab hayoti, ekskursiyalar va tadbirlar haqida videolar.
+- [X (Twitter)](https://x.com/virtusschooluz): X dagi rasmiy hisob.
+
+## Optional
+
+- [Xaritadagi joylashuv](https://www.google.com/maps/search/?api=1&query=1d%20Arnasay%20Street%2C%20Chilanzar%20District%2C%20Tashkent%20City): Maktab manzili Google Maps xaritasida — Chilonzor tumani, Toshkent.
