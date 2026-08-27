@@ -38,6 +38,8 @@ This file in other languages:
 
 ## Main sections (English version)
 
+- [About us](https://virtusschool.uz/en/about): Dedicated About page — campus, IB programmes (PYP, MYP), educational approach and tracks.
+- [Contact Us](https://virtusschool.uz/en/contact): Phone, email, address with a Google Maps link, opening hours, and forms to leave a request or ask for a call back.
 - [About us](https://virtusschool.uz/en#about): About Virtus International School, the VIS campus (7,000 m², 6 storeys, up to 700 students) and its infrastructure — laboratories and practical rooms, library, sports halls, ergonomic furniture, lighting, ventilation.
 - [Educational Approach](https://virtusschool.uz/en#style): The four pillars of the VIS method — logical thinking, creative approach, independent thinking, and finding the best solutions in various situations.
 - [Our Amenities](https://virtusschool.uz/en#advantage): Experienced teachers, professional psychologists, strict supervision, personal tutors, faculty from top-100 universities, and comprehensive development (programming and robotics, team sports, martial arts, scientific clubs).

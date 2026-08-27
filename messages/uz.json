@@ -4,13 +4,43 @@
     "description": "Virtus International School — Toshkentdagi jahon darajasidagi xalqaro taʼlim dasturi. Oʻquvchilarni dunyoning yetakchi universitetlariga tayyorlaymiz.",
     "keywords": "xalqaro maktab Toshkent, Virtus International School, xususiy maktab Toshkent, jahon darajasidagi taʼlim, 4 yoshdan 19 yoshgacha taʼlim, universitetga tayyorgarlik, top-100 universitetlar, maktabga qabul 2026-2027, grantlar va chegirmalar, tajribali oʻqituvchilar"
   },
+  "About": {
+    "meta": {
+      "title": "Virtus International School haqida — Toshkentdagi xalqaro maktab",
+      "description": "Virtus International School — Toshkentdagi xalqaro maktab (4–19 yosh). IB dasturlari (PYP, MYP), dunyoning top-100 universitetlariga tayyorlash."
+    },
+    "h1": "Virtus International School haqida",
+    "lead": "Virtus International School (VIS) — Toshkent shahridagi xususiy xalqaro maktab boʻlib, 4 yoshdan 19 yoshgacha boʻlgan bolalarni oʻqitadi va ularni dunyoning eng nufuzli «Top-100» universitetlariga tayyorlaydi. Maktab IB (International Baccalaureate) dasturlari — PYP (4–10 yosh) va MYP (11–15 yosh) asosida taʼlim beradi.",
+    "bodyHeading": "Biz haqimizda",
+    "body": [
+      "VIS zamonaviy, olti qavatli, 7 000 m² maydonga ega binoda joylashgan boʻlib, bir vaqtning oʻzida 700 nafargacha oʻquvchini qabul qila oladi. Har bir sinfda 18–20 oʻquvchi boʻlib, bu individual yondashuv va samarali taʼlimni taʼminlaydi. Oʻqish tili — ingliz tili; barcha yoʻnalishlarda matematika va ingliz tili chuqurlashtirilgan holda oʻqitiladi.",
+      "Maktab uchta yoʻnalish boʻyicha taʼlim beradi: aniq fanlar (matematika, fizika, IT), tabiiy fanlar (kimyo, biologiya, geografiya) va ijtimoiy fanlar (tarix, huquq, iqtisodiyot, biznes boshqaruvi). VIS oʻquvchining mantiqiy fikrlashi, ijodiy yondashuvi, mustaqil qaror qabul qilishi va har tomonlama rivojlanishiga (dasturlash va robototexnika, jamoaviy sport turlari, jang sanʼati, ilmiy toʻgaraklar) eʼtibor qaratadi.",
+      "VIS oʻz oʻquvchisining Top-100 universitetga grant asosida qabul qilinishini kafolatlaydi; aks holda toʻlov 100% qaytariladi. 2026–2027 oʻquv yili uchun qabul ochiq."
+    ]
+  },
+  "Contact": {
+    "meta": {
+      "title": "Bogʻlanish — Virtus International School, Toshkent",
+      "description": "Virtus International School bilan bogʻlaning: telefon +998 555 886 555, email, manzil (Chilonzor, Toshkent) va ish vaqti. Ariza qoldiring."
+    },
+    "h1": "Biz bilan bogʻlanish",
+    "lead": "Virtus International School bilan siz uchun qulay istalgan usulda bogʻlaning yoki ofisimizga tashrif buyuring. Qabul boʻlimi bir ish kuni ichida siz bilan bogʻlanadi.",
+    "sections": {
+      "addressMap": "Manzil va xarita",
+      "leaveRequest": "Ariza qoldirish",
+      "requestCall": "Qoʻngʻiroq buyurtma qilish",
+      "social": "Ijtimoiy tarmoqlar"
+    },
+    "mapCta": "Xaritada ochish"
+  },
   "Navbar": {
     "about": "Biz haqimizda",
     "approach": "Taʼlim yondashuvi",
     "amenities": "Qulayliklarimiz",
     "grants": "Grantlar va chegirmalar",
     "faq": "Savol-javob",
-    "apply": "Ariza topshirish"
+    "apply": "Ariza topshirish",
+    "contact": "Bogʻlanish"
   },
   "Hero": {
     "badge": "4 yoshdan 19 yoshgacha",
@@ -19,9 +49,18 @@
     "cta": "Ekskursiyaga yozilish",
     "note": "*Hoziroq maktab ekskursiyasiga yoziling va batafsil ma'lumot oling!",
     "stats": [
-      { "num": "7,000 m²", "label": "Maktab hududi" },
-      { "num": "700", "label": "Oʻquvchilar" },
-      { "num": "4–19", "label": "Oʻquvchilar yoshi" }
+      {
+        "num": "7,000 m²",
+        "label": "Maktab hududi"
+      },
+      {
+        "num": "700",
+        "label": "Oʻquvchilar"
+      },
+      {
+        "num": "4–19",
+        "label": "Oʻquvchilar yoshi"
+      }
     ]
   },
   "Introduction": {
@@ -135,7 +174,15 @@
   "ComprehensiveCoverage": {
     "title": "Barcha jihatlarni qamrab oluvchi rivojlanish",
     "descText": "Endi farzandingizni turli toʻgaraklar va repetitorlarga yozdirishingiz shart emas. Biz farzandingizning har tomonlama rivojlanishi haqida gʻamxoʻrlik qilamiz.",
-    "pills": ["Ijodkorlik", "Intellekt", "Hissiyotlar", "Madaniyat", "Mantiq", "Tafakkur", "Tillar"],
+    "pills": [
+      "Ijodkorlik",
+      "Intellekt",
+      "Hissiyotlar",
+      "Madaniyat",
+      "Mantiq",
+      "Tafakkur",
+      "Tillar"
+    ],
     "cards": [
       {
         "category": "Intellekt",
@@ -239,7 +286,10 @@
     "hours": "Du–Sha: 8:00 – 21:00"
   },
   "Footer": {
-    "rights": "Barcha huquqlar himoyalangan"
+    "rights": "Barcha huquqlar himoyalangan",
+    "navHeading": "Sahifalar",
+    "contactHeading": "Aloqa",
+    "tagline": "Farzandingizni dunyoning top-100 universitetlariga tayyorlaydigan Toshkentdagi xalqaro maktab."
   },
   "Form": {
     "namePlaceholder": "Ismingiz",

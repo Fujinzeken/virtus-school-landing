@@ -38,6 +38,8 @@ Ushbu fayl boshqa tillarda:
 
 ## Asosiy boʻlimlar (oʻzbekcha versiya)
 
+- [Biz haqimizda](https://virtusschool.uz/about): Maktab haqida alohida sahifa — kampus, IB dasturlari (PYP, MYP), taʼlim yondashuvi va yoʻnalishlar.
+- [Bogʻlanish](https://virtusschool.uz/contact): Telefon, email, Google Maps havolasi bilan manzil, ish vaqti, ariza qoldirish va qoʻngʻiroq buyurtma qilish formalari.
 - [Biz haqimizda](https://virtusschool.uz/#about): Virtus International School, VIS kampusi (7 000 m², 6 qavat, 700 oʻquvchigacha) va infratuzilma haqida — laboratoriyalar va amaliy xonalar, kutubxona, sport zallari, ergonomik mebel, yoritish, ventilyatsiya.
 - [Taʼlim yondashuvi](https://virtusschool.uz/#style): VIS metodikasining toʻrt asosi — mantiqiy fikrlash, ijodiy yondashuv, mustaqil fikrlash va turli vaziyatlarda eng yaxshi yechimlarni topish.
 - [Qulayliklarimiz](https://virtusschool.uz/#advantage): Tajribali oʻqituvchilar, professional psixologlar, qatʼiy nazorat, shaxsiy tyutorlar, dunyoning top-100 universitetlaridan oʻqituvchilar, barcha jihatlarni qamrab oluvchi rivojlanish (dasturlash va robototexnika, jamoaviy sport turlari, jang sanʼati, ilmiy toʻgaraklar).

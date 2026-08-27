@@ -18,6 +18,8 @@ export const SECTIONS = [
   "Cta",
   "ContactInfo",
   "Footer",
+  "About",
+  "Contact",
   "ApplyModal",
   "BookTourModal",
   "RequestCallModal",

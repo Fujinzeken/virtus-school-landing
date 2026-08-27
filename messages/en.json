@@ -4,13 +4,43 @@
     "description": "Virtus International School offers a world-class international education programme in Tashkent, preparing students for top universities worldwide.",
     "keywords": "international school Tashkent, Virtus International School, private school Tashkent, world-class education, education ages 4 to 19, university preparation, top-100 universities, admissions 2026-2027, grants and discounts, experienced teachers"
   },
+  "About": {
+    "meta": {
+      "title": "About Virtus International School — international school in Tashkent",
+      "description": "Virtus International School is an international school in Tashkent for ages 4–19. IB programmes (PYP, MYP), preparing students for the world's top-100 universities."
+    },
+    "h1": "About Virtus International School",
+    "lead": "Virtus International School (VIS) is a private international school in Tashkent, Uzbekistan, educating children aged 4 to 19 and preparing them for admission to the world's most prestigious “Top 100” universities. Teaching follows the IB (International Baccalaureate) programmes — PYP (ages 4–10) and MYP (ages 11–15).",
+    "bodyHeading": "About us",
+    "body": [
+      "VIS occupies a modern six-storey building of 7,000 m² with capacity for 700 students at once. Each class has 18–20 students, ensuring an individual approach and effective learning. The language of instruction is English; mathematics and English are taught in depth across all tracks.",
+      "The school offers three tracks: exact sciences (mathematics, physics, IT), natural sciences (chemistry, biology, geography) and social sciences (history, law, economics, business management). The VIS approach develops logical thinking, a creative mindset and independent decision-making, alongside comprehensive development — programming and robotics, team sports, martial arts and science clubs.",
+      "VIS guarantees each student's admission to a Top-100 university on a grant basis; otherwise the tuition is refunded in full. Admissions for the 2026–2027 academic year are open."
+    ]
+  },
+  "Contact": {
+    "meta": {
+      "title": "Contact Us — Virtus International School, Tashkent",
+      "description": "Contact Virtus International School: phone +998 555 886 555, email, address (Chilanzar, Tashkent) and opening hours. Leave a request."
+    },
+    "h1": "Contact Us",
+    "lead": "Contact Virtus International School using any convenient method or visit our office. Our admissions team will call you back within one business day.",
+    "sections": {
+      "addressMap": "Address & map",
+      "leaveRequest": "Leave a request",
+      "requestCall": "Request a call",
+      "social": "Follow us"
+    },
+    "mapCta": "Open in Google Maps"
+  },
   "Navbar": {
     "about": "About us",
     "approach": "Educational Approach",
     "amenities": "Our Amenities",
     "grants": "Grants and Discounts",
     "faq": "FAQ",
-    "apply": "Apply Now"
+    "apply": "Apply Now",
+    "contact": "Contact"
   },
   "Hero": {
     "badge": "Ages 4 to 19",
@@ -19,9 +49,18 @@
     "cta": "Sign up for a tour",
     "note": "*Sign up for a tour now and get detailed information!",
     "stats": [
-      { "num": "7,000 m²", "label": "School campus" },
-      { "num": "700", "label": "Students" },
-      { "num": "4–19", "label": "Student ages" }
+      {
+        "num": "7,000 m²",
+        "label": "School campus"
+      },
+      {
+        "num": "700",
+        "label": "Students"
+      },
+      {
+        "num": "4–19",
+        "label": "Student ages"
+      }
     ]
   },
   "Introduction": {
@@ -135,7 +174,15 @@
   "ComprehensiveCoverage": {
     "title": "Comprehensive coverage of all aspects",
     "descText": "You no longer need to enroll your child in various extracurricular activities and tutors. We will take care of the comprehensive development of your child.",
-    "pills": ["Creativity", "Intelligence", "Emotions", "Culture", "Logic", "Mindset", "Languages"],
+    "pills": [
+      "Creativity",
+      "Intelligence",
+      "Emotions",
+      "Culture",
+      "Logic",
+      "Mindset",
+      "Languages"
+    ],
     "cards": [
       {
         "category": "Intelligence",
@@ -239,7 +286,10 @@
     "hours": "Mon-Sat: 8:00 AM - 9:00 PM"
   },
   "Footer": {
-    "rights": "All rights reserved"
+    "rights": "All rights reserved",
+    "navHeading": "Navigation",
+    "contactHeading": "Contact",
+    "tagline": "An international school in Tashkent preparing your child for the world's top-100 universities."
   },
   "Form": {
     "namePlaceholder": "Your name",

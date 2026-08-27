@@ -2,17 +2,22 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import ApplyModal from "./ApplyModal";
 import VirtusLogo from "./VirtusLogo";
 import LanguageSwitcher from "./LanguageSwitcher";
 import styles from "./v2-navbar.module.css";
 
+// Hrefs are locale-relative — the Link from @/i18n/navigation adds the locale
+// prefix. The homepage anchors are written as "/#id" rather than "#id" so they
+// still resolve from /about and /contact.
 const navLinks = [
-  { key: "about", href: "#about" },
-  { key: "approach", href: "#style" },
-  { key: "amenities", href: "#advantage" },
-  { key: "grants", href: "#grant" },
-  { key: "faq", href: "#qa" },
+  { key: "about", href: "/about" },
+  { key: "approach", href: "/#style" },
+  { key: "amenities", href: "/#advantage" },
+  { key: "grants", href: "/#grant" },
+  { key: "faq", href: "/#qa" },
+  { key: "contact", href: "/contact" },
 ];
 
 export default function NavbarV2() {
@@ -44,21 +49,21 @@ export default function NavbarV2() {
       <header className={`${styles.nav} ${scrolled ? styles.scrolled : ""}`}>
         <nav className={styles.container}>
           {/* Logo */}
-          <a href="/" className={styles.logo}>
+          <Link href="/" className={styles.logo}>
             <VirtusLogo dark birdHeight={52} priority />
-          </a>
+          </Link>
 
           {/* Desktop & mobile expanded links */}
           <div className={`${styles.links} ${mobileOpen ? styles.open : ""}`}>
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className={styles.link}
                 onClick={() => setMobileOpen(false)}
               >
                 {t(link.key)}
-              </a>
+              </Link>
             ))}
             <button
               className={styles.ctaMobile}

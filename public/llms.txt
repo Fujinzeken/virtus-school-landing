@@ -38,6 +38,8 @@ Virtus International School позиционируется как доступн
 
 ## Основные разделы (русская версия)
 
+- [О школе](https://virtusschool.uz/ru/about): Отдельная страница о школе — кампус, программы IB (PYP, MYP), образовательный подход и направления обучения.
+- [Контакты](https://virtusschool.uz/ru/contact): Телефон, email, адрес с картой на Google Maps, часы работы, форма заявки и заказ звонка.
 - [О школе](https://virtusschool.uz/ru#about): О Virtus International School, кампусе VIS (7 000 м², 6 этажей, до 700 учеников) и инфраструктуре — компьютерные классы, библиотека, спортзал, эргономичная мебель, освещение, вентиляция.
 - [Образовательный подход](https://virtusschool.uz/ru#style): Четыре основы методики VIS — логическое мышление, творческий подход, самостоятельное мышление и поиск лучших решений в разных ситуациях.
 - [Удобства и преимущества](https://virtusschool.uz/ru#advantage): Опытные преподаватели, профессиональные психологи, строгий контроль, персональные тьюторы, преподаватели из топ-100 университетов, всестороннее развитие (программирование и робототехника, командные виды спорта, боевые искусства, научные кружки).
@@ -47,6 +49,8 @@ Virtus International School позиционируется как доступн
 
 ## Основные разделы (английская версия)
 
+- [About us](https://virtusschool.uz/en/about): Dedicated About page — campus, IB programmes, educational approach and tracks.
+- [Contact Us](https://virtusschool.uz/en/contact): Phone, email, address with map, opening hours and the request forms.
 - [About us](https://virtusschool.uz/en#about): About VIS, the campus and infrastructure.
 - [Educational Approach](https://virtusschool.uz/en#style): The four pillars of the VIS educational approach.
 - [Our Amenities](https://virtusschool.uz/en#advantage): Teachers, psychologists, tutors and comprehensive student development.
