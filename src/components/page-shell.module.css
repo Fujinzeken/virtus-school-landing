@@ -404,6 +404,9 @@ a.detailValue:hover {
       transparent 48%
     );
   padding: 44px 0;
+  /* The page hero has no bottom padding, so the band would otherwise butt
+     straight against the hero card. */
+  margin-top: 28px;
 }
 
 .statRow {
