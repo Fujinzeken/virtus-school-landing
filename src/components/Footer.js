@@ -14,8 +14,8 @@ const navLinks = [
   { key: "about", href: "/about" },
   { key: "approach", href: "/#style" },
   { key: "amenities", href: "/#advantage" },
-  { key: "grants", href: "/#grant" },
-  { key: "faq", href: "/#qa" },
+  { key: "grants", href: "/grants" },
+  { key: "faq", href: "/faq" },
   { key: "contact", href: "/contact" },
 ];
 

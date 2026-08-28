@@ -206,8 +206,173 @@
       }
     ]
   },
+  "Programs": {
+    "meta": {
+      "title": "Programs & Academic Tracks — Virtus International School",
+      "description": "IB programs (PYP and MYP) and three tracks at Virtus International School, Tashkent: exact, natural and social sciences. Maths and English taught in depth."
+    },
+    "h1": "Programs and Academic Tracks",
+    "heroAlt": "A computer lab at Virtus International School",
+    "lead": "Virtus is an international school in Tashkent teaching through the IB framework. Children join the IB primary school programme at 4 and continue into the middle years programme at 11. From there, every student follows one of three academic tracks, with mathematics and English taught in depth across all of them.",
+    "stats": [
+      {
+        "num": "2",
+        "label": "IB programmes: PYP and MYP"
+      },
+      {
+        "num": "3",
+        "label": "Academic tracks"
+      },
+      {
+        "num": "English",
+        "label": "Language of instruction"
+      }
+    ],
+    "ib": {
+      "heading": "IB programs: PYP and MYP",
+      "body": "Teaching follows the International Baccalaureate framework across two stages, split by age. Virtus is an IB world school, and the IB high school program continues on from the middle years stage.",
+      "items": [
+        {
+          "tag": "Ages 4–10",
+          "title": "PYP — Primary Years Programme",
+          "body": "The IB primary school stage. Children build literacy, numeracy and enquiry skills in English, with a psychologist-led interview rather than a written exam at entry."
+        },
+        {
+          "tag": "Ages 11–15",
+          "title": "MYP — Middle Years Programme",
+          "body": "The middle years stage. Students sit written entrance exams in their chosen track and begin specialising while keeping a broad subject base."
+        }
+      ]
+    },
+    "tracks": {
+      "heading": "Academic tracks",
+      "body": "Every student follows one of three specialised tracks. Mathematics and English are taught in depth across all three, so students stay internationally competitive whichever they choose.",
+      "items": [
+        {
+          "title": "Exact sciences",
+          "subjects": "Mathematics · Physics · IT",
+          "body": "For students heading towards engineering, computer science and quantitative fields. Programming and robotics run alongside the core subjects."
+        },
+        {
+          "title": "Natural sciences",
+          "subjects": "Chemistry · Biology · Geography",
+          "body": "For students aiming at medicine, life sciences and environmental study. Laboratory work and practical experiments carry much of the teaching."
+        },
+        {
+          "title": "Social sciences",
+          "subjects": "History · Law · Economics · Business management",
+          "body": "For students moving towards law, economics and business. Emphasis falls on argument, analysis and independent reasoning."
+        }
+      ]
+    },
+    "development": {
+      "heading": "Comprehensive development",
+      "body": "You no longer need to enrol your child in separate clubs and tutors. Extracurricular provision runs inside the school day.",
+      "items": [
+        {
+          "title": "Programming and robotics",
+          "body": "Students learn the fundamentals of programming and take part in robotics competitions and hackathons."
+        },
+        {
+          "title": "Team sports",
+          "body": "Football, basketball and volleyball training, with inter-school tournaments and regional championships."
+        },
+        {
+          "title": "Martial arts",
+          "body": "Karate, judo and self-defence classes under certified instructors."
+        },
+        {
+          "title": "Scientific clubs",
+          "body": "Hands-on physics, chemistry and biology experiments, research projects and science olympiads."
+        }
+      ]
+    },
+    "related": {
+      "heading": "Explore further",
+      "admissions": {
+        "title": "Admissions",
+        "desc": "Ages, admission stages and entrance exams."
+      },
+      "grants": {
+        "title": "Grants and Discounts",
+        "desc": "50 full grants and family discounts."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "desc": "Answers on ages, tracks, grants and support."
+      }
+    }
+  },
   "AdmissionStages": {
     "heading": "Admissions for the 2026-2027 academic year have begun.",
+    "meta": {
+      "title": "Admissions — Virtus International School, Tashkent (2026–2027)",
+      "description": "Admissions to Virtus International School in Tashkent for 2026–2027: ages, admission stages, entrance exams and deadlines. Classes of 18–20 students."
+    },
+    "h1": "Admissions to Virtus International School",
+    "heroAlt": "Reception at Virtus International School",
+    "lead": "Enrolment for the 2026–2027 academic year is open. Admission to our international school in Tashkent runs in five stages, from a first enquiry to a confirmed place. Below: who we accept, how the entrance exams work, and how the academic year is organised.",
+    "stats": [
+      {
+        "num": "4–19",
+        "label": "Student ages accepted"
+      },
+      {
+        "num": "18–20",
+        "label": "Students per class"
+      },
+      {
+        "num": "10 months",
+        "label": "Academic year"
+      }
+    ],
+    "sections": {
+      "stages": {
+        "heading": "Admission stages",
+        "body": "School admission in Tashkent at Virtus follows five steps, each handled by our admissions team.",
+        "steps": [
+          "Submit your information and register on our website.",
+          "Our specialist will contact you to schedule an interview.",
+          "You will have an interview with the director.",
+          "After the interview and tests, receive the admission decision.",
+          "Complete the necessary documentation and make the registration payment."
+        ]
+      },
+      "who": {
+        "heading": "Who we accept: ages and classes",
+        "body": "Virtus International School enrols children aged 4 to 19. New students are admitted from age 4 up to age 15. Each class has 18–20 students, ensuring an individual approach and effective learning for every child. With fewer students per class, teachers can better identify each student's needs and abilities."
+      },
+      "myp": {
+        "heading": "Entrance exams (MYP)",
+        "body": "Candidates aged 11–15 sit written exams in three tracks — Exact Sciences (mathematics, physics, computer science), Natural Sciences (chemistry, biology) and Humanities (history, law and others). Exams are held on campus and conducted in English.",
+        "tag": "Ages 11–15"
+      },
+      "pyp": {
+        "heading": "Interview and assessment (PYP)",
+        "body": "Children aged 4–10 take part in an interview with a psychologist, alongside an assessment of the family's social profile. There is no written examination at this stage.",
+        "tag": "Ages 4–10"
+      },
+      "year": {
+        "heading": "Academic year and class size",
+        "body": "The academic year lasts 10 months, from 2 September to 30 June. Class sizes are held at 18–20 students throughout.",
+        "note": "The admissions team confirms the required documents and current tuition fees when they contact you."
+      }
+    },
+    "related": {
+      "heading": "Explore further",
+      "grants": {
+        "title": "Grants and Discounts",
+        "desc": "50 full grants and family discounts."
+      },
+      "programs": {
+        "title": "Programs and Tracks",
+        "desc": "IB programmes and three academic tracks."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "desc": "Answers on ages, tracks, grants and support."
+      }
+    },
     "stagesLabel": "Admission stages:",
     "steps": [
       "Submit your information and register on our website",
@@ -220,6 +385,81 @@
   },
   "Grants": {
     "title": "Grants and discounts",
+    "meta": {
+      "title": "Grants & Discounts — Virtus International School, Tashkent",
+      "description": "50 full grants and 5–100% tuition discounts at Virtus International School. Eligibility, competitive exams and family discounts in Tashkent."
+    },
+    "h1": "Grants and Discounts",
+    "heroAlt": "A classroom at Virtus International School",
+    "lead": "Virtus International School supports talented students with tuition grants and family discounts. A school scholarship in Tashkent is awarded here on merit — through competitive entrance examinations rather than on application alone — and reviewed every academic quarter.",
+    "stats": [
+      {
+        "num": "50",
+        "label": "Full 100% grants"
+      },
+      {
+        "num": "5–100%",
+        "label": "Tuition discount range"
+      },
+      {
+        "num": "Quarterly",
+        "label": "Grant review cycle"
+      }
+    ],
+    "sections": {
+      "grants": {
+        "heading": "Tuition grants",
+        "body": "Grants are awarded as tuition discounts ranging from 5% to 100%, based on competitive entrance examinations. The number of full (100%) grants is limited to 50 places. A tuition grant at this school runs for one academic quarter and is reviewed at the end of it, so support follows performance rather than being fixed at enrolment."
+      },
+      "family": {
+        "heading": "Family discounts",
+        "body": "Family discounts sit alongside the grant programme. They require no examination and apply to every family that qualifies.",
+        "items": [
+          {
+            "stat": "5%",
+            "desc": "A 5% discount will be provided for each additional child from the same family."
+          },
+          {
+            "stat": "10%",
+            "desc": "A 10% discount is offered on the annual fee."
+          }
+        ]
+      },
+      "how": {
+        "heading": "How to get a grant",
+        "body": "Scholarship candidates are assessed by age group. The route from application to an awarded discount runs as follows.",
+        "steps": [
+          "Register on the website and submit your child's details to the admissions team.",
+          "Candidates aged 11–15 (MYP) sit written exams in three tracks — Exact Sciences (mathematics, physics, computer science), Natural Sciences (chemistry, biology) and Humanities (history, law and others). Exams are held on campus and conducted in English.",
+          "Children aged 4–10 (PYP) take part in an interview with a psychologist, alongside an assessment of the family's social profile.",
+          "Results determine the size of the award — a tuition discount from 5% up to a full 100% grant."
+        ]
+      },
+      "retention": {
+        "heading": "Grant retention conditions",
+        "body": "A grant is held for one academic quarter at a time. To carry it into the next quarter, a student must meet the conditions below.",
+        "items": [
+          "Remain within the Top 5 of their grade.",
+          "Uphold the school's IB disciplinary standards.",
+          "Grants are reviewed at the end of every academic quarter."
+        ]
+      }
+    },
+    "related": {
+      "heading": "Explore further",
+      "admissions": {
+        "title": "Admissions",
+        "desc": "Ages, admission stages and entrance exams."
+      },
+      "programs": {
+        "title": "Programs and Tracks",
+        "desc": "IB programmes and three academic tracks."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "desc": "Answers on ages, tracks, grants and support."
+      }
+    },
     "subtitle": "Supporting talented students with tuition grants and family discounts.",
     "imgLeftAlt": "Graduate student with diploma",
     "imgRightAlt": "School building exterior",
@@ -237,6 +477,32 @@
   },
   "Faq": {
     "title": "FAQ",
+    "meta": {
+      "title": "FAQ — Virtus International School, Tashkent",
+      "description": "Answers to common questions about Virtus International School: admission ages, tracks, grants, entrance exams, academic year and student support."
+    },
+    "h1": "Frequently Asked Questions",
+    "heroAlt": "Virtus International School campus corridor",
+    "lead": "Everything parents ask about Virtus International School — an international school in Tashkent for children aged 4 to 19. Below are answers on admission ages, academic tracks, class sizes, grants, entrance exams, the academic year and how we support every student.",
+    "asideLabel": "FAQ",
+    "asideHeading": "On this page",
+    "asideNote": "Can't find your question? Our admissions team answers within one business day.",
+    "asideCta": "Contact us",
+    "related": {
+      "heading": "Explore further",
+      "admissions": {
+        "title": "Admissions",
+        "desc": "Ages, admission stages and entrance exams."
+      },
+      "grants": {
+        "title": "Grants and Discounts",
+        "desc": "50 full grants and family discounts."
+      },
+      "programs": {
+        "title": "Programs and Tracks",
+        "desc": "IB programmes and three academic tracks."
+      }
+    },
     "items": [
       {
         "q": "What ages does Virtus International School accept?",

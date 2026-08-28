@@ -38,14 +38,17 @@ This file in other languages:
 
 ## Main sections (English version)
 
-- [About us](https://virtusschool.uz/en/about): Dedicated About page — campus, IB programmes (PYP, MYP), educational approach and tracks.
+- [About us](https://virtusschool.uz/en/about): The VIS campus (7,000 m², 6 storeys, up to 700 students), IB programmes (PYP, MYP), educational approach and academic tracks.
+- [Admissions](https://virtusschool.uz/en/admissions): Admissions to Virtus International School in Tashkent for 2026–2027: ages, admission stages, entrance exams and deadlines. Classes of 18–20 students.
+- [Programs and Academic Tracks](https://virtusschool.uz/en/programs): IB programs (PYP and MYP) and three tracks: exact, natural and social sciences. Maths and English taught in depth.
+- [Grants and Discounts](https://virtusschool.uz/en/grants): 50 full grants and 5–100% tuition discounts. Eligibility, competitive exams and family discounts in Tashkent.
+- [Frequently Asked Questions](https://virtusschool.uz/en/faq): Answers to common questions: admission ages, tracks, grants, entrance exams, academic year and student support.
 - [Contact Us](https://virtusschool.uz/en/contact): Phone, email, address with a Google Maps link, opening hours, and forms to leave a request or ask for a call back.
-- [About us](https://virtusschool.uz/en#about): About Virtus International School, the VIS campus (7,000 m², 6 storeys, up to 700 students) and its infrastructure — laboratories and practical rooms, library, sports halls, ergonomic furniture, lighting, ventilation.
+
+## Home page sections (English version)
+
 - [Educational Approach](https://virtusschool.uz/en#style): The four pillars of the VIS method — logical thinking, creative approach, independent thinking, and finding the best solutions in various situations.
-- [Our Amenities](https://virtusschool.uz/en#advantage): Experienced teachers, professional psychologists, strict supervision, personal tutors, faculty from top-100 universities, and comprehensive development (programming and robotics, team sports, martial arts, scientific clubs).
-- [Grants and Discounts](https://virtusschool.uz/en#grant): 50 full grants, a 5% discount for each additional child and 10% on annual payment; conditions for awarding and retaining grants.
-- [Admissions](https://virtusschool.uz/en#admissions): Admission stages — registering on the website, an interview with the director, tests, completing documentation and the registration payment. Intake for the 2026–2027 academic year.
-- [FAQ](https://virtusschool.uz/en#qa): Frequently asked questions about admission ages, educational tracks, how grants work, selection criteria, the length of the academic year, the summer programme and support for student well-being.
+- [Our Amenities](https://virtusschool.uz/en#advantage): Experienced teachers, professional psychologists, strict supervision, personal tutors and faculty from top-100 universities.
 
 ## Social media
 

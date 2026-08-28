@@ -88,3 +88,38 @@ export function contactSchema({ locale }) {
     sameAs: NAP.sameAs,
   };
 }
+
+// FAQ -> FAQPage. Every Q&A is rendered in the HTML, so the markup mirrors
+// exactly what a reader sees. `about` points at the shared organisation @id
+// so this page attaches to the same entity as About and Contact.
+export function faqSchema({ locale, items }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `${urlForLocale(locale, "faq")}#faq`,
+    url: urlForLocale(locale, "faq"),
+    inLanguage: locale,
+    about: { "@id": organizationId },
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+}
+
+// Generic page node for the info pages that have no richer type of their own.
+// `about` ties the page to the same organisation entity as About and Contact,
+// so the info pages read as one site rather than unrelated documents.
+export function pageSchema({ locale, path, name, description }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${urlForLocale(locale, path)}#webpage`,
+    url: urlForLocale(locale, path),
+    name,
+    description,
+    inLanguage: locale,
+    about: { "@id": organizationId },
+  };
+}

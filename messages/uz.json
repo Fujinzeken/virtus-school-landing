@@ -206,8 +206,173 @@
       }
     ]
   },
+  "Programs": {
+    "meta": {
+      "title": "Dasturlar va oʻqish yoʻnalishlari — Virtus International School",
+      "description": "Virtus International School (Toshkent) IB dasturlari (PYP va MYP) va uchta yoʻnalish: aniq, tabiiy va ijtimoiy fanlar. Matematika va ingliz tili chuqurlashtirilgan."
+    },
+    "h1": "Dasturlar va oʻqish yoʻnalishlari",
+    "heroAlt": "Virtus International School kompyuter sinfi",
+    "lead": "Virtus — Toshkentdagi ingliz tilida oʻqitiladigan maktab, taʼlim IB dasturlari asosida olib boriladi. Bolalar 4 yoshdan PYP dasturiga qabul qilinadi va 11 yoshdan MYP ga oʻtadi. Soʻngra har bir oʻquvchi uchta yoʻnalishdan birini tanlaydi; matematika va ingliz tili barchasida chuqur oʻrgatiladi.",
+    "stats": [
+      {
+        "num": "2",
+        "label": "IB dasturi: PYP va MYP"
+      },
+      {
+        "num": "3",
+        "label": "Taʼlim yoʻnalishi"
+      },
+      {
+        "num": "Ingliz tili",
+        "label": "Taʼlim tili"
+      }
+    ],
+    "ib": {
+      "heading": "IB dasturlari: PYP va MYP",
+      "body": "Xalqaro taʼlim dasturi International Baccalaureate tizimi asosida ikki bosqichga yosh boʻyicha ajratilgan.",
+      "items": [
+        {
+          "tag": "4–10 yosh",
+          "title": "PYP — Primary Years Programme",
+          "body": "IB ning boshlangʻich bosqichi. Bolalar ingliz tilida savodxonlik, hisob va tadqiqot koʻnikmalarini egallaydi; qabulda yozma imtihon emas, psixolog bilan suhbat oʻtkaziladi."
+        },
+        {
+          "tag": "11–15 yosh",
+          "title": "MYP — Middle Years Programme",
+          "body": "Oʻrta bosqich. Oʻquvchilar tanlagan yoʻnalishi boʻyicha yozma kirish imtihonlarini topshiradilar va keng fan bazasini saqlagan holda ixtisoslasha boshlaydilar."
+        }
+      ]
+    },
+    "tracks": {
+      "heading": "Taʼlim yoʻnalishlari",
+      "body": "Har bir oʻquvchi uchta ixtisoslashgan yoʻnalishdan birini tanlaydi. Matematika va ingliz tili uchalasida ham chuqur oʻrgatiladi, shu bois oʻquvchi qaysi yoʻnalishni tanlamasin xalqaro miqyosda raqobatbardosh boʻladi.",
+      "items": [
+        {
+          "title": "Aniq fanlar",
+          "subjects": "Matematika · Fizika · IT",
+          "body": "Muhandislik, informatika va aniq yoʻnalishlarga moʻljallangan oʻquvchilar uchun. Asosiy fanlar bilan birga dasturlash va robototexnika olib boriladi."
+        },
+        {
+          "title": "Tabiiy fanlar",
+          "subjects": "Kimyo · Biologiya · Geografiya",
+          "body": "Tibbiyot, hayot haqidagi fanlar va ekologiyaga yoʻnalgan oʻquvchilar uchun. Taʼlimning katta qismi laboratoriya ishlari va amaliy tajribalardan iborat."
+        },
+        {
+          "title": "Ijtimoiy fanlar",
+          "subjects": "Tarix · Huquq · Iqtisod · Biznes boshqaruv",
+          "body": "Boʻlajak huquqshunos, iqtisodchi va boshqaruvchilar uchun. Asosiy eʼtibor dalil keltirish, tahlil va mustaqil fikrlashga qaratiladi."
+        }
+      ]
+    },
+    "development": {
+      "heading": "Har tomonlama rivojlanish",
+      "body": "Endi farzandingizni alohida toʻgaraklar va repetitorlarga yozdirishingiz shart emas. Qoʻshimcha mashgʻulotlar oʻquv kuni ichida oʻtkaziladi.",
+      "items": [
+        {
+          "title": "Dasturlash va robototexnika",
+          "body": "Oʻquvchilar dasturlash asoslarini oʻrganadilar, robototexnika musobaqalari va xakatonlarda ishtirok etadilar."
+        },
+        {
+          "title": "Jamoaviy sport turlari",
+          "body": "Futbol, basketbol va voleybol mashgʻulotlari, maktablararo turnirlar va mintaqaviy chempionatlar."
+        },
+        {
+          "title": "Jang sanʼati",
+          "body": "Sertifikatlangan murabbiylar rahbarligida karate, dzyudo va oʻzini himoya qilish darslari."
+        },
+        {
+          "title": "Ilmiy toʻgaraklar",
+          "body": "Fizika, kimyo va biologiyadan amaliy tajribalar, tadqiqot loyihalari va fan olimpiadalari."
+        }
+      ]
+    },
+    "related": {
+      "heading": "Yana koʻring",
+      "admissions": {
+        "title": "Qabul",
+        "desc": "Yosh, qabul bosqichlari va kirish imtihonlari."
+      },
+      "grants": {
+        "title": "Grantlar va chegirmalar",
+        "desc": "50 ta toʻliq grant va oilaviy chegirmalar."
+      },
+      "faq": {
+        "title": "Savol-javob",
+        "desc": "Yosh, yoʻnalishlar, grantlar va qoʻllab-quvvatlash haqida."
+      }
+    }
+  },
   "AdmissionStages": {
     "heading": "2026–2027 oʻquv yili uchun qabul boshlandi.",
+    "meta": {
+      "title": "Maktabga qabul — Virtus International School, Toshkent (2026–2027)",
+      "description": "Virtus International School (Toshkent) 2026–2027 oʻquv yiliga qabul: yosh, qabul bosqichlari, kirish imtihonlari va muddatlar. Sinflarda 18–20 oʻquvchi."
+    },
+    "h1": "Virtus International Schoolga qabul",
+    "heroAlt": "Virtus International School qabulxonasi",
+    "lead": "2026–2027 oʻquv yiliga qabul ochiq. Maktabga qabul qilish tartibi 2026–2027 oʻquv yili uchun besh bosqichdan iborat — birinchi arizadan tasdiqlangan oʻringacha. Quyida: kimlarni qabul qilamiz, kirish imtihonlari qanday oʻtadi va oʻquv yili qanday tashkil etilgan.",
+    "stats": [
+      {
+        "num": "4–19",
+        "label": "Oʻquvchilar yoshi"
+      },
+      {
+        "num": "18–20",
+        "label": "Sinfdagi oʻquvchilar"
+      },
+      {
+        "num": "10 oy",
+        "label": "Oʻquv yili"
+      }
+    ],
+    "sections": {
+      "stages": {
+        "heading": "Qabul bosqichlari",
+        "body": "Maktabga qabul besh bosqichda amalga oshiriladi, har birini qabul boʻlimi olib boradi.",
+        "steps": [
+          "Maʼlumotlaringizni qoldiring va saytimizda roʻyxatdan oʻting.",
+          "Mutaxassisimiz suhbatni belgilash uchun siz bilan bogʻlanadi.",
+          "Siz direktor bilan suhbatdan oʻtasiz.",
+          "Suhbat va testlardan soʻng qabul qarorini olasiz.",
+          "Zarur hujjatlarni rasmiylashtiring va roʻyxatdan oʻtish toʻlovini amalga oshiring."
+        ]
+      },
+      "who": {
+        "heading": "Kimlarni qabul qilamiz: yosh va sinflar",
+        "body": "Maktabga necha yoshdan qabul qilinadi: Virtus International School 4 yoshdan 19 yoshgacha boʻlgan bolalarni qabul qiladi. Yangi oʻquvchilar 4 yoshdan 15 yoshgacha qabul qilinadi. Har bir sinfda 18–20 tagacha oʻquvchi boʻlib, bu har bir bolaga individual yondashuv va samarali taʼlimni taʼminlaydi."
+      },
+      "myp": {
+        "heading": "Kirish imtihonlari (MYP)",
+        "body": "11–15 yoshdagi nomzodlar uchta yoʻnalish boʻyicha yozma imtihon topshiradilar — aniq fanlar (matematika, fizika, informatika), tabiiy fanlar (kimyo, biologiya) va gumanitar fanlar (tarix, huquq va boshqalar). Imtihonlar maktab hududida ingliz tilida oʻtkaziladi.",
+        "tag": "11–15 yosh"
+      },
+      "pyp": {
+        "heading": "Suhbat va baholash (PYP)",
+        "body": "4–10 yoshdagi bolalar psixolog bilan suhbatdan oʻtadilar hamda oilaning ijtimoiy ahvoli baholanadi. Bu bosqichda yozma imtihon oʻtkazilmaydi.",
+        "tag": "4–10 yosh"
+      },
+      "year": {
+        "heading": "Oʻquv yili va sinf toʻldirilishi",
+        "body": "Akademik oʻquv yili 10 oy davom etadi, 2-sentabrdan 30-iyungacha. Sinf toʻldirilishi 18–20 oʻquvchi darajasida saqlanadi.",
+        "note": "Maktabga qabul qilish hujjatlari roʻyxati va joriy oʻqish toʻlovi haqida qabul boʻlimi siz bilan bogʻlanganda maʼlumot beradi."
+      }
+    },
+    "related": {
+      "heading": "Yana koʻring",
+      "grants": {
+        "title": "Grantlar va chegirmalar",
+        "desc": "50 ta toʻliq grant va oilaviy chegirmalar."
+      },
+      "programs": {
+        "title": "Dasturlar va yoʻnalishlar",
+        "desc": "IB dasturlari va uchta taʼlim yoʻnalishi."
+      },
+      "faq": {
+        "title": "Savol-javob",
+        "desc": "Yosh, yoʻnalishlar, grantlar va qoʻllab-quvvatlash haqida."
+      }
+    },
     "stagesLabel": "Qabul bosqichlari:",
     "steps": [
       "Maʼlumotlaringizni qoldiring va saytimizda roʻyxatdan oʻting",
@@ -220,6 +385,81 @@
   },
   "Grants": {
     "title": "Grantlar va chegirmalar",
+    "meta": {
+      "title": "Grantlar va chegirmalar — Virtus International School, Toshkent",
+      "description": "Virtus International Schoolda 50 ta toʻliq grant va oʻqish uchun 5–100% chegirmalar. Olish shartlari, konkurs imtihonlari va oilaviy chegirmalar (Toshkent)."
+    },
+    "h1": "Grantlar va chegirmalar",
+    "heroAlt": "Virtus International School sinf xonasi",
+    "lead": "Virtus International School iqtidorli oʻquvchilarni oʻqish uchun grantlar va oilaviy chegirmalar bilan qoʻllab-quvvatlaydi. Taʼlim granti faqat ariza asosida emas, konkurs asosidagi kirish imtihonlari natijalariga koʻra beriladi va har oʻquv choragida qayta koʻrib chiqiladi.",
+    "stats": [
+      {
+        "num": "50",
+        "label": "Toʻliq 100% grant"
+      },
+      {
+        "num": "5–100%",
+        "label": "Oʻqish chegirmasi oraligʻi"
+      },
+      {
+        "num": "Har chorak",
+        "label": "Grant qayta koʻriladi"
+      }
+    ],
+    "sections": {
+      "grants": {
+        "heading": "Oʻqish uchun grantlar",
+        "body": "Grantlar konkurs asosidagi kirish imtihonlari natijasida 5% dan 100% gacha boʻlgan oʻqish chegirmasi koʻrinishida beriladi. Toʻliq (100%) grantlar soni 50 ta oʻrin bilan cheklangan. Grant bir oʻquv choragiga beriladi va chorak yakunida qayta koʻrib chiqiladi — qoʻllab-quvvatlash qabul paytida qatʼiy belgilanmay, oʻquvchining natijalariga ergashadi."
+      },
+      "family": {
+        "heading": "Oilaviy chegirmalar",
+        "body": "Oilaviy chegirmalar grant dasturi bilan bir vaqtda amal qiladi. Ular imtihon talab qilmaydi va shartlarga mos har bir oilaga taqdim etiladi.",
+        "items": [
+          {
+            "stat": "5%",
+            "desc": "Bir oiladan har bir qoʻshimcha bola uchun 5% chegirma taqdim etiladi."
+          },
+          {
+            "stat": "10%",
+            "desc": "Yillik toʻlov uchun 10% chegirma taklif etiladi."
+          }
+        ]
+      },
+      "how": {
+        "heading": "Grantni qanday olish mumkin",
+        "body": "Grant asosida oʻqish uchun nomzodlar yosh guruhlari boʻyicha baholanadi. Ariza topshirishdan chegirma tayinlanishigacha boʻlgan yoʻl quyidagicha.",
+        "steps": [
+          "Saytda roʻyxatdan oʻting va farzandingiz maʼlumotlarini qabul boʻlimiga yuboring.",
+          "11–15 yoshdagi nomzodlar (MYP dasturi) uchta yoʻnalish boʻyicha yozma imtihon topshiradilar — aniq fanlar (matematika, fizika, informatika), tabiiy fanlar (kimyo, biologiya) va gumanitar fanlar (tarix, huquq va boshqalar). Imtihonlar maktab hududida ingliz tilida oʻtkaziladi.",
+          "4–10 yoshdagi bolalar (PYP dasturi) psixolog bilan suhbatdan oʻtadilar hamda oilaning ijtimoiy ahvoli baholanadi.",
+          "Natijalarga koʻra chegirma miqdori belgilanadi — 5% dan toʻliq 100% grantgacha."
+        ]
+      },
+      "retention": {
+        "heading": "Grantni saqlab qolish shartlari",
+        "body": "Grant bir oʻquv choragiga amal qiladi. Uni keyingi chorakka oʻtkazish uchun oʻquvchi quyidagi shartlarni bajarishi kerak.",
+        "items": [
+          "Oʻz sinfida Top-5 da qolish.",
+          "Maktabning IB intizomiy standartlariga rioya qilish.",
+          "Grantlar har oʻquv choragi yakunida qayta koʻrib chiqiladi."
+        ]
+      }
+    },
+    "related": {
+      "heading": "Yana koʻring",
+      "admissions": {
+        "title": "Qabul",
+        "desc": "Yosh, qabul bosqichlari va kirish imtihonlari."
+      },
+      "programs": {
+        "title": "Dasturlar va yoʻnalishlar",
+        "desc": "IB dasturlari va uchta taʼlim yoʻnalishi."
+      },
+      "faq": {
+        "title": "Savol-javob",
+        "desc": "Yosh, yoʻnalishlar, grantlar va qoʻllab-quvvatlash haqida."
+      }
+    },
     "subtitle": "Iqtidorli oʻquvchilarni oʻqish grantlari va oilaviy chegirmalar bilan qoʻllab-quvvatlash.",
     "imgLeftAlt": "Diplomli bitiruvchi",
     "imgRightAlt": "Maktab binosining tashqi koʻrinishi",
@@ -237,6 +477,32 @@
   },
   "Faq": {
     "title": "Savol-javob",
+    "meta": {
+      "title": "Savol-javob — Virtus International School, Toshkent",
+      "description": "Virtus International School haqida tez-tez beriladigan savollar: qabul yoshi, yoʻnalishlar, grantlar, kirish imtihonlari, oʻquv yili va oʻquvchilarni qoʻllab-quvvatlash."
+    },
+    "h1": "Savol-javob",
+    "heroAlt": "Virtus International School kampusi koridori",
+    "lead": "Virtus International School — Toshkentdagi xususiy xalqaro maktab, 4 yoshdan 19 yoshgacha boʻlgan bolalar uchun. Quyida eng koʻp beriladigan savollarga javoblar: bolalar maktabga necha yoshdan boradi, qanday taʼlim yoʻnalishlari mavjud, bir sinfda nechta oʻquvchi boʻladi, grantlar qanday ishlaydi va oʻquv yili qanday tashkil etilgan.",
+    "asideLabel": "FAQ",
+    "asideHeading": "Ushbu sahifada",
+    "asideNote": "Savolingizni topmadingizmi? Qabul boʻlimi bir ish kuni ichida javob beradi.",
+    "asideCta": "Biz bilan bogʻlanish",
+    "related": {
+      "heading": "Yana koʻring",
+      "admissions": {
+        "title": "Qabul",
+        "desc": "Yosh, qabul bosqichlari va kirish imtihonlari."
+      },
+      "grants": {
+        "title": "Grantlar va chegirmalar",
+        "desc": "50 ta toʻliq grant va oilaviy chegirmalar."
+      },
+      "programs": {
+        "title": "Dasturlar va yoʻnalishlar",
+        "desc": "IB dasturlari va uchta taʼlim yoʻnalishi."
+      }
+    },
     "items": [
       {
         "q": "Virtus International School necha yoshdagi bolalarni qabul qiladi?",

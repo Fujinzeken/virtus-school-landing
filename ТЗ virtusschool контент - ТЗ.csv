@@ -1,0 +1,113 @@
+ТЗ на контент и мета-теги,,,,,,,Общие требования — действуют для всех страниц,,,,,,,
+Проект,virtusschool.uz — Virtus International School,,,,,,Язык,"UZ (основной, /), RU (/ru), EN (/en) — по отдельной строке на каждый язык",,,,,,
+Причина,Вынос якорных секций в статические страницы: наполнение новых URL контентом и мета-тегами,,,,,,AI-текст,"<5%. copyleaks.com, zerogpt.com. Скриншот обязателен.",,,,,,
+Связанные документы,ТЗ virtusschool статические страницы,,,,,,Уникальность,≥99%. duplichecker.com. Скриншот обязателен.,,,,,,
+Ожидаемый результат,"4 новых раздела (приём, гранты, программы, FAQ) × 3 языка получают уникальные Title/Description/H1, структуру H2/H3 и вводный текст. Значения «стало» — финальные, готовые к простановке. У новых страниц столбца «было» нет (страниц ещё не существует) — заполняется только целевое значение.",,,,,,Тон,"Экспертный, доверительный. Читатель — родитель. Без рекламных штампов и восклицаний.",,,,,,
+Постановщик,SEO-команда,,,,,,"Списки, таблицы","Минимум один список или таблица на страницу (этапы приёма, направления, условия грантов).",,,,,,
+Исполнитель,Content team,,,,,,Что запрещено,Упоминания конкурентов. Слово «купить». Общие фразы без конкретики. Выдуманные факты — только данные с текущего сайта.,,,,,,
+Дедлайн,,,,,,,Объём текста,150–250 слов вводного текста на страницу (FAQ — по объёму вопросов). Факты сверять с текущими uz/ru/en версиями.,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+URL страницы,Тип,Целевой запрос,Title — было,Title — стало,Description — было,Description — стало,H1 — было,H1 — стало,URL (slug),Alt главного фото,Структура,Заголовки H2 / H3,Фразы — обязательные,Фразы — желательные
+/ru,Главная (существует),частные / международные школы в ташкенте + бренд,Virtus International School | Международная школа в Ташкенте,Virtus International School — частная международная школа в Ташкенте,Virtus International School — международная образовательная программа мирового уровня в Ташкенте. Готовим учеников к поступлению в ведущие университеты мира.,не меняем,Доступное премиальное образование для вашего ребёнка,не меняем,не меняем,не меняем,не меняем,не меняем,не меняем,
+/en,Главная (существует),international / private school tashkent + brand,"Virtus International School | World-Class Education, Tashkent",Virtus International School — international school in Tashkent (IB),"Virtus International School offers a world-class international education programme in Tashkent, preparing students for top universities worldwide.",не меняем,Affordable premium education for your child,не меняем,не меняем,не меняем,не меняем,не меняем,не меняем,
+"/  (uz, корень)",Главная (существует),xususiy / xalqaro maktab toshkent + brand,Virtus International School | Toshkentda xalqaro taʼlim,не меняем,Virtus International School — Toshkentdagi jahon darajasidagi xalqaro taʼlim dasturi. Oʻquvchilarni dunyoning yetakchi universitetlariga tayyorlaymiz.,не меняем,Farzandingiz uchun arzon premium taʼlim,не меняем,не меняем,не меняем,не меняем,не меняем,не меняем,
+/ru/admissions,Инфо-страница (новая),поступление в международную школу Ташкент,—,"Поступление в Virtus International School — приём 2026–2027, Ташкент",—,"Приём в международную школу Virtus в Ташкенте на 2026–2027 год: возраст, этапы поступления, вступительные экзамены и сроки. Классы 18–20 учеников.",—,Поступление в Virtus International School,/ru/admissions,Ученики Virtus International School на занятии,"Новая страница. Вводный текст (набор 2026–2027, возраст) → блок «Этапы приёма» (5 шагов, список/HowTo) → критерии MYP и PYP → даты и наполняемость классов → форма заявки. Ссылки на /ru/grants и /ru/programs.","Этапы поступления
+Кого принимаем: возраст и классы
+Вступительные экзамены (MYP)
+Собеседование и оценка (PYP)
+Учебный год и наполняемость классов","частные школы ташкент цены | точная | 1 | Title, H1, текст
+приём в школу | точная | 1 | H2 и текст
+стоимость обучения в частной школе | любая | 1 | текст","цены на частные школы в ташкенте | любая | 1 | текст
+зачисление ребенка в первый класс | любая | 1 | текст
+какие документы нужны для поступления в школу | любая | 1 | текст
+регистрация в первый класс | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ RU», кластер Приём)"
+/en/admissions,Инфо-страница (новая),international school admissions Tashkent,—,"Admissions — Virtus International School, Tashkent (2026–2027)",—,"Admissions to Virtus International School in Tashkent for 2026–2027: ages, admission stages, entrance exams and deadlines. Classes of 18–20 students.",—,Admissions to Virtus International School,/en/admissions,Virtus International School students in class,"New page. Intro (2026–2027 enrollment, ages) → «Admission stages» (5 steps, list/HowTo) → MYP & PYP criteria → academic year and class size → application form. Links to /en/grants and /en/programs.","Admission stages
+Who we accept: ages and classes
+Entrance exams (MYP)
+Interview and assessment (PYP)
+Academic year and class size","tashkent international school fees | точная | 1 | Title, H1, текст
+school admission tashkent | точная | 1 | H2 и текст
+international school tashkent admission | любая | 1 | текст","international school tashkent tuition | любая | 1 | текст
+international school tashkent | любая | 1 | текст (перелинковка)
+(частотности: см. файл СЯ, лист «СЯ EN». Бренды конкурентов не использовать)"
+/admissions,Инфо-страница (новая),maktabga qabul qilish tartibi 2026 (частотности — лист СЯ UZ),—,"Maktabga qabul — Virtus International School, Toshkent (2026–2027)",—,"Virtus International School (Toshkent) 2026–2027 oʻquv yiliga qabul: yosh, qabul bosqichlari, kirish imtihonlari va muddatlar. Sinflarda 18–20 oʻquvchi.",—,Virtus International Schoolga qabul,/admissions,Virtus International School oʻquvchilari darsda,"Yangi sahifa. Kirish matni (2026–2027 qabul, yosh) → «Qabul bosqichlari» (5 bosqich, roʻyxat/HowTo) → MYP va PYP mezonlari → oʻquv yili va sinf toʻldirilishi → ariza formasi. /admissions va /programs sahifalariga havolalar. (Strukturaviy izohlar rus tilida — UZ-lokal konventsiyasi.)","Qabul bosqichlari
+Kimlarni qabul qilamiz: yosh va sinflar
+Kirish imtihonlari (MYP)
+Suhbat va baholash (PYP)
+Oʻquv yili va sinf toʻldirilishi","maktabga qabul qilish tartibi 2026 | точная | 1 | Title, H1, текст (350/мес)
+maktabga qabul | точная | 1 | H2 и текст
+maktabga qabul qilish hujjatlari | любая | 1 | текст","maktabga necha yoshdan qabul qilinadi | любая | 1 | текст
+6 yoshli bolalarni maktabga qabul qilish | любая | 1 | текст
+maktabga qabul qachon boshlanadi | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ UZ», кластер Приём)"
+/ru/grants,Инфо-страница (новая),гранты на обучение в школе Ташкент,—,"Гранты и скидки на обучение — Virtus International School, Ташкент",—,"50 полных грантов и скидки 5–100% на обучение в Virtus International School. Условия получения, конкурсные экзамены и семейные скидки в Ташкенте.",—,Гранты и скидки на обучение,/ru/grants,Выпускник Virtus International School с дипломом,"Новая страница. Вводный текст (поддержка талантливых учеников) → блок «Гранты» (50 полных, скидки 5–100%) → условия удержания (Top-5, стандарты IB, ежеквартальный пересмотр) → семейные скидки (5%, 10%) → как претендовать. Ссылка на /ru/admissions.","Гранты на обучение
+Скидки для семей
+Как получить грант
+Условия удержания гранта","грант на обучение | точная | 1 | Title, H1, текст
+как получить грант на обучение | точная | 1 | H2 и текст
+гранты на обучение | любая | 1 | текст","грант на учебу | любая | 1 | текст
+грантовое обучение | любая | 1 | текст
+что такое грант на обучение | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ RU», кластер Гранты)"
+/en/grants,Инфо-страница (новая),school tuition grants Tashkent,—,"Grants & Discounts — Virtus International School, Tashkent",—,"50 full grants and 5–100% tuition discounts at Virtus International School. Eligibility, competitive exams and family discounts in Tashkent.",—,Grants and Discounts,/en/grants,Virtus International School graduate with diploma,"New page. Intro (supporting talented students) → «Grants» block (50 full, 5–100% discounts) → retention rules (Top 5, IB standards, quarterly review) → family discounts (5%, 10%) → how to apply. Link to /en/admissions.","Tuition grants
+Family discounts
+How to get a grant
+Grant retention conditions","school scholarship tashkent | любая | 1 | Title, H1, текст
+tuition grant school | любая | 1 | H2 и текст","scholarship | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ EN». Локального спроса мало — опора на англ. интент + перелинковку с /en/admissions)"
+/grants,Инфо-страница (новая),taʼlim granti / grant asosida oʻqish (частотности — лист СЯ UZ),—,"Grantlar va chegirmalar — Virtus International School, Toshkent",—,"Virtus International Schoolda 50 ta toʻliq grant va oʻqish uchun 5–100% chegirmalar. Olish shartlari, konkurs imtihonlari va oilaviy chegirmalar (Toshkent).",—,Grantlar va chegirmalar,/grants,Virtus International School bitiruvchisi diplom bilan,"Yangi sahifa. Kirish matni (iqtidorli oʻquvchilarni qoʻllab-quvvatlash) → «Grantlar» bloki (50 ta toʻliq, 5–100% chegirma) → saqlab qolish shartlari (sinfda Top-5, IB standartlari, har chorak qayta koʻrib chiqish) → oilaviy chegirmalar (5%, 10%) → qanday ariza topshirish. /admissions sahifasiga havola. (Strukturaviy izohlar rus tilida.)","Oʻqish uchun grantlar
+Oilaviy chegirmalar
+Grantni qanday olish mumkin
+Grantni saqlab qolish shartlari","taʼlim granti | любая | 1 | Title, H1, текст
+grant asosida oʻqish | любая | 1 | H2 и текст","oʻqish uchun grant | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ UZ». Спрос слабый — опора на узб. интент + перелинковку)"
+/ru/programs,Инфо-страница (новая),программы международной школы IB Ташкент,—,Программы и направления обучения — Virtus International School,—,"Программы IB (PYP и MYP) и три направления в Virtus International School, Ташкент: точные, естественные и социальные науки. Углублённо математика и английский.",—,Программы и направления обучения,/ru/programs,Ученики Virtus на занятии по программированию и робототехнике,"Новая страница. Вводный текст (обзор программ IB) → PYP (4–10) и MYP (11–15) → три направления (точные / естественные / социальные науки) → углублённо математика и английский → всестороннее развитие (робототехника, спорт, единоборства, научные кружки). Ссылка на /ru/admissions.","Программы IB: PYP и MYP
+Точные науки
+Естественные науки
+Социальные науки
+Всестороннее развитие","частные английские школы в ташкенте | точная | 1 | Title, H1, текст
+школа с английским языком обучения | любая | 1 | H2 и текст
+международная школа | любая | 1 | текст","обучение на английском | любая | 1 | текст
+программа IB | любая | 1 | текст (низкий локальный спрос — тематический)
+(частотности: см. файл СЯ, лист «СЯ RU», кластеры Программы/Общие)"
+/en/programs,Инфо-страница (новая),IB international school programs Tashkent,—,Programs & Academic Tracks — Virtus International School,—,"IB programs (PYP and MYP) and three tracks at Virtus International School, Tashkent: exact, natural and social sciences. Maths and English taught in depth.",—,Programs and Academic Tracks,/en/programs,Virtus students in a programming and robotics class,"New page. Intro (IB programs overview) → PYP (4–10) and MYP (11–15) → three tracks (exact / natural / social sciences) → maths and English in depth → comprehensive development (robotics, sport, martial arts, science clubs). Link to /en/admissions.","IB programs: PYP and MYP
+Exact sciences
+Natural sciences
+Social sciences
+Comprehensive development","international school tashkent | точная | 1 | Title, H1, текст
+ib primary school | любая | 1 | H2 и текст (глоб. спрос, локально 0)
+ib high school program | любая | 1 | текст","ib world school | любая | 1 | текст
+ib program primary school | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ EN». IB-термины — поддерживающие, локальный объём 0)"
+/programs,Инфо-страница (новая),ingliz tilida oʻqitiladigan maktab (частотности — лист СЯ UZ),—,Dasturlar va oʻqish yoʻnalishlari — Virtus International School,—,"Virtus International School (Toshkent) IB dasturlari (PYP va MYP) va uchta yoʻnalish: aniq, tabiiy va ijtimoiy fanlar. Matematika va ingliz tili chuqurlashtirilgan.",—,Dasturlar va oʻqish yoʻnalishlari,/programs,Virtus oʻquvchilari dasturlash va robototexnika darsida,"Yangi sahifa. Kirish matni (IB dasturlari sharhi) → PYP (4–10) va MYP (11–15) → uchta yoʻnalish (aniq / tabiiy / ijtimoiy fanlar) → matematika va ingliz tili chuqurlashtirilgan → har tomonlama rivojlanish (robototexnika, sport, jang sanʼati, ilmiy toʻgaraklar). /admissions sahifasiga havola. (Strukturaviy izohlar rus tilida.)","IB dasturlari: PYP va MYP
+Aniq fanlar
+Tabiiy fanlar
+Ijtimoiy fanlar
+Har tomonlama rivojlanish","ingliz tilida oʻqitiladigan maktab | любая | 1 | Title, H1, текст
+xalqaro taʼlim dasturi | любая | 1 | H2 и текст","IB dasturi | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ UZ». Спрос слабый — тематический охват)"
+/ru/faq,Инфо-страница (новая),международная школа Ташкент вопросы и ответы,—,"Вопросы и ответы — Virtus International School, Ташкент",—,"Ответы на частые вопросы о Virtus International School: возраст приёма, направления, гранты, вступительные экзамены, учебный год и поддержка учеников.",—,Вопросы и ответы,/ru/faq,Коридор кампуса Virtus International School,"Новая страница. Все 7 вопросов из секции #qa (текст брать дословно с текущей ru-версии) + при возможности добрать: стоимость обучения, документы, трансфер, питание (уточнить у школы). Каждый Q&A виден в HTML. Разметка FAQPage. Внутренние ссылки на /ru/admissions, /ru/grants, /ru/programs.","H2 = формулировки вопросов, напр.:
+С какого возраста принимает школа?
+Какие направления доступны?
+Как работают грантовые стипендии?
+Сколько длится учебный год?","частные школы в ташкенте | любая | 1 | Title, H1, текст (хаб-запрос)
+со скольки лет берут в школу | любая | 1 | вопрос-ответ
+учебный год в узбекистане | любая | 1 | вопрос-ответ","сколько учеников в классе | любая | 1 | текст
+обучение в частной школе | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ RU», кластер FAQ/Общие)"
+/en/faq,Инфо-страница (новая),international school Tashkent FAQ,—,"FAQ — Virtus International School, Tashkent",—,"Answers to common questions about Virtus International School: admission ages, tracks, grants, entrance exams, academic year and student support.",—,Frequently Asked Questions,/en/faq,Virtus International School campus corridor,"New page. All 7 questions from the #qa section (copy text verbatim from current en-version) + optionally add: tuition, documents, transfer, meals (confirm with school). Each Q&A visible in HTML. FAQPage markup. Internal links to /en/admissions, /en/grants, /en/programs.","H2 = question wordings, e.g.:
+What ages does the school accept?
+What tracks are available?
+How do scholarship grants work?
+How long is the academic year?","international school tashkent | любая | 1 | Title, H1, текст (хаб-запрос)
+international school tashkent age | любая | 1 | вопрос-ответ","international school class size | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ EN». FAQ опирается на общий хаб-запрос + перелинковку)"
+/faq,Инфо-страница (новая),xususiy maktab (hub) + savol-javob (частотности — лист СЯ UZ),—,"Savol-javob — Virtus International School, Toshkent",—,"Virtus International School haqida tez-tez beriladigan savollar: qabul yoshi, yoʻnalishlar, grantlar, kirish imtihonlari, oʻquv yili va oʻquvchilarni qoʻllab-quvvatlash.",—,Savol-javob,/faq,Virtus International School kampusi koridori,"Yangi sahifa. #qa boʻlimidagi barcha 7 savol (matn joriy uz-versiyadan aynan olinadi) + imkon boʻlsa qoʻshimcha: oʻqish narxi, hujjatlar, transfer, ovqatlanish (maktabdan aniqlashtirish). Har bir savol-javob HTMLda koʻrinadi. FAQPage markup. /admissions, /grants, /programs sahifalariga ichki havolalar. (Strukturaviy izohlar rus tilida.)","H2 = savollar matni (uz-versiyadan aynan), masalan:
+Maktab necha yoshdan qabul qiladi?
+Qanday taʼlim yoʻnalishlari mavjud?
+Grant stipendiyalari qanday ishlaydi?
+Oʻquv yili qancha davom etadi?","xususiy maktab | любая | 1 | Title, H1, текст (хаб-запрос, 90/мес)
+maktabga necha yoshdan boradi | любая | 1 | вопрос-ответ","bir sinfda nechta oʻquvchi boʻladi | любая | 1 | текст
+(частотности: см. файл СЯ, лист «СЯ UZ». FAQ опирается на хаб-запрос xususiy maktab + перелинковку)"

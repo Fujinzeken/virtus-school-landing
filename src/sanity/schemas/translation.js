@@ -12,6 +12,7 @@ export const SECTIONS = [
   "Enrollment",
   "Amenities",
   "ComprehensiveCoverage",
+  "Programs",
   "AdmissionStages",
   "Grants",
   "Faq",

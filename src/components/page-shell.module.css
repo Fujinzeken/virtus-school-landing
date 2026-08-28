@@ -309,3 +309,254 @@ a.detailValue:hover {
     font-size: 1.06rem;
   }
 }
+
+/* ── Related-pages cross-links (FAQ / Admissions / Grants / Programs) ── */
+
+.related {
+  background: #ffffff;
+  padding: 76px 0 84px;
+}
+
+.relatedHeading {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: clamp(1.5rem, 2.6vw, 1.95rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--navy);
+  margin: 0 0 30px;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.relatedCard {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 28px 26px 30px;
+  border-radius: 18px;
+  text-decoration: none;
+  background: var(--light-bg);
+  border: 1px solid rgba(38, 53, 96, 0.09);
+  /* Mint edge on hover, matching the FAQ answer cards. */
+  transition: border-color 0.2s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.relatedCard:hover {
+  border-color: rgba(83, 216, 178, 0.6);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(38, 53, 96, 0.08);
+}
+
+.relatedTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.06rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.relatedTitle svg {
+  width: 16px;
+  height: 16px;
+  color: var(--surf-green);
+  transition: transform 0.2s ease;
+}
+
+.relatedCard:hover .relatedTitle svg {
+  transform: translate(2px, -2px);
+}
+
+.relatedDesc {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 14.5px;
+  line-height: 1.62;
+  color: #5b5b5e;
+}
+
+@media (max-width: 860px) {
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+  .related {
+    padding: 54px 0 60px;
+  }
+}
+
+/* ── Key-figures strip (StatBand) ── */
+
+.statBand {
+  background: var(--navy);
+  background-image: radial-gradient(
+      circle at 82% 10%,
+      rgba(83, 216, 178, 0.18) 0%,
+      transparent 54%
+    ),
+    radial-gradient(
+      circle at 8% 92%,
+      rgba(255, 174, 82, 0.13) 0%,
+      transparent 48%
+    );
+  padding: 44px 0;
+}
+
+.statRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.statCell {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-left: 22px;
+  border-left: 2px solid rgba(83, 216, 178, 0.45);
+}
+
+.statNum {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  color: #ffffff;
+}
+
+.statLabel {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  opacity: 0.68;
+}
+
+@media (max-width: 760px) {
+  .statRow {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .statBand {
+    padding: 34px 0;
+  }
+}
+
+/* ── Numbered step list (Grants, Admissions) ── */
+
+.stepList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  counter-reset: none;
+}
+
+.step {
+  display: flex;
+  gap: 20px;
+  padding: 24px 28px;
+  border-radius: 16px;
+  background: var(--light-bg);
+  border: 1px solid rgba(38, 53, 96, 0.08);
+}
+
+.stepNum {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--navy);
+  background: rgba(83, 216, 178, 0.22);
+}
+
+.stepText {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #5b5b5e;
+  padding-top: 7px;
+}
+
+@media (max-width: 600px) {
+  .step {
+    flex-direction: column;
+    gap: 12px;
+    padding: 22px 20px;
+  }
+  .stepText {
+    padding-top: 0;
+  }
+}
+
+/* ── Tagged card pair/row (Admissions routes, Programs stages) ── */
+
+.routeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.routeCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 34px 32px 36px;
+  border-radius: 18px;
+  background: var(--light-bg);
+  border: 1px solid rgba(38, 53, 96, 0.09);
+}
+
+.routeTag {
+  align-self: flex-start;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--navy);
+  background: rgba(83, 216, 178, 0.24);
+}
+
+.routeHeading {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+  margin: 0;
+}
+
+.routeBody {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #5b5b5e;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .routeGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .routeCard {
+    padding: 26px 22px 28px;
+  }
+}

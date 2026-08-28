@@ -38,14 +38,17 @@ Ushbu fayl boshqa tillarda:
 
 ## Asosiy boʻlimlar (oʻzbekcha versiya)
 
-- [Biz haqimizda](https://virtusschool.uz/about): Maktab haqida alohida sahifa — kampus, IB dasturlari (PYP, MYP), taʼlim yondashuvi va yoʻnalishlar.
+- [Biz haqimizda](https://virtusschool.uz/about): VIS kampusi (7 000 m², 6 qavat, 700 oʻquvchigacha), IB dasturlari (PYP, MYP), taʼlim yondashuvi va yoʻnalishlar.
+- [Qabul](https://virtusschool.uz/admissions): Virtus International School (Toshkent) 2026–2027 oʻquv yiliga qabul: yosh, qabul bosqichlari, kirish imtihonlari va muddatlar. Sinflarda 18–20 oʻquvchi.
+- [Dasturlar va oʻqish yoʻnalishlari](https://virtusschool.uz/programs): IB dasturlari (PYP va MYP) va uchta yoʻnalish: aniq, tabiiy va ijtimoiy fanlar. Matematika va ingliz tili chuqurlashtirilgan.
+- [Grantlar va chegirmalar](https://virtusschool.uz/grants): 50 ta toʻliq grant va oʻqish uchun 5–100% chegirmalar. Olish shartlari, konkurs imtihonlari va oilaviy chegirmalar.
+- [Savol-javob](https://virtusschool.uz/faq): Tez-tez beriladigan savollar: qabul yoshi, yoʻnalishlar, grantlar, kirish imtihonlari, oʻquv yili va oʻquvchilarni qoʻllab-quvvatlash.
 - [Bogʻlanish](https://virtusschool.uz/contact): Telefon, email, Google Maps havolasi bilan manzil, ish vaqti, ariza qoldirish va qoʻngʻiroq buyurtma qilish formalari.
-- [Biz haqimizda](https://virtusschool.uz/#about): Virtus International School, VIS kampusi (7 000 m², 6 qavat, 700 oʻquvchigacha) va infratuzilma haqida — laboratoriyalar va amaliy xonalar, kutubxona, sport zallari, ergonomik mebel, yoritish, ventilyatsiya.
+
+## Bosh sahifa boʻlimlari (oʻzbekcha versiya)
+
 - [Taʼlim yondashuvi](https://virtusschool.uz/#style): VIS metodikasining toʻrt asosi — mantiqiy fikrlash, ijodiy yondashuv, mustaqil fikrlash va turli vaziyatlarda eng yaxshi yechimlarni topish.
-- [Qulayliklarimiz](https://virtusschool.uz/#advantage): Tajribali oʻqituvchilar, professional psixologlar, qatʼiy nazorat, shaxsiy tyutorlar, dunyoning top-100 universitetlaridan oʻqituvchilar, barcha jihatlarni qamrab oluvchi rivojlanish (dasturlash va robototexnika, jamoaviy sport turlari, jang sanʼati, ilmiy toʻgaraklar).
-- [Grantlar va chegirmalar](https://virtusschool.uz/#grant): 50 ta toʻliq grant, har bir qoʻshimcha bola uchun 5% va yillik toʻlov uchun 10% chegirma; grantlarni berish va saqlab qolish shartlari.
-- [Qabul](https://virtusschool.uz/#admissions): Qabul bosqichlari — saytda roʻyxatdan oʻtish, direktor bilan suhbat, testlar, hujjatlarni rasmiylashtirish va roʻyxatdan oʻtish toʻlovi. 2026–2027 oʻquv yili uchun qabul.
-- [Savol-javob](https://virtusschool.uz/#qa): Qabul yoshi, taʼlim yoʻnalishlari, grantlar qanday ishlashi, tanlov mezonlari, oʻquv yili davomiyligi, yozgi dastur va oʻquvchilar farovonligini qoʻllab-quvvatlash haqida koʻp beriladigan savollar.
+- [Qulayliklarimiz](https://virtusschool.uz/#advantage): Tajribali oʻqituvchilar, professional psixologlar, qatʼiy nazorat, shaxsiy tyutorlar, dunyoning top-100 universitetlaridan oʻqituvchilar.
 
 ## Ijtimoiy tarmoqlar
 

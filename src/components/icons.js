@@ -45,6 +45,12 @@ export const PinIcon = () => (
   </svg>
 );
 
+export const CheckIcon = () => (
+  <svg {...stroke}>
+    <polyline points="20 6 9 17 4 12" />
+  </svg>
+);
+
 export const ArrowUpRight = () => (
   <svg {...stroke}>
     <line x1="7" y1="17" x2="17" y2="7" />

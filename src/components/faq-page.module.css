@@ -1,0 +1,230 @@
+/* Dedicated FAQ page. Cream ground, sticky navy index on the left, answers
+   as white cards on the right — reuses the navy-panel and mint-accent motifs
+   from the Contact and About pages. */
+
+.section {
+  background: var(--light-bg);
+  padding: 84px 0 96px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* ── Sticky index panel ── */
+
+.aside {
+  position: sticky;
+  top: 104px;
+}
+
+.panel {
+  padding: 32px 30px;
+  border-radius: 22px;
+  background: var(--navy);
+  background-image: radial-gradient(
+      circle at 85% 8%,
+      rgba(83, 216, 178, 0.2) 0%,
+      transparent 52%
+    ),
+    radial-gradient(
+      circle at 5% 95%,
+      rgba(255, 174, 82, 0.14) 0%,
+      transparent 46%
+    );
+  font-family: var(--font-inter), "Inter", sans-serif;
+}
+
+.panelLabel {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--surf-green);
+  margin-bottom: 10px;
+}
+
+.panelHeading {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin: 0 0 22px;
+}
+
+.jumpList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.jumpLink {
+  display: flex;
+  gap: 12px;
+  padding: 9px 10px;
+  margin: 0 -10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.18s ease;
+}
+
+.jumpLink:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.jumpNum {
+  flex-shrink: 0;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--surf-green);
+  padding-top: 2px;
+}
+
+.jumpText {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  opacity: 0.74;
+  transition: opacity 0.18s ease;
+}
+
+.jumpLink:hover .jumpText {
+  opacity: 1;
+}
+
+.panelNote {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 24px 0 16px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.panelCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--surf-green);
+  text-decoration: none;
+}
+
+.panelCta svg {
+  width: 15px;
+  height: 15px;
+  transition: transform 0.18s ease;
+}
+
+.panelCta:hover svg {
+  transform: translate(2px, -2px);
+}
+
+/* ── Answer cards ── */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  gap: 22px;
+  padding: 30px 34px;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid rgba(38, 53, 96, 0.09);
+  /* Clears the sticky navbar when jumped to from the index. */
+  scroll-margin-top: 112px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  border-color: rgba(83, 216, 178, 0.55);
+  box-shadow: 0 10px 30px rgba(38, 53, 96, 0.07);
+}
+
+.cardNum {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--navy);
+  background: rgba(83, 216, 178, 0.22);
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+  margin: 0;
+  padding-top: 6px;
+}
+
+.answer {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: #5b5b5e;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  /* The index stops being a sidebar and becomes a lead-in block. */
+  .aside {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 56px 0 64px;
+  }
+  .panel {
+    padding: 26px 22px;
+  }
+  .card {
+    flex-direction: column;
+    gap: 14px;
+    padding: 24px 22px;
+  }
+  .question {
+    padding-top: 0;
+  }
+}

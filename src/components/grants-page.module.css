@@ -1,0 +1,169 @@
+/* Grants page sections. Alternates white / cream grounds between blocks and
+   closes on a navy panel, matching the rhythm of the other info pages. */
+
+.heading {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: clamp(1.5rem, 2.6vw, 1.95rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--navy);
+  margin: 0 0 12px;
+}
+
+.intro {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
+  color: #5b5b5e;
+  max-width: 62ch;
+  margin: 0 0 32px;
+}
+
+/* ── Family discounts ── */
+
+.discounts {
+  background: var(--light-bg);
+  padding: 72px 0 76px;
+}
+
+.discountGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.discountCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 34px 32px 36px;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid rgba(38, 53, 96, 0.09);
+}
+
+.discountStat {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: clamp(2.1rem, 4vw, 2.9rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--surf-green);
+}
+
+.discountDesc {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15.5px;
+  line-height: 1.68;
+  color: #5b5b5e;
+  margin: 0;
+}
+
+/* ── How to get a grant ── */
+
+.steps {
+  background: #ffffff;
+  padding: 72px 0 72px;
+}
+
+/* ── Retention conditions ── */
+
+.retention {
+  background: var(--light-bg);
+  padding: 72px 0 76px;
+}
+
+.retentionPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 46px;
+  align-items: center;
+  padding: 46px 48px;
+  border-radius: 22px;
+  background: var(--navy);
+  background-image: radial-gradient(
+      circle at 88% 12%,
+      rgba(83, 216, 178, 0.2) 0%,
+      transparent 52%
+    ),
+    radial-gradient(
+      circle at 6% 92%,
+      rgba(255, 174, 82, 0.14) 0%,
+      transparent 46%
+    );
+}
+
+.retentionHeading {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: clamp(1.4rem, 2.4vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+
+.retentionIntro {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #ffffff;
+  opacity: 0.72;
+  margin: 0;
+}
+
+.checkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.checkItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.checkIcon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  color: var(--navy);
+  background: var(--surf-green);
+}
+
+.checkIcon svg {
+  width: 14px;
+  height: 14px;
+}
+
+@media (max-width: 900px) {
+  .discountGrid {
+    grid-template-columns: 1fr;
+  }
+  .retentionPanel {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 34px 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .discounts,
+  .steps {
+    padding: 54px 0 60px;
+  }
+  .retention {
+    padding: 0 0 64px;
+  }
+}

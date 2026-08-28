@@ -7,6 +7,10 @@ const PAGES = [
   { path: "", priority: 1 },
   { path: "about", priority: 0.8 },
   { path: "contact", priority: 0.8 },
+  { path: "faq", priority: 0.8 },
+  { path: "grants", priority: 0.8 },
+  { path: "admissions", priority: 0.8 },
+  { path: "programs", priority: 0.8 },
 ];
 
 export default function sitemap() {
